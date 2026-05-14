@@ -1,0 +1,5088 @@
+{
+  "labels": [
+    "Frecuencia de compra",
+    "Total unidades",
+    "Promedio cesta",
+    "Categorías por transacción",
+    "Diversidad de categorías",
+    "Tiendas visitadas",
+    "Días activos"
+  ],
+  "feature_keys": [
+    "purchase_frequency",
+    "total_units",
+    "avg_basket_size",
+    "avg_categories_per_txn",
+    "category_diversity",
+    "num_stores_visited",
+    "active_days"
+  ],
+  "correlation_matrix": [
+    [
+      1.0,
+      0.8439,
+      0.1663,
+      0.1663,
+      0.7286,
+      0.2753,
+      0.996
+    ],
+    [
+      0.8439,
+      1.0,
+      0.4635,
+      0.4635,
+      0.8496,
+      0.2486,
+      0.8452
+    ],
+    [
+      0.1663,
+      0.4635,
+      1.0,
+      1.0,
+      0.5774,
+      0.0739,
+      0.1681
+    ],
+    [
+      0.1663,
+      0.4635,
+      1.0,
+      1.0,
+      0.5774,
+      0.0739,
+      0.1681
+    ],
+    [
+      0.7286,
+      0.8496,
+      0.5774,
+      0.5774,
+      1.0,
+      0.289,
+      0.7322
+    ],
+    [
+      0.2753,
+      0.2486,
+      0.0739,
+      0.0739,
+      0.289,
+      1.0,
+      0.2721
+    ],
+    [
+      0.996,
+      0.8452,
+      0.1681,
+      0.1681,
+      0.7322,
+      0.2721,
+      1.0
+    ]
+  ],
+  "client_features_sample": [
+    {
+      "client_id": 886713,
+      "purchase_frequency": 2,
+      "total_units": 6,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 304642,
+      "purchase_frequency": 15,
+      "total_units": 130,
+      "avg_basket_size": 8.666666666666666,
+      "avg_categories_per_txn": 8.666666666666666,
+      "category_diversity": 71,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 686126,
+      "purchase_frequency": 4,
+      "total_units": 89,
+      "avg_basket_size": 22.25,
+      "avg_categories_per_txn": 22.25,
+      "category_diversity": 58,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 966214,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 281185,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 903766,
+      "purchase_frequency": 6,
+      "total_units": 11,
+      "avg_basket_size": 1.8333333333333333,
+      "avg_categories_per_txn": 1.8333333333333333,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 283618,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 881858,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 271842,
+      "purchase_frequency": 36,
+      "total_units": 173,
+      "avg_basket_size": 4.805555555555555,
+      "avg_categories_per_txn": 4.805555555555555,
+      "category_diversity": 61,
+      "num_stores_visited": 1,
+      "active_days": 36
+    },
+    {
+      "client_id": 428904,
+      "purchase_frequency": 5,
+      "total_units": 51,
+      "avg_basket_size": 10.2,
+      "avg_categories_per_txn": 10.2,
+      "category_diversity": 35,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 226065,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 541616,
+      "purchase_frequency": 3,
+      "total_units": 9,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 590929,
+      "purchase_frequency": 11,
+      "total_units": 80,
+      "avg_basket_size": 7.2727272727272725,
+      "avg_categories_per_txn": 7.2727272727272725,
+      "category_diversity": 51,
+      "num_stores_visited": 2,
+      "active_days": 11
+    },
+    {
+      "client_id": 84603,
+      "purchase_frequency": 15,
+      "total_units": 156,
+      "avg_basket_size": 10.4,
+      "avg_categories_per_txn": 10.4,
+      "category_diversity": 55,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 449867,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 978026,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 306548,
+      "purchase_frequency": 2,
+      "total_units": 22,
+      "avg_basket_size": 11.0,
+      "avg_categories_per_txn": 11.0,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 223993,
+      "purchase_frequency": 18,
+      "total_units": 253,
+      "avg_basket_size": 14.055555555555555,
+      "avg_categories_per_txn": 14.055555555555555,
+      "category_diversity": 100,
+      "num_stores_visited": 2,
+      "active_days": 18
+    },
+    {
+      "client_id": 787905,
+      "purchase_frequency": 9,
+      "total_units": 75,
+      "avg_basket_size": 8.333333333333334,
+      "avg_categories_per_txn": 8.333333333333334,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 624508,
+      "purchase_frequency": 3,
+      "total_units": 21,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 433797,
+      "purchase_frequency": 21,
+      "total_units": 348,
+      "avg_basket_size": 16.571428571428573,
+      "avg_categories_per_txn": 16.571428571428573,
+      "category_diversity": 92,
+      "num_stores_visited": 1,
+      "active_days": 21
+    },
+    {
+      "client_id": 564728,
+      "purchase_frequency": 15,
+      "total_units": 124,
+      "avg_basket_size": 8.266666666666667,
+      "avg_categories_per_txn": 8.266666666666667,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 563823,
+      "purchase_frequency": 9,
+      "total_units": 52,
+      "avg_basket_size": 5.777777777777778,
+      "avg_categories_per_txn": 5.777777777777778,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 866047,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 485195,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 1003977,
+      "purchase_frequency": 5,
+      "total_units": 25,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 23,
+      "num_stores_visited": 2,
+      "active_days": 5
+    },
+    {
+      "client_id": 477991,
+      "purchase_frequency": 10,
+      "total_units": 121,
+      "avg_basket_size": 12.1,
+      "avg_categories_per_txn": 12.1,
+      "category_diversity": 71,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 222196,
+      "purchase_frequency": 6,
+      "total_units": 35,
+      "avg_basket_size": 5.833333333333333,
+      "avg_categories_per_txn": 5.833333333333333,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 639713,
+      "purchase_frequency": 1,
+      "total_units": 18,
+      "avg_basket_size": 18.0,
+      "avg_categories_per_txn": 18.0,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 939010,
+      "purchase_frequency": 5,
+      "total_units": 26,
+      "avg_basket_size": 5.2,
+      "avg_categories_per_txn": 5.2,
+      "category_diversity": 22,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 933066,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 974222,
+      "purchase_frequency": 8,
+      "total_units": 43,
+      "avg_basket_size": 5.375,
+      "avg_categories_per_txn": 5.375,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 141719,
+      "purchase_frequency": 26,
+      "total_units": 213,
+      "avg_basket_size": 8.192307692307692,
+      "avg_categories_per_txn": 8.192307692307692,
+      "category_diversity": 89,
+      "num_stores_visited": 1,
+      "active_days": 26
+    },
+    {
+      "client_id": 818894,
+      "purchase_frequency": 13,
+      "total_units": 96,
+      "avg_basket_size": 7.384615384615385,
+      "avg_categories_per_txn": 7.384615384615385,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 13
+    },
+    {
+      "client_id": 672800,
+      "purchase_frequency": 4,
+      "total_units": 11,
+      "avg_basket_size": 2.75,
+      "avg_categories_per_txn": 2.75,
+      "category_diversity": 11,
+      "num_stores_visited": 2,
+      "active_days": 4
+    },
+    {
+      "client_id": 141661,
+      "purchase_frequency": 1,
+      "total_units": 21,
+      "avg_basket_size": 21.0,
+      "avg_categories_per_txn": 21.0,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 133767,
+      "purchase_frequency": 20,
+      "total_units": 211,
+      "avg_basket_size": 10.55,
+      "avg_categories_per_txn": 10.55,
+      "category_diversity": 68,
+      "num_stores_visited": 2,
+      "active_days": 20
+    },
+    {
+      "client_id": 532733,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 103524,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 5752,
+      "purchase_frequency": 17,
+      "total_units": 285,
+      "avg_basket_size": 16.764705882352942,
+      "avg_categories_per_txn": 16.764705882352942,
+      "category_diversity": 120,
+      "num_stores_visited": 3,
+      "active_days": 16
+    },
+    {
+      "client_id": 277639,
+      "purchase_frequency": 5,
+      "total_units": 28,
+      "avg_basket_size": 5.6,
+      "avg_categories_per_txn": 5.6,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 592474,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 286109,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 4256,
+      "purchase_frequency": 3,
+      "total_units": 18,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 895086,
+      "purchase_frequency": 14,
+      "total_units": 80,
+      "avg_basket_size": 5.714285714285714,
+      "avg_categories_per_txn": 5.714285714285714,
+      "category_diversity": 30,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 513985,
+      "purchase_frequency": 2,
+      "total_units": 14,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 543311,
+      "purchase_frequency": 6,
+      "total_units": 47,
+      "avg_basket_size": 7.833333333333333,
+      "avg_categories_per_txn": 7.833333333333333,
+      "category_diversity": 22,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 909181,
+      "purchase_frequency": 10,
+      "total_units": 87,
+      "avg_basket_size": 8.7,
+      "avg_categories_per_txn": 8.7,
+      "category_diversity": 56,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 175022,
+      "purchase_frequency": 5,
+      "total_units": 75,
+      "avg_basket_size": 15.0,
+      "avg_categories_per_txn": 15.0,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 720805,
+      "purchase_frequency": 2,
+      "total_units": 8,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 491568,
+      "purchase_frequency": 13,
+      "total_units": 85,
+      "avg_basket_size": 6.538461538461538,
+      "avg_categories_per_txn": 6.538461538461538,
+      "category_diversity": 34,
+      "num_stores_visited": 2,
+      "active_days": 12
+    },
+    {
+      "client_id": 422024,
+      "purchase_frequency": 4,
+      "total_units": 38,
+      "avg_basket_size": 9.5,
+      "avg_categories_per_txn": 9.5,
+      "category_diversity": 35,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 424131,
+      "purchase_frequency": 4,
+      "total_units": 38,
+      "avg_basket_size": 9.5,
+      "avg_categories_per_txn": 9.5,
+      "category_diversity": 35,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 298195,
+      "purchase_frequency": 17,
+      "total_units": 99,
+      "avg_basket_size": 5.823529411764706,
+      "avg_categories_per_txn": 5.823529411764706,
+      "category_diversity": 35,
+      "num_stores_visited": 2,
+      "active_days": 16
+    },
+    {
+      "client_id": 990519,
+      "purchase_frequency": 3,
+      "total_units": 9,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 683082,
+      "purchase_frequency": 62,
+      "total_units": 591,
+      "avg_basket_size": 9.53225806451613,
+      "avg_categories_per_txn": 9.53225806451613,
+      "category_diversity": 48,
+      "num_stores_visited": 2,
+      "active_days": 62
+    },
+    {
+      "client_id": 220708,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 286944,
+      "purchase_frequency": 27,
+      "total_units": 725,
+      "avg_basket_size": 26.85185185185185,
+      "avg_categories_per_txn": 26.85185185185185,
+      "category_diversity": 115,
+      "num_stores_visited": 2,
+      "active_days": 27
+    },
+    {
+      "client_id": 595409,
+      "purchase_frequency": 1,
+      "total_units": 7,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 617412,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 254840,
+      "purchase_frequency": 6,
+      "total_units": 18,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 178342,
+      "purchase_frequency": 6,
+      "total_units": 19,
+      "avg_basket_size": 3.1666666666666665,
+      "avg_categories_per_txn": 3.1666666666666665,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 342655,
+      "purchase_frequency": 2,
+      "total_units": 9,
+      "avg_basket_size": 4.5,
+      "avg_categories_per_txn": 4.5,
+      "category_diversity": 9,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 728525,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 946881,
+      "purchase_frequency": 23,
+      "total_units": 295,
+      "avg_basket_size": 12.826086956521738,
+      "avg_categories_per_txn": 12.826086956521738,
+      "category_diversity": 91,
+      "num_stores_visited": 1,
+      "active_days": 23
+    },
+    {
+      "client_id": 463237,
+      "purchase_frequency": 14,
+      "total_units": 104,
+      "avg_basket_size": 7.428571428571429,
+      "avg_categories_per_txn": 7.428571428571429,
+      "category_diversity": 28,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 62162,
+      "purchase_frequency": 6,
+      "total_units": 44,
+      "avg_basket_size": 7.333333333333333,
+      "avg_categories_per_txn": 7.333333333333333,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 217753,
+      "purchase_frequency": 2,
+      "total_units": 4,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 4,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 301480,
+      "purchase_frequency": 3,
+      "total_units": 21,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 474515,
+      "purchase_frequency": 8,
+      "total_units": 63,
+      "avg_basket_size": 7.875,
+      "avg_categories_per_txn": 7.875,
+      "category_diversity": 30,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 289026,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 105414,
+      "purchase_frequency": 5,
+      "total_units": 144,
+      "avg_basket_size": 28.8,
+      "avg_categories_per_txn": 28.8,
+      "category_diversity": 73,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 126834,
+      "purchase_frequency": 22,
+      "total_units": 166,
+      "avg_basket_size": 7.545454545454546,
+      "avg_categories_per_txn": 7.545454545454546,
+      "category_diversity": 80,
+      "num_stores_visited": 3,
+      "active_days": 22
+    },
+    {
+      "client_id": 697290,
+      "purchase_frequency": 17,
+      "total_units": 65,
+      "avg_basket_size": 3.823529411764706,
+      "avg_categories_per_txn": 3.823529411764706,
+      "category_diversity": 52,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 297788,
+      "purchase_frequency": 14,
+      "total_units": 182,
+      "avg_basket_size": 13.0,
+      "avg_categories_per_txn": 13.0,
+      "category_diversity": 39,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 1000031,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 300611,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 207286,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 992187,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 568182,
+      "purchase_frequency": 2,
+      "total_units": 5,
+      "avg_basket_size": 2.5,
+      "avg_categories_per_txn": 2.5,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 576717,
+      "purchase_frequency": 8,
+      "total_units": 27,
+      "avg_basket_size": 3.375,
+      "avg_categories_per_txn": 3.375,
+      "category_diversity": 22,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 891506,
+      "purchase_frequency": 11,
+      "total_units": 106,
+      "avg_basket_size": 9.636363636363637,
+      "avg_categories_per_txn": 9.636363636363637,
+      "category_diversity": 58,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 289603,
+      "purchase_frequency": 4,
+      "total_units": 67,
+      "avg_basket_size": 16.75,
+      "avg_categories_per_txn": 16.75,
+      "category_diversity": 41,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 525991,
+      "purchase_frequency": 3,
+      "total_units": 7,
+      "avg_basket_size": 2.3333333333333335,
+      "avg_categories_per_txn": 2.3333333333333335,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 804906,
+      "purchase_frequency": 15,
+      "total_units": 154,
+      "avg_basket_size": 10.266666666666667,
+      "avg_categories_per_txn": 10.266666666666667,
+      "category_diversity": 52,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 771320,
+      "purchase_frequency": 4,
+      "total_units": 23,
+      "avg_basket_size": 5.75,
+      "avg_categories_per_txn": 5.75,
+      "category_diversity": 20,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 276580,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 3,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 656758,
+      "purchase_frequency": 6,
+      "total_units": 32,
+      "avg_basket_size": 5.333333333333333,
+      "avg_categories_per_txn": 5.333333333333333,
+      "category_diversity": 27,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 372827,
+      "purchase_frequency": 7,
+      "total_units": 82,
+      "avg_basket_size": 11.714285714285714,
+      "avg_categories_per_txn": 11.714285714285714,
+      "category_diversity": 64,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 585291,
+      "purchase_frequency": 8,
+      "total_units": 68,
+      "avg_basket_size": 8.5,
+      "avg_categories_per_txn": 8.5,
+      "category_diversity": 52,
+      "num_stores_visited": 2,
+      "active_days": 8
+    },
+    {
+      "client_id": 457821,
+      "purchase_frequency": 3,
+      "total_units": 40,
+      "avg_basket_size": 13.333333333333334,
+      "avg_categories_per_txn": 13.333333333333334,
+      "category_diversity": 35,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 188914,
+      "purchase_frequency": 44,
+      "total_units": 293,
+      "avg_basket_size": 6.659090909090909,
+      "avg_categories_per_txn": 6.659090909090909,
+      "category_diversity": 107,
+      "num_stores_visited": 1,
+      "active_days": 44
+    },
+    {
+      "client_id": 478657,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 954637,
+      "purchase_frequency": 2,
+      "total_units": 18,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 728167,
+      "purchase_frequency": 13,
+      "total_units": 188,
+      "avg_basket_size": 14.461538461538462,
+      "avg_categories_per_txn": 14.461538461538462,
+      "category_diversity": 72,
+      "num_stores_visited": 1,
+      "active_days": 13
+    },
+    {
+      "client_id": 47268,
+      "purchase_frequency": 10,
+      "total_units": 51,
+      "avg_basket_size": 5.1,
+      "avg_categories_per_txn": 5.1,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 898034,
+      "purchase_frequency": 19,
+      "total_units": 269,
+      "avg_basket_size": 14.157894736842104,
+      "avg_categories_per_txn": 14.157894736842104,
+      "category_diversity": 94,
+      "num_stores_visited": 1,
+      "active_days": 19
+    },
+    {
+      "client_id": 442687,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 232907,
+      "purchase_frequency": 15,
+      "total_units": 450,
+      "avg_basket_size": 30.0,
+      "avg_categories_per_txn": 30.0,
+      "category_diversity": 109,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 39458,
+      "purchase_frequency": 6,
+      "total_units": 41,
+      "avg_basket_size": 6.833333333333333,
+      "avg_categories_per_txn": 6.833333333333333,
+      "category_diversity": 34,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 502376,
+      "purchase_frequency": 8,
+      "total_units": 33,
+      "avg_basket_size": 4.125,
+      "avg_categories_per_txn": 4.125,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 156705,
+      "purchase_frequency": 3,
+      "total_units": 35,
+      "avg_basket_size": 11.666666666666666,
+      "avg_categories_per_txn": 11.666666666666666,
+      "category_diversity": 34,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 221435,
+      "purchase_frequency": 11,
+      "total_units": 91,
+      "avg_basket_size": 8.272727272727273,
+      "avg_categories_per_txn": 8.272727272727273,
+      "category_diversity": 48,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 807550,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 355941,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 746341,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 389113,
+      "purchase_frequency": 2,
+      "total_units": 2,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 649818,
+      "purchase_frequency": 22,
+      "total_units": 310,
+      "avg_basket_size": 14.090909090909092,
+      "avg_categories_per_txn": 14.090909090909092,
+      "category_diversity": 96,
+      "num_stores_visited": 3,
+      "active_days": 22
+    },
+    {
+      "client_id": 966861,
+      "purchase_frequency": 18,
+      "total_units": 139,
+      "avg_basket_size": 7.722222222222222,
+      "avg_categories_per_txn": 7.722222222222222,
+      "category_diversity": 68,
+      "num_stores_visited": 1,
+      "active_days": 18
+    },
+    {
+      "client_id": 494256,
+      "purchase_frequency": 2,
+      "total_units": 14,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 14,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 958670,
+      "purchase_frequency": 2,
+      "total_units": 8,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 521781,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 562781,
+      "purchase_frequency": 55,
+      "total_units": 412,
+      "avg_basket_size": 7.490909090909091,
+      "avg_categories_per_txn": 7.490909090909091,
+      "category_diversity": 59,
+      "num_stores_visited": 2,
+      "active_days": 55
+    },
+    {
+      "client_id": 389102,
+      "purchase_frequency": 5,
+      "total_units": 21,
+      "avg_basket_size": 4.2,
+      "avg_categories_per_txn": 4.2,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 492345,
+      "purchase_frequency": 2,
+      "total_units": 9,
+      "avg_basket_size": 4.5,
+      "avg_categories_per_txn": 4.5,
+      "category_diversity": 9,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 484154,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 913703,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 63389,
+      "purchase_frequency": 12,
+      "total_units": 58,
+      "avg_basket_size": 4.833333333333333,
+      "avg_categories_per_txn": 4.833333333333333,
+      "category_diversity": 33,
+      "num_stores_visited": 1,
+      "active_days": 12
+    },
+    {
+      "client_id": 876370,
+      "purchase_frequency": 1,
+      "total_units": 7,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 561704,
+      "purchase_frequency": 3,
+      "total_units": 17,
+      "avg_basket_size": 5.666666666666667,
+      "avg_categories_per_txn": 5.666666666666667,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 698140,
+      "purchase_frequency": 18,
+      "total_units": 120,
+      "avg_basket_size": 6.666666666666667,
+      "avg_categories_per_txn": 6.666666666666667,
+      "category_diversity": 73,
+      "num_stores_visited": 1,
+      "active_days": 18
+    },
+    {
+      "client_id": 107313,
+      "purchase_frequency": 20,
+      "total_units": 124,
+      "avg_basket_size": 6.2,
+      "avg_categories_per_txn": 6.2,
+      "category_diversity": 37,
+      "num_stores_visited": 1,
+      "active_days": 20
+    },
+    {
+      "client_id": 775486,
+      "purchase_frequency": 3,
+      "total_units": 37,
+      "avg_basket_size": 12.333333333333334,
+      "avg_categories_per_txn": 12.333333333333334,
+      "category_diversity": 36,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 699829,
+      "purchase_frequency": 15,
+      "total_units": 243,
+      "avg_basket_size": 16.2,
+      "avg_categories_per_txn": 16.2,
+      "category_diversity": 44,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 244438,
+      "purchase_frequency": 28,
+      "total_units": 97,
+      "avg_basket_size": 3.4642857142857144,
+      "avg_categories_per_txn": 3.4642857142857144,
+      "category_diversity": 65,
+      "num_stores_visited": 1,
+      "active_days": 28
+    },
+    {
+      "client_id": 240198,
+      "purchase_frequency": 18,
+      "total_units": 177,
+      "avg_basket_size": 9.833333333333334,
+      "avg_categories_per_txn": 9.833333333333334,
+      "category_diversity": 110,
+      "num_stores_visited": 1,
+      "active_days": 18
+    },
+    {
+      "client_id": 735079,
+      "purchase_frequency": 2,
+      "total_units": 8,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 8,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 995906,
+      "purchase_frequency": 17,
+      "total_units": 143,
+      "avg_basket_size": 8.411764705882353,
+      "avg_categories_per_txn": 8.411764705882353,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 224351,
+      "purchase_frequency": 8,
+      "total_units": 38,
+      "avg_basket_size": 4.75,
+      "avg_categories_per_txn": 4.75,
+      "category_diversity": 20,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 89365,
+      "purchase_frequency": 2,
+      "total_units": 10,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 626997,
+      "purchase_frequency": 4,
+      "total_units": 19,
+      "avg_basket_size": 4.75,
+      "avg_categories_per_txn": 4.75,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 542958,
+      "purchase_frequency": 2,
+      "total_units": 16,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 459704,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 227204,
+      "purchase_frequency": 1,
+      "total_units": 12,
+      "avg_basket_size": 12.0,
+      "avg_categories_per_txn": 12.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 151434,
+      "purchase_frequency": 15,
+      "total_units": 70,
+      "avg_basket_size": 4.666666666666667,
+      "avg_categories_per_txn": 4.666666666666667,
+      "category_diversity": 43,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 163192,
+      "purchase_frequency": 6,
+      "total_units": 56,
+      "avg_basket_size": 9.333333333333334,
+      "avg_categories_per_txn": 9.333333333333334,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 754703,
+      "purchase_frequency": 91,
+      "total_units": 1184,
+      "avg_basket_size": 13.010989010989011,
+      "avg_categories_per_txn": 13.010989010989011,
+      "category_diversity": 148,
+      "num_stores_visited": 1,
+      "active_days": 91
+    },
+    {
+      "client_id": 543662,
+      "purchase_frequency": 2,
+      "total_units": 17,
+      "avg_basket_size": 8.5,
+      "avg_categories_per_txn": 8.5,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 671186,
+      "purchase_frequency": 12,
+      "total_units": 160,
+      "avg_basket_size": 13.333333333333334,
+      "avg_categories_per_txn": 13.333333333333334,
+      "category_diversity": 83,
+      "num_stores_visited": 3,
+      "active_days": 11
+    },
+    {
+      "client_id": 545226,
+      "purchase_frequency": 4,
+      "total_units": 40,
+      "avg_basket_size": 10.0,
+      "avg_categories_per_txn": 10.0,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 151852,
+      "purchase_frequency": 1,
+      "total_units": 9,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 390291,
+      "purchase_frequency": 3,
+      "total_units": 17,
+      "avg_basket_size": 5.666666666666667,
+      "avg_categories_per_txn": 5.666666666666667,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 693460,
+      "purchase_frequency": 4,
+      "total_units": 19,
+      "avg_basket_size": 4.75,
+      "avg_categories_per_txn": 4.75,
+      "category_diversity": 17,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 1002818,
+      "purchase_frequency": 3,
+      "total_units": 31,
+      "avg_basket_size": 10.333333333333334,
+      "avg_categories_per_txn": 10.333333333333334,
+      "category_diversity": 26,
+      "num_stores_visited": 2,
+      "active_days": 3
+    },
+    {
+      "client_id": 206221,
+      "purchase_frequency": 9,
+      "total_units": 110,
+      "avg_basket_size": 12.222222222222221,
+      "avg_categories_per_txn": 12.222222222222221,
+      "category_diversity": 38,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 54381,
+      "purchase_frequency": 3,
+      "total_units": 92,
+      "avg_basket_size": 30.666666666666668,
+      "avg_categories_per_txn": 30.666666666666668,
+      "category_diversity": 61,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 932953,
+      "purchase_frequency": 14,
+      "total_units": 48,
+      "avg_basket_size": 3.4285714285714284,
+      "avg_categories_per_txn": 3.4285714285714284,
+      "category_diversity": 29,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 723490,
+      "purchase_frequency": 4,
+      "total_units": 72,
+      "avg_basket_size": 18.0,
+      "avg_categories_per_txn": 18.0,
+      "category_diversity": 36,
+      "num_stores_visited": 2,
+      "active_days": 4
+    },
+    {
+      "client_id": 346366,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 4723,
+      "purchase_frequency": 12,
+      "total_units": 74,
+      "avg_basket_size": 6.166666666666667,
+      "avg_categories_per_txn": 6.166666666666667,
+      "category_diversity": 54,
+      "num_stores_visited": 1,
+      "active_days": 12
+    },
+    {
+      "client_id": 276594,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 434690,
+      "purchase_frequency": 8,
+      "total_units": 32,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 244745,
+      "purchase_frequency": 7,
+      "total_units": 37,
+      "avg_basket_size": 5.285714285714286,
+      "avg_categories_per_txn": 5.285714285714286,
+      "category_diversity": 33,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 39900,
+      "purchase_frequency": 2,
+      "total_units": 4,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 937136,
+      "purchase_frequency": 10,
+      "total_units": 216,
+      "avg_basket_size": 21.6,
+      "avg_categories_per_txn": 21.6,
+      "category_diversity": 85,
+      "num_stores_visited": 2,
+      "active_days": 10
+    },
+    {
+      "client_id": 370036,
+      "purchase_frequency": 2,
+      "total_units": 8,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 275499,
+      "purchase_frequency": 16,
+      "total_units": 318,
+      "avg_basket_size": 19.875,
+      "avg_categories_per_txn": 19.875,
+      "category_diversity": 135,
+      "num_stores_visited": 2,
+      "active_days": 15
+    },
+    {
+      "client_id": 824470,
+      "purchase_frequency": 3,
+      "total_units": 15,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 166096,
+      "purchase_frequency": 2,
+      "total_units": 24,
+      "avg_basket_size": 12.0,
+      "avg_categories_per_txn": 12.0,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 996134,
+      "purchase_frequency": 10,
+      "total_units": 141,
+      "avg_basket_size": 14.1,
+      "avg_categories_per_txn": 14.1,
+      "category_diversity": 70,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 983911,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 440928,
+      "purchase_frequency": 14,
+      "total_units": 102,
+      "avg_basket_size": 7.285714285714286,
+      "avg_categories_per_txn": 7.285714285714286,
+      "category_diversity": 68,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 193803,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 298814,
+      "purchase_frequency": 12,
+      "total_units": 117,
+      "avg_basket_size": 9.75,
+      "avg_categories_per_txn": 9.75,
+      "category_diversity": 60,
+      "num_stores_visited": 1,
+      "active_days": 12
+    },
+    {
+      "client_id": 758274,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 701286,
+      "purchase_frequency": 2,
+      "total_units": 5,
+      "avg_basket_size": 2.5,
+      "avg_categories_per_txn": 2.5,
+      "category_diversity": 5,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 13842,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 125345,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 686824,
+      "purchase_frequency": 2,
+      "total_units": 16,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 761468,
+      "purchase_frequency": 9,
+      "total_units": 65,
+      "avg_basket_size": 7.222222222222222,
+      "avg_categories_per_txn": 7.222222222222222,
+      "category_diversity": 52,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 285753,
+      "purchase_frequency": 1,
+      "total_units": 7,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 730950,
+      "purchase_frequency": 15,
+      "total_units": 77,
+      "avg_basket_size": 5.133333333333334,
+      "avg_categories_per_txn": 5.133333333333334,
+      "category_diversity": 24,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 51956,
+      "purchase_frequency": 4,
+      "total_units": 27,
+      "avg_basket_size": 6.75,
+      "avg_categories_per_txn": 6.75,
+      "category_diversity": 19,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 612779,
+      "purchase_frequency": 80,
+      "total_units": 530,
+      "avg_basket_size": 6.625,
+      "avg_categories_per_txn": 6.625,
+      "category_diversity": 47,
+      "num_stores_visited": 2,
+      "active_days": 80
+    },
+    {
+      "client_id": 951717,
+      "purchase_frequency": 3,
+      "total_units": 24,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 904022,
+      "purchase_frequency": 3,
+      "total_units": 43,
+      "avg_basket_size": 14.333333333333334,
+      "avg_categories_per_txn": 14.333333333333334,
+      "category_diversity": 30,
+      "num_stores_visited": 2,
+      "active_days": 3
+    },
+    {
+      "client_id": 826138,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 577747,
+      "purchase_frequency": 35,
+      "total_units": 294,
+      "avg_basket_size": 8.4,
+      "avg_categories_per_txn": 8.4,
+      "category_diversity": 108,
+      "num_stores_visited": 1,
+      "active_days": 35
+    },
+    {
+      "client_id": 842564,
+      "purchase_frequency": 2,
+      "total_units": 13,
+      "avg_basket_size": 6.5,
+      "avg_categories_per_txn": 6.5,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 316286,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 131353,
+      "purchase_frequency": 4,
+      "total_units": 44,
+      "avg_basket_size": 11.0,
+      "avg_categories_per_txn": 11.0,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 637821,
+      "purchase_frequency": 7,
+      "total_units": 68,
+      "avg_basket_size": 9.714285714285714,
+      "avg_categories_per_txn": 9.714285714285714,
+      "category_diversity": 53,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 575514,
+      "purchase_frequency": 4,
+      "total_units": 17,
+      "avg_basket_size": 4.25,
+      "avg_categories_per_txn": 4.25,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 537888,
+      "purchase_frequency": 46,
+      "total_units": 149,
+      "avg_basket_size": 3.239130434782609,
+      "avg_categories_per_txn": 3.239130434782609,
+      "category_diversity": 39,
+      "num_stores_visited": 1,
+      "active_days": 46
+    },
+    {
+      "client_id": 88426,
+      "purchase_frequency": 41,
+      "total_units": 461,
+      "avg_basket_size": 11.24390243902439,
+      "avg_categories_per_txn": 11.24390243902439,
+      "category_diversity": 166,
+      "num_stores_visited": 2,
+      "active_days": 41
+    },
+    {
+      "client_id": 114904,
+      "purchase_frequency": 16,
+      "total_units": 88,
+      "avg_basket_size": 5.5,
+      "avg_categories_per_txn": 5.5,
+      "category_diversity": 48,
+      "num_stores_visited": 1,
+      "active_days": 16
+    },
+    {
+      "client_id": 901461,
+      "purchase_frequency": 1,
+      "total_units": 8,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 852263,
+      "purchase_frequency": 2,
+      "total_units": 14,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 14,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 331662,
+      "purchase_frequency": 7,
+      "total_units": 122,
+      "avg_basket_size": 17.428571428571427,
+      "avg_categories_per_txn": 17.428571428571427,
+      "category_diversity": 64,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 899654,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 81685,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 16057,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 451428,
+      "purchase_frequency": 15,
+      "total_units": 116,
+      "avg_basket_size": 7.733333333333333,
+      "avg_categories_per_txn": 7.733333333333333,
+      "category_diversity": 84,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 311760,
+      "purchase_frequency": 23,
+      "total_units": 286,
+      "avg_basket_size": 12.434782608695652,
+      "avg_categories_per_txn": 12.434782608695652,
+      "category_diversity": 75,
+      "num_stores_visited": 2,
+      "active_days": 23
+    },
+    {
+      "client_id": 326580,
+      "purchase_frequency": 14,
+      "total_units": 67,
+      "avg_basket_size": 4.785714285714286,
+      "avg_categories_per_txn": 4.785714285714286,
+      "category_diversity": 35,
+      "num_stores_visited": 2,
+      "active_days": 14
+    },
+    {
+      "client_id": 256077,
+      "purchase_frequency": 9,
+      "total_units": 60,
+      "avg_basket_size": 6.666666666666667,
+      "avg_categories_per_txn": 6.666666666666667,
+      "category_diversity": 36,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 985803,
+      "purchase_frequency": 22,
+      "total_units": 485,
+      "avg_basket_size": 22.045454545454547,
+      "avg_categories_per_txn": 22.045454545454547,
+      "category_diversity": 86,
+      "num_stores_visited": 2,
+      "active_days": 22
+    },
+    {
+      "client_id": 114468,
+      "purchase_frequency": 8,
+      "total_units": 48,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 41,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 93223,
+      "purchase_frequency": 23,
+      "total_units": 168,
+      "avg_basket_size": 7.304347826086956,
+      "avg_categories_per_txn": 7.304347826086956,
+      "category_diversity": 53,
+      "num_stores_visited": 2,
+      "active_days": 23
+    },
+    {
+      "client_id": 434986,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 645683,
+      "purchase_frequency": 9,
+      "total_units": 62,
+      "avg_basket_size": 6.888888888888889,
+      "avg_categories_per_txn": 6.888888888888889,
+      "category_diversity": 30,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 529661,
+      "purchase_frequency": 37,
+      "total_units": 328,
+      "avg_basket_size": 8.864864864864865,
+      "avg_categories_per_txn": 8.864864864864865,
+      "category_diversity": 130,
+      "num_stores_visited": 2,
+      "active_days": 37
+    },
+    {
+      "client_id": 261110,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 966656,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 86657,
+      "purchase_frequency": 32,
+      "total_units": 80,
+      "avg_basket_size": 2.5,
+      "avg_categories_per_txn": 2.5,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 32
+    },
+    {
+      "client_id": 304274,
+      "purchase_frequency": 6,
+      "total_units": 30,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 35571,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 670384,
+      "purchase_frequency": 26,
+      "total_units": 413,
+      "avg_basket_size": 15.884615384615385,
+      "avg_categories_per_txn": 15.884615384615385,
+      "category_diversity": 39,
+      "num_stores_visited": 2,
+      "active_days": 26
+    },
+    {
+      "client_id": 961173,
+      "purchase_frequency": 5,
+      "total_units": 23,
+      "avg_basket_size": 4.6,
+      "avg_categories_per_txn": 4.6,
+      "category_diversity": 19,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 251197,
+      "purchase_frequency": 13,
+      "total_units": 39,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 24,
+      "num_stores_visited": 2,
+      "active_days": 13
+    },
+    {
+      "client_id": 57116,
+      "purchase_frequency": 6,
+      "total_units": 41,
+      "avg_basket_size": 6.833333333333333,
+      "avg_categories_per_txn": 6.833333333333333,
+      "category_diversity": 32,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 775104,
+      "purchase_frequency": 15,
+      "total_units": 61,
+      "avg_basket_size": 4.066666666666666,
+      "avg_categories_per_txn": 4.066666666666666,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 112295,
+      "purchase_frequency": 10,
+      "total_units": 164,
+      "avg_basket_size": 16.4,
+      "avg_categories_per_txn": 16.4,
+      "category_diversity": 44,
+      "num_stores_visited": 2,
+      "active_days": 10
+    },
+    {
+      "client_id": 185257,
+      "purchase_frequency": 4,
+      "total_units": 16,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 152900,
+      "purchase_frequency": 12,
+      "total_units": 164,
+      "avg_basket_size": 13.666666666666666,
+      "avg_categories_per_txn": 13.666666666666666,
+      "category_diversity": 85,
+      "num_stores_visited": 1,
+      "active_days": 12
+    },
+    {
+      "client_id": 700406,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 574614,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 401188,
+      "purchase_frequency": 9,
+      "total_units": 62,
+      "avg_basket_size": 6.888888888888889,
+      "avg_categories_per_txn": 6.888888888888889,
+      "category_diversity": 36,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 453426,
+      "purchase_frequency": 2,
+      "total_units": 7,
+      "avg_basket_size": 3.5,
+      "avg_categories_per_txn": 3.5,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 936541,
+      "purchase_frequency": 3,
+      "total_units": 17,
+      "avg_basket_size": 5.666666666666667,
+      "avg_categories_per_txn": 5.666666666666667,
+      "category_diversity": 17,
+      "num_stores_visited": 2,
+      "active_days": 3
+    },
+    {
+      "client_id": 978338,
+      "purchase_frequency": 1,
+      "total_units": 11,
+      "avg_basket_size": 11.0,
+      "avg_categories_per_txn": 11.0,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 142331,
+      "purchase_frequency": 1,
+      "total_units": 12,
+      "avg_basket_size": 12.0,
+      "avg_categories_per_txn": 12.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 476413,
+      "purchase_frequency": 8,
+      "total_units": 46,
+      "avg_basket_size": 5.75,
+      "avg_categories_per_txn": 5.75,
+      "category_diversity": 37,
+      "num_stores_visited": 2,
+      "active_days": 8
+    },
+    {
+      "client_id": 1007291,
+      "purchase_frequency": 3,
+      "total_units": 5,
+      "avg_basket_size": 1.6666666666666667,
+      "avg_categories_per_txn": 1.6666666666666667,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 689624,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 280267,
+      "purchase_frequency": 19,
+      "total_units": 513,
+      "avg_basket_size": 27.0,
+      "avg_categories_per_txn": 27.0,
+      "category_diversity": 113,
+      "num_stores_visited": 2,
+      "active_days": 19
+    },
+    {
+      "client_id": 80124,
+      "purchase_frequency": 3,
+      "total_units": 8,
+      "avg_basket_size": 2.6666666666666665,
+      "avg_categories_per_txn": 2.6666666666666665,
+      "category_diversity": 6,
+      "num_stores_visited": 2,
+      "active_days": 3
+    },
+    {
+      "client_id": 854316,
+      "purchase_frequency": 4,
+      "total_units": 13,
+      "avg_basket_size": 3.25,
+      "avg_categories_per_txn": 3.25,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 832548,
+      "purchase_frequency": 8,
+      "total_units": 38,
+      "avg_basket_size": 4.75,
+      "avg_categories_per_txn": 4.75,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 401679,
+      "purchase_frequency": 17,
+      "total_units": 58,
+      "avg_basket_size": 3.411764705882353,
+      "avg_categories_per_txn": 3.411764705882353,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 114034,
+      "purchase_frequency": 20,
+      "total_units": 218,
+      "avg_basket_size": 10.9,
+      "avg_categories_per_txn": 10.9,
+      "category_diversity": 62,
+      "num_stores_visited": 2,
+      "active_days": 20
+    },
+    {
+      "client_id": 122082,
+      "purchase_frequency": 15,
+      "total_units": 162,
+      "avg_basket_size": 10.8,
+      "avg_categories_per_txn": 10.8,
+      "category_diversity": 62,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 178600,
+      "purchase_frequency": 11,
+      "total_units": 40,
+      "avg_basket_size": 3.6363636363636362,
+      "avg_categories_per_txn": 3.6363636363636362,
+      "category_diversity": 29,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 889818,
+      "purchase_frequency": 5,
+      "total_units": 21,
+      "avg_basket_size": 4.2,
+      "avg_categories_per_txn": 4.2,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 79208,
+      "purchase_frequency": 26,
+      "total_units": 164,
+      "avg_basket_size": 6.3076923076923075,
+      "avg_categories_per_txn": 6.3076923076923075,
+      "category_diversity": 113,
+      "num_stores_visited": 1,
+      "active_days": 26
+    },
+    {
+      "client_id": 392205,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 737516,
+      "purchase_frequency": 4,
+      "total_units": 69,
+      "avg_basket_size": 17.25,
+      "avg_categories_per_txn": 17.25,
+      "category_diversity": 47,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 767608,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 736182,
+      "purchase_frequency": 27,
+      "total_units": 349,
+      "avg_basket_size": 12.925925925925926,
+      "avg_categories_per_txn": 12.925925925925926,
+      "category_diversity": 79,
+      "num_stores_visited": 2,
+      "active_days": 25
+    },
+    {
+      "client_id": 370831,
+      "purchase_frequency": 3,
+      "total_units": 7,
+      "avg_basket_size": 2.3333333333333335,
+      "avg_categories_per_txn": 2.3333333333333335,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 110361,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 157963,
+      "purchase_frequency": 1,
+      "total_units": 15,
+      "avg_basket_size": 15.0,
+      "avg_categories_per_txn": 15.0,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 933125,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 95445,
+      "purchase_frequency": 4,
+      "total_units": 71,
+      "avg_basket_size": 17.75,
+      "avg_categories_per_txn": 17.75,
+      "category_diversity": 35,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 4052,
+      "purchase_frequency": 49,
+      "total_units": 223,
+      "avg_basket_size": 4.551020408163265,
+      "avg_categories_per_txn": 4.551020408163265,
+      "category_diversity": 80,
+      "num_stores_visited": 1,
+      "active_days": 49
+    },
+    {
+      "client_id": 286948,
+      "purchase_frequency": 14,
+      "total_units": 46,
+      "avg_basket_size": 3.2857142857142856,
+      "avg_categories_per_txn": 3.2857142857142856,
+      "category_diversity": 32,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 321373,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 295000,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 322122,
+      "purchase_frequency": 17,
+      "total_units": 122,
+      "avg_basket_size": 7.176470588235294,
+      "avg_categories_per_txn": 7.176470588235294,
+      "category_diversity": 68,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 930071,
+      "purchase_frequency": 3,
+      "total_units": 6,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 163744,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 617353,
+      "purchase_frequency": 5,
+      "total_units": 67,
+      "avg_basket_size": 13.4,
+      "avg_categories_per_txn": 13.4,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 286149,
+      "purchase_frequency": 6,
+      "total_units": 23,
+      "avg_basket_size": 3.8333333333333335,
+      "avg_categories_per_txn": 3.8333333333333335,
+      "category_diversity": 20,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 985287,
+      "purchase_frequency": 2,
+      "total_units": 4,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 126232,
+      "purchase_frequency": 16,
+      "total_units": 109,
+      "avg_basket_size": 6.8125,
+      "avg_categories_per_txn": 6.8125,
+      "category_diversity": 71,
+      "num_stores_visited": 1,
+      "active_days": 16
+    },
+    {
+      "client_id": 304370,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 593361,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 316155,
+      "purchase_frequency": 15,
+      "total_units": 135,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 67,
+      "num_stores_visited": 1,
+      "active_days": 15
+    },
+    {
+      "client_id": 487021,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 53871,
+      "purchase_frequency": 6,
+      "total_units": 27,
+      "avg_basket_size": 4.5,
+      "avg_categories_per_txn": 4.5,
+      "category_diversity": 19,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 349440,
+      "purchase_frequency": 8,
+      "total_units": 17,
+      "avg_basket_size": 2.125,
+      "avg_categories_per_txn": 2.125,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 594209,
+      "purchase_frequency": 20,
+      "total_units": 326,
+      "avg_basket_size": 16.3,
+      "avg_categories_per_txn": 16.3,
+      "category_diversity": 82,
+      "num_stores_visited": 1,
+      "active_days": 20
+    },
+    {
+      "client_id": 227945,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 982336,
+      "purchase_frequency": 1,
+      "total_units": 10,
+      "avg_basket_size": 10.0,
+      "avg_categories_per_txn": 10.0,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 892165,
+      "purchase_frequency": 2,
+      "total_units": 20,
+      "avg_basket_size": 10.0,
+      "avg_categories_per_txn": 10.0,
+      "category_diversity": 19,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 799192,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 624851,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 417266,
+      "purchase_frequency": 27,
+      "total_units": 87,
+      "avg_basket_size": 3.2222222222222223,
+      "avg_categories_per_txn": 3.2222222222222223,
+      "category_diversity": 35,
+      "num_stores_visited": 2,
+      "active_days": 26
+    },
+    {
+      "client_id": 875735,
+      "purchase_frequency": 2,
+      "total_units": 4,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 740588,
+      "purchase_frequency": 6,
+      "total_units": 11,
+      "avg_basket_size": 1.8333333333333333,
+      "avg_categories_per_txn": 1.8333333333333333,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 778213,
+      "purchase_frequency": 5,
+      "total_units": 13,
+      "avg_basket_size": 2.6,
+      "avg_categories_per_txn": 2.6,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 774807,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 288408,
+      "purchase_frequency": 33,
+      "total_units": 344,
+      "avg_basket_size": 10.424242424242424,
+      "avg_categories_per_txn": 10.424242424242424,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 33
+    },
+    {
+      "client_id": 977544,
+      "purchase_frequency": 8,
+      "total_units": 67,
+      "avg_basket_size": 8.375,
+      "avg_categories_per_txn": 8.375,
+      "category_diversity": 25,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 663439,
+      "purchase_frequency": 14,
+      "total_units": 179,
+      "avg_basket_size": 12.785714285714286,
+      "avg_categories_per_txn": 12.785714285714286,
+      "category_diversity": 104,
+      "num_stores_visited": 2,
+      "active_days": 14
+    },
+    {
+      "client_id": 868662,
+      "purchase_frequency": 9,
+      "total_units": 74,
+      "avg_basket_size": 8.222222222222221,
+      "avg_categories_per_txn": 8.222222222222221,
+      "category_diversity": 54,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 722586,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 242601,
+      "purchase_frequency": 13,
+      "total_units": 124,
+      "avg_basket_size": 9.538461538461538,
+      "avg_categories_per_txn": 9.538461538461538,
+      "category_diversity": 71,
+      "num_stores_visited": 1,
+      "active_days": 13
+    },
+    {
+      "client_id": 786849,
+      "purchase_frequency": 6,
+      "total_units": 35,
+      "avg_basket_size": 5.833333333333333,
+      "avg_categories_per_txn": 5.833333333333333,
+      "category_diversity": 26,
+      "num_stores_visited": 2,
+      "active_days": 6
+    },
+    {
+      "client_id": 603697,
+      "purchase_frequency": 3,
+      "total_units": 12,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 12,
+      "num_stores_visited": 2,
+      "active_days": 3
+    },
+    {
+      "client_id": 254272,
+      "purchase_frequency": 1,
+      "total_units": 15,
+      "avg_basket_size": 15.0,
+      "avg_categories_per_txn": 15.0,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 745659,
+      "purchase_frequency": 12,
+      "total_units": 129,
+      "avg_basket_size": 10.75,
+      "avg_categories_per_txn": 10.75,
+      "category_diversity": 54,
+      "num_stores_visited": 2,
+      "active_days": 12
+    },
+    {
+      "client_id": 153548,
+      "purchase_frequency": 20,
+      "total_units": 272,
+      "avg_basket_size": 13.6,
+      "avg_categories_per_txn": 13.6,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 20
+    },
+    {
+      "client_id": 937788,
+      "purchase_frequency": 3,
+      "total_units": 8,
+      "avg_basket_size": 2.6666666666666665,
+      "avg_categories_per_txn": 2.6666666666666665,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 1002696,
+      "purchase_frequency": 23,
+      "total_units": 49,
+      "avg_basket_size": 2.130434782608696,
+      "avg_categories_per_txn": 2.130434782608696,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 23
+    },
+    {
+      "client_id": 591287,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 373931,
+      "purchase_frequency": 3,
+      "total_units": 10,
+      "avg_basket_size": 3.3333333333333335,
+      "avg_categories_per_txn": 3.3333333333333335,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 766008,
+      "purchase_frequency": 13,
+      "total_units": 431,
+      "avg_basket_size": 33.15384615384615,
+      "avg_categories_per_txn": 33.15384615384615,
+      "category_diversity": 103,
+      "num_stores_visited": 1,
+      "active_days": 13
+    },
+    {
+      "client_id": 444778,
+      "purchase_frequency": 2,
+      "total_units": 5,
+      "avg_basket_size": 2.5,
+      "avg_categories_per_txn": 2.5,
+      "category_diversity": 5,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 363771,
+      "purchase_frequency": 15,
+      "total_units": 67,
+      "avg_basket_size": 4.466666666666667,
+      "avg_categories_per_txn": 4.466666666666667,
+      "category_diversity": 56,
+      "num_stores_visited": 3,
+      "active_days": 14
+    },
+    {
+      "client_id": 353875,
+      "purchase_frequency": 3,
+      "total_units": 4,
+      "avg_basket_size": 1.3333333333333333,
+      "avg_categories_per_txn": 1.3333333333333333,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 290973,
+      "purchase_frequency": 2,
+      "total_units": 15,
+      "avg_basket_size": 7.5,
+      "avg_categories_per_txn": 7.5,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 482896,
+      "purchase_frequency": 6,
+      "total_units": 49,
+      "avg_basket_size": 8.166666666666666,
+      "avg_categories_per_txn": 8.166666666666666,
+      "category_diversity": 42,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 759330,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 471610,
+      "purchase_frequency": 8,
+      "total_units": 115,
+      "avg_basket_size": 14.375,
+      "avg_categories_per_txn": 14.375,
+      "category_diversity": 39,
+      "num_stores_visited": 2,
+      "active_days": 8
+    },
+    {
+      "client_id": 649607,
+      "purchase_frequency": 2,
+      "total_units": 12,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 839185,
+      "purchase_frequency": 3,
+      "total_units": 20,
+      "avg_basket_size": 6.666666666666667,
+      "avg_categories_per_txn": 6.666666666666667,
+      "category_diversity": 20,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 507878,
+      "purchase_frequency": 12,
+      "total_units": 236,
+      "avg_basket_size": 19.666666666666668,
+      "avg_categories_per_txn": 19.666666666666668,
+      "category_diversity": 109,
+      "num_stores_visited": 2,
+      "active_days": 12
+    },
+    {
+      "client_id": 387407,
+      "purchase_frequency": 25,
+      "total_units": 426,
+      "avg_basket_size": 17.04,
+      "avg_categories_per_txn": 17.04,
+      "category_diversity": 67,
+      "num_stores_visited": 1,
+      "active_days": 25
+    },
+    {
+      "client_id": 951558,
+      "purchase_frequency": 4,
+      "total_units": 25,
+      "avg_basket_size": 6.25,
+      "avg_categories_per_txn": 6.25,
+      "category_diversity": 22,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 125760,
+      "purchase_frequency": 10,
+      "total_units": 49,
+      "avg_basket_size": 4.9,
+      "avg_categories_per_txn": 4.9,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 593443,
+      "purchase_frequency": 11,
+      "total_units": 61,
+      "avg_basket_size": 5.545454545454546,
+      "avg_categories_per_txn": 5.545454545454546,
+      "category_diversity": 45,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 574778,
+      "purchase_frequency": 8,
+      "total_units": 109,
+      "avg_basket_size": 13.625,
+      "avg_categories_per_txn": 13.625,
+      "category_diversity": 36,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 300835,
+      "purchase_frequency": 3,
+      "total_units": 29,
+      "avg_basket_size": 9.666666666666666,
+      "avg_categories_per_txn": 9.666666666666666,
+      "category_diversity": 25,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 864229,
+      "purchase_frequency": 8,
+      "total_units": 41,
+      "avg_basket_size": 5.125,
+      "avg_categories_per_txn": 5.125,
+      "category_diversity": 19,
+      "num_stores_visited": 2,
+      "active_days": 8
+    },
+    {
+      "client_id": 170862,
+      "purchase_frequency": 1,
+      "total_units": 13,
+      "avg_basket_size": 13.0,
+      "avg_categories_per_txn": 13.0,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 343122,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 740595,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 179489,
+      "purchase_frequency": 7,
+      "total_units": 8,
+      "avg_basket_size": 1.1428571428571428,
+      "avg_categories_per_txn": 1.1428571428571428,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 617077,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 185142,
+      "purchase_frequency": 2,
+      "total_units": 32,
+      "avg_basket_size": 16.0,
+      "avg_categories_per_txn": 16.0,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 728886,
+      "purchase_frequency": 34,
+      "total_units": 417,
+      "avg_basket_size": 12.264705882352942,
+      "avg_categories_per_txn": 12.264705882352942,
+      "category_diversity": 121,
+      "num_stores_visited": 2,
+      "active_days": 34
+    },
+    {
+      "client_id": 342874,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 694867,
+      "purchase_frequency": 6,
+      "total_units": 81,
+      "avg_basket_size": 13.5,
+      "avg_categories_per_txn": 13.5,
+      "category_diversity": 59,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 627463,
+      "purchase_frequency": 1,
+      "total_units": 12,
+      "avg_basket_size": 12.0,
+      "avg_categories_per_txn": 12.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 375745,
+      "purchase_frequency": 5,
+      "total_units": 11,
+      "avg_basket_size": 2.2,
+      "avg_categories_per_txn": 2.2,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 793351,
+      "purchase_frequency": 1,
+      "total_units": 13,
+      "avg_basket_size": 13.0,
+      "avg_categories_per_txn": 13.0,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 51593,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 490665,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 316621,
+      "purchase_frequency": 3,
+      "total_units": 43,
+      "avg_basket_size": 14.333333333333334,
+      "avg_categories_per_txn": 14.333333333333334,
+      "category_diversity": 32,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 21105,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 467765,
+      "purchase_frequency": 1,
+      "total_units": 9,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 492894,
+      "purchase_frequency": 7,
+      "total_units": 34,
+      "avg_basket_size": 4.857142857142857,
+      "avg_categories_per_txn": 4.857142857142857,
+      "category_diversity": 27,
+      "num_stores_visited": 2,
+      "active_days": 7
+    },
+    {
+      "client_id": 2285,
+      "purchase_frequency": 21,
+      "total_units": 98,
+      "avg_basket_size": 4.666666666666667,
+      "avg_categories_per_txn": 4.666666666666667,
+      "category_diversity": 58,
+      "num_stores_visited": 2,
+      "active_days": 21
+    },
+    {
+      "client_id": 354067,
+      "purchase_frequency": 10,
+      "total_units": 31,
+      "avg_basket_size": 3.1,
+      "avg_categories_per_txn": 3.1,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 67939,
+      "purchase_frequency": 1,
+      "total_units": 9,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 610386,
+      "purchase_frequency": 18,
+      "total_units": 110,
+      "avg_basket_size": 6.111111111111111,
+      "avg_categories_per_txn": 6.111111111111111,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 18
+    },
+    {
+      "client_id": 904686,
+      "purchase_frequency": 2,
+      "total_units": 7,
+      "avg_basket_size": 3.5,
+      "avg_categories_per_txn": 3.5,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 937931,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 648576,
+      "purchase_frequency": 22,
+      "total_units": 321,
+      "avg_basket_size": 14.590909090909092,
+      "avg_categories_per_txn": 14.590909090909092,
+      "category_diversity": 80,
+      "num_stores_visited": 1,
+      "active_days": 22
+    },
+    {
+      "client_id": 409481,
+      "purchase_frequency": 6,
+      "total_units": 16,
+      "avg_basket_size": 2.6666666666666665,
+      "avg_categories_per_txn": 2.6666666666666665,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 798929,
+      "purchase_frequency": 5,
+      "total_units": 12,
+      "avg_basket_size": 2.4,
+      "avg_categories_per_txn": 2.4,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 336979,
+      "purchase_frequency": 3,
+      "total_units": 8,
+      "avg_basket_size": 2.6666666666666665,
+      "avg_categories_per_txn": 2.6666666666666665,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 76072,
+      "purchase_frequency": 3,
+      "total_units": 34,
+      "avg_basket_size": 11.333333333333334,
+      "avg_categories_per_txn": 11.333333333333334,
+      "category_diversity": 30,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 182709,
+      "purchase_frequency": 6,
+      "total_units": 30,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 17,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 68679,
+      "purchase_frequency": 4,
+      "total_units": 11,
+      "avg_basket_size": 2.75,
+      "avg_categories_per_txn": 2.75,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 506854,
+      "purchase_frequency": 32,
+      "total_units": 379,
+      "avg_basket_size": 11.84375,
+      "avg_categories_per_txn": 11.84375,
+      "category_diversity": 90,
+      "num_stores_visited": 2,
+      "active_days": 29
+    },
+    {
+      "client_id": 550532,
+      "purchase_frequency": 6,
+      "total_units": 77,
+      "avg_basket_size": 12.833333333333334,
+      "avg_categories_per_txn": 12.833333333333334,
+      "category_diversity": 52,
+      "num_stores_visited": 2,
+      "active_days": 6
+    },
+    {
+      "client_id": 587304,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 398740,
+      "purchase_frequency": 47,
+      "total_units": 354,
+      "avg_basket_size": 7.531914893617022,
+      "avg_categories_per_txn": 7.531914893617022,
+      "category_diversity": 113,
+      "num_stores_visited": 1,
+      "active_days": 47
+    },
+    {
+      "client_id": 301290,
+      "purchase_frequency": 5,
+      "total_units": 31,
+      "avg_basket_size": 6.2,
+      "avg_categories_per_txn": 6.2,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 550876,
+      "purchase_frequency": 5,
+      "total_units": 15,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 599615,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 844438,
+      "purchase_frequency": 2,
+      "total_units": 2,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 956822,
+      "purchase_frequency": 16,
+      "total_units": 227,
+      "avg_basket_size": 14.1875,
+      "avg_categories_per_txn": 14.1875,
+      "category_diversity": 68,
+      "num_stores_visited": 1,
+      "active_days": 16
+    },
+    {
+      "client_id": 359749,
+      "purchase_frequency": 32,
+      "total_units": 302,
+      "avg_basket_size": 9.4375,
+      "avg_categories_per_txn": 9.4375,
+      "category_diversity": 80,
+      "num_stores_visited": 1,
+      "active_days": 32
+    },
+    {
+      "client_id": 254576,
+      "purchase_frequency": 7,
+      "total_units": 58,
+      "avg_basket_size": 8.285714285714286,
+      "avg_categories_per_txn": 8.285714285714286,
+      "category_diversity": 43,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 53686,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 81526,
+      "purchase_frequency": 12,
+      "total_units": 246,
+      "avg_basket_size": 20.5,
+      "avg_categories_per_txn": 20.5,
+      "category_diversity": 85,
+      "num_stores_visited": 2,
+      "active_days": 12
+    },
+    {
+      "client_id": 902744,
+      "purchase_frequency": 2,
+      "total_units": 52,
+      "avg_basket_size": 26.0,
+      "avg_categories_per_txn": 26.0,
+      "category_diversity": 49,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 842185,
+      "purchase_frequency": 17,
+      "total_units": 99,
+      "avg_basket_size": 5.823529411764706,
+      "avg_categories_per_txn": 5.823529411764706,
+      "category_diversity": 55,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 836589,
+      "purchase_frequency": 14,
+      "total_units": 369,
+      "avg_basket_size": 26.357142857142858,
+      "avg_categories_per_txn": 26.357142857142858,
+      "category_diversity": 85,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 555930,
+      "purchase_frequency": 22,
+      "total_units": 232,
+      "avg_basket_size": 10.545454545454545,
+      "avg_categories_per_txn": 10.545454545454545,
+      "category_diversity": 84,
+      "num_stores_visited": 2,
+      "active_days": 22
+    },
+    {
+      "client_id": 379628,
+      "purchase_frequency": 11,
+      "total_units": 363,
+      "avg_basket_size": 33.0,
+      "avg_categories_per_txn": 33.0,
+      "category_diversity": 100,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 530753,
+      "purchase_frequency": 1,
+      "total_units": 10,
+      "avg_basket_size": 10.0,
+      "avg_categories_per_txn": 10.0,
+      "category_diversity": 10,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 186812,
+      "purchase_frequency": 4,
+      "total_units": 13,
+      "avg_basket_size": 3.25,
+      "avg_categories_per_txn": 3.25,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 560346,
+      "purchase_frequency": 23,
+      "total_units": 89,
+      "avg_basket_size": 3.869565217391304,
+      "avg_categories_per_txn": 3.869565217391304,
+      "category_diversity": 47,
+      "num_stores_visited": 1,
+      "active_days": 23
+    },
+    {
+      "client_id": 399534,
+      "purchase_frequency": 4,
+      "total_units": 24,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 21,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 490903,
+      "purchase_frequency": 6,
+      "total_units": 83,
+      "avg_basket_size": 13.833333333333334,
+      "avg_categories_per_txn": 13.833333333333334,
+      "category_diversity": 53,
+      "num_stores_visited": 2,
+      "active_days": 6
+    },
+    {
+      "client_id": 29301,
+      "purchase_frequency": 3,
+      "total_units": 14,
+      "avg_basket_size": 4.666666666666667,
+      "avg_categories_per_txn": 4.666666666666667,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 399835,
+      "purchase_frequency": 21,
+      "total_units": 306,
+      "avg_basket_size": 14.571428571428571,
+      "avg_categories_per_txn": 14.571428571428571,
+      "category_diversity": 57,
+      "num_stores_visited": 2,
+      "active_days": 21
+    },
+    {
+      "client_id": 168604,
+      "purchase_frequency": 8,
+      "total_units": 157,
+      "avg_basket_size": 19.625,
+      "avg_categories_per_txn": 19.625,
+      "category_diversity": 73,
+      "num_stores_visited": 1,
+      "active_days": 8
+    },
+    {
+      "client_id": 746803,
+      "purchase_frequency": 2,
+      "total_units": 7,
+      "avg_basket_size": 3.5,
+      "avg_categories_per_txn": 3.5,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 928083,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 584980,
+      "purchase_frequency": 11,
+      "total_units": 55,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 331169,
+      "purchase_frequency": 20,
+      "total_units": 166,
+      "avg_basket_size": 8.3,
+      "avg_categories_per_txn": 8.3,
+      "category_diversity": 72,
+      "num_stores_visited": 2,
+      "active_days": 20
+    },
+    {
+      "client_id": 978771,
+      "purchase_frequency": 1,
+      "total_units": 8,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 439090,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 181732,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 415921,
+      "purchase_frequency": 14,
+      "total_units": 335,
+      "avg_basket_size": 23.928571428571427,
+      "avg_categories_per_txn": 23.928571428571427,
+      "category_diversity": 103,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 917139,
+      "purchase_frequency": 1,
+      "total_units": 43,
+      "avg_basket_size": 43.0,
+      "avg_categories_per_txn": 43.0,
+      "category_diversity": 43,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 112852,
+      "purchase_frequency": 2,
+      "total_units": 18,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 17,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 355604,
+      "purchase_frequency": 32,
+      "total_units": 421,
+      "avg_basket_size": 13.15625,
+      "avg_categories_per_txn": 13.15625,
+      "category_diversity": 107,
+      "num_stores_visited": 1,
+      "active_days": 32
+    },
+    {
+      "client_id": 287786,
+      "purchase_frequency": 2,
+      "total_units": 46,
+      "avg_basket_size": 23.0,
+      "avg_categories_per_txn": 23.0,
+      "category_diversity": 36,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 328628,
+      "purchase_frequency": 57,
+      "total_units": 682,
+      "avg_basket_size": 11.964912280701755,
+      "avg_categories_per_txn": 11.964912280701755,
+      "category_diversity": 120,
+      "num_stores_visited": 2,
+      "active_days": 57
+    },
+    {
+      "client_id": 889834,
+      "purchase_frequency": 1,
+      "total_units": 7,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 45288,
+      "purchase_frequency": 31,
+      "total_units": 158,
+      "avg_basket_size": 5.096774193548387,
+      "avg_categories_per_txn": 5.096774193548387,
+      "category_diversity": 68,
+      "num_stores_visited": 1,
+      "active_days": 31
+    },
+    {
+      "client_id": 250390,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 23119,
+      "purchase_frequency": 1,
+      "total_units": 9,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 905943,
+      "purchase_frequency": 3,
+      "total_units": 17,
+      "avg_basket_size": 5.666666666666667,
+      "avg_categories_per_txn": 5.666666666666667,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 580462,
+      "purchase_frequency": 14,
+      "total_units": 98,
+      "avg_basket_size": 7.0,
+      "avg_categories_per_txn": 7.0,
+      "category_diversity": 39,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 393147,
+      "purchase_frequency": 4,
+      "total_units": 49,
+      "avg_basket_size": 12.25,
+      "avg_categories_per_txn": 12.25,
+      "category_diversity": 32,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 994741,
+      "purchase_frequency": 5,
+      "total_units": 13,
+      "avg_basket_size": 2.6,
+      "avg_categories_per_txn": 2.6,
+      "category_diversity": 12,
+      "num_stores_visited": 2,
+      "active_days": 5
+    },
+    {
+      "client_id": 773311,
+      "purchase_frequency": 2,
+      "total_units": 4,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 709223,
+      "purchase_frequency": 6,
+      "total_units": 23,
+      "avg_basket_size": 3.8333333333333335,
+      "avg_categories_per_txn": 3.8333333333333335,
+      "category_diversity": 17,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 770988,
+      "purchase_frequency": 17,
+      "total_units": 265,
+      "avg_basket_size": 15.588235294117647,
+      "avg_categories_per_txn": 15.588235294117647,
+      "category_diversity": 73,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 524857,
+      "purchase_frequency": 1,
+      "total_units": 9,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 9,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 864886,
+      "purchase_frequency": 11,
+      "total_units": 32,
+      "avg_basket_size": 2.909090909090909,
+      "avg_categories_per_txn": 2.909090909090909,
+      "category_diversity": 24,
+      "num_stores_visited": 2,
+      "active_days": 11
+    },
+    {
+      "client_id": 589421,
+      "purchase_frequency": 6,
+      "total_units": 11,
+      "avg_basket_size": 1.8333333333333333,
+      "avg_categories_per_txn": 1.8333333333333333,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 744839,
+      "purchase_frequency": 6,
+      "total_units": 27,
+      "avg_basket_size": 4.5,
+      "avg_categories_per_txn": 4.5,
+      "category_diversity": 23,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 778613,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 101185,
+      "purchase_frequency": 2,
+      "total_units": 5,
+      "avg_basket_size": 2.5,
+      "avg_categories_per_txn": 2.5,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 690680,
+      "purchase_frequency": 2,
+      "total_units": 4,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 303305,
+      "purchase_frequency": 24,
+      "total_units": 284,
+      "avg_basket_size": 11.833333333333334,
+      "avg_categories_per_txn": 11.833333333333334,
+      "category_diversity": 98,
+      "num_stores_visited": 2,
+      "active_days": 24
+    },
+    {
+      "client_id": 362308,
+      "purchase_frequency": 3,
+      "total_units": 53,
+      "avg_basket_size": 17.666666666666668,
+      "avg_categories_per_txn": 17.666666666666668,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 455066,
+      "purchase_frequency": 12,
+      "total_units": 73,
+      "avg_basket_size": 6.083333333333333,
+      "avg_categories_per_txn": 6.083333333333333,
+      "category_diversity": 44,
+      "num_stores_visited": 2,
+      "active_days": 12
+    },
+    {
+      "client_id": 472541,
+      "purchase_frequency": 28,
+      "total_units": 455,
+      "avg_basket_size": 16.25,
+      "avg_categories_per_txn": 16.25,
+      "category_diversity": 106,
+      "num_stores_visited": 1,
+      "active_days": 28
+    },
+    {
+      "client_id": 71868,
+      "purchase_frequency": 9,
+      "total_units": 129,
+      "avg_basket_size": 14.333333333333334,
+      "avg_categories_per_txn": 14.333333333333334,
+      "category_diversity": 50,
+      "num_stores_visited": 1,
+      "active_days": 9
+    },
+    {
+      "client_id": 871100,
+      "purchase_frequency": 7,
+      "total_units": 54,
+      "avg_basket_size": 7.714285714285714,
+      "avg_categories_per_txn": 7.714285714285714,
+      "category_diversity": 29,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 224796,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 821054,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 664861,
+      "purchase_frequency": 1,
+      "total_units": 16,
+      "avg_basket_size": 16.0,
+      "avg_categories_per_txn": 16.0,
+      "category_diversity": 16,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 781326,
+      "purchase_frequency": 14,
+      "total_units": 125,
+      "avg_basket_size": 8.928571428571429,
+      "avg_categories_per_txn": 8.928571428571429,
+      "category_diversity": 37,
+      "num_stores_visited": 2,
+      "active_days": 14
+    },
+    {
+      "client_id": 371196,
+      "purchase_frequency": 4,
+      "total_units": 66,
+      "avg_basket_size": 16.5,
+      "avg_categories_per_txn": 16.5,
+      "category_diversity": 45,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 369282,
+      "purchase_frequency": 1,
+      "total_units": 36,
+      "avg_basket_size": 36.0,
+      "avg_categories_per_txn": 36.0,
+      "category_diversity": 36,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 798771,
+      "purchase_frequency": 32,
+      "total_units": 279,
+      "avg_basket_size": 8.71875,
+      "avg_categories_per_txn": 8.71875,
+      "category_diversity": 40,
+      "num_stores_visited": 2,
+      "active_days": 32
+    },
+    {
+      "client_id": 36589,
+      "purchase_frequency": 52,
+      "total_units": 689,
+      "avg_basket_size": 13.25,
+      "avg_categories_per_txn": 13.25,
+      "category_diversity": 174,
+      "num_stores_visited": 2,
+      "active_days": 52
+    },
+    {
+      "client_id": 530980,
+      "purchase_frequency": 3,
+      "total_units": 3,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 945976,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 408430,
+      "purchase_frequency": 31,
+      "total_units": 503,
+      "avg_basket_size": 16.225806451612904,
+      "avg_categories_per_txn": 16.225806451612904,
+      "category_diversity": 167,
+      "num_stores_visited": 1,
+      "active_days": 31
+    },
+    {
+      "client_id": 859891,
+      "purchase_frequency": 21,
+      "total_units": 142,
+      "avg_basket_size": 6.761904761904762,
+      "avg_categories_per_txn": 6.761904761904762,
+      "category_diversity": 68,
+      "num_stores_visited": 3,
+      "active_days": 20
+    },
+    {
+      "client_id": 632990,
+      "purchase_frequency": 4,
+      "total_units": 83,
+      "avg_basket_size": 20.75,
+      "avg_categories_per_txn": 20.75,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 289094,
+      "purchase_frequency": 52,
+      "total_units": 397,
+      "avg_basket_size": 7.634615384615385,
+      "avg_categories_per_txn": 7.634615384615385,
+      "category_diversity": 103,
+      "num_stores_visited": 2,
+      "active_days": 50
+    },
+    {
+      "client_id": 45486,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 6605,
+      "purchase_frequency": 1,
+      "total_units": 2,
+      "avg_basket_size": 2.0,
+      "avg_categories_per_txn": 2.0,
+      "category_diversity": 2,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 47026,
+      "purchase_frequency": 3,
+      "total_units": 34,
+      "avg_basket_size": 11.333333333333334,
+      "avg_categories_per_txn": 11.333333333333334,
+      "category_diversity": 28,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 462039,
+      "purchase_frequency": 21,
+      "total_units": 408,
+      "avg_basket_size": 19.428571428571427,
+      "avg_categories_per_txn": 19.428571428571427,
+      "category_diversity": 103,
+      "num_stores_visited": 1,
+      "active_days": 21
+    },
+    {
+      "client_id": 618472,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 937812,
+      "purchase_frequency": 43,
+      "total_units": 207,
+      "avg_basket_size": 4.813953488372093,
+      "avg_categories_per_txn": 4.813953488372093,
+      "category_diversity": 45,
+      "num_stores_visited": 1,
+      "active_days": 43
+    },
+    {
+      "client_id": 624548,
+      "purchase_frequency": 13,
+      "total_units": 103,
+      "avg_basket_size": 7.923076923076923,
+      "avg_categories_per_txn": 7.923076923076923,
+      "category_diversity": 76,
+      "num_stores_visited": 2,
+      "active_days": 13
+    },
+    {
+      "client_id": 936965,
+      "purchase_frequency": 3,
+      "total_units": 15,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 713841,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 906529,
+      "purchase_frequency": 6,
+      "total_units": 30,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 24,
+      "num_stores_visited": 1,
+      "active_days": 6
+    },
+    {
+      "client_id": 467844,
+      "purchase_frequency": 2,
+      "total_units": 7,
+      "avg_basket_size": 3.5,
+      "avg_categories_per_txn": 3.5,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 882343,
+      "purchase_frequency": 20,
+      "total_units": 147,
+      "avg_basket_size": 7.35,
+      "avg_categories_per_txn": 7.35,
+      "category_diversity": 75,
+      "num_stores_visited": 1,
+      "active_days": 20
+    },
+    {
+      "client_id": 443633,
+      "purchase_frequency": 10,
+      "total_units": 85,
+      "avg_basket_size": 8.5,
+      "avg_categories_per_txn": 8.5,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 10
+    },
+    {
+      "client_id": 494960,
+      "purchase_frequency": 2,
+      "total_units": 31,
+      "avg_basket_size": 15.5,
+      "avg_categories_per_txn": 15.5,
+      "category_diversity": 28,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 926641,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 119120,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 343980,
+      "purchase_frequency": 2,
+      "total_units": 22,
+      "avg_basket_size": 11.0,
+      "avg_categories_per_txn": 11.0,
+      "category_diversity": 20,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 662045,
+      "purchase_frequency": 26,
+      "total_units": 323,
+      "avg_basket_size": 12.423076923076923,
+      "avg_categories_per_txn": 12.423076923076923,
+      "category_diversity": 107,
+      "num_stores_visited": 2,
+      "active_days": 26
+    },
+    {
+      "client_id": 857745,
+      "purchase_frequency": 6,
+      "total_units": 49,
+      "avg_basket_size": 8.166666666666666,
+      "avg_categories_per_txn": 8.166666666666666,
+      "category_diversity": 43,
+      "num_stores_visited": 2,
+      "active_days": 6
+    },
+    {
+      "client_id": 767998,
+      "purchase_frequency": 5,
+      "total_units": 26,
+      "avg_basket_size": 5.2,
+      "avg_categories_per_txn": 5.2,
+      "category_diversity": 26,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 912658,
+      "purchase_frequency": 14,
+      "total_units": 75,
+      "avg_basket_size": 5.357142857142857,
+      "avg_categories_per_txn": 5.357142857142857,
+      "category_diversity": 40,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 266130,
+      "purchase_frequency": 2,
+      "total_units": 37,
+      "avg_basket_size": 18.5,
+      "avg_categories_per_txn": 18.5,
+      "category_diversity": 34,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 83652,
+      "purchase_frequency": 2,
+      "total_units": 51,
+      "avg_basket_size": 25.5,
+      "avg_categories_per_txn": 25.5,
+      "category_diversity": 27,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 419856,
+      "purchase_frequency": 10,
+      "total_units": 63,
+      "avg_basket_size": 6.3,
+      "avg_categories_per_txn": 6.3,
+      "category_diversity": 38,
+      "num_stores_visited": 2,
+      "active_days": 10
+    },
+    {
+      "client_id": 926605,
+      "purchase_frequency": 3,
+      "total_units": 5,
+      "avg_basket_size": 1.6666666666666667,
+      "avg_categories_per_txn": 1.6666666666666667,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 779012,
+      "purchase_frequency": 2,
+      "total_units": 3,
+      "avg_basket_size": 1.5,
+      "avg_categories_per_txn": 1.5,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 265658,
+      "purchase_frequency": 35,
+      "total_units": 389,
+      "avg_basket_size": 11.114285714285714,
+      "avg_categories_per_txn": 11.114285714285714,
+      "category_diversity": 102,
+      "num_stores_visited": 2,
+      "active_days": 34
+    },
+    {
+      "client_id": 424989,
+      "purchase_frequency": 30,
+      "total_units": 369,
+      "avg_basket_size": 12.3,
+      "avg_categories_per_txn": 12.3,
+      "category_diversity": 82,
+      "num_stores_visited": 1,
+      "active_days": 30
+    },
+    {
+      "client_id": 4576,
+      "purchase_frequency": 18,
+      "total_units": 231,
+      "avg_basket_size": 12.833333333333334,
+      "avg_categories_per_txn": 12.833333333333334,
+      "category_diversity": 98,
+      "num_stores_visited": 1,
+      "active_days": 18
+    },
+    {
+      "client_id": 718572,
+      "purchase_frequency": 2,
+      "total_units": 20,
+      "avg_basket_size": 10.0,
+      "avg_categories_per_txn": 10.0,
+      "category_diversity": 17,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 619513,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 360515,
+      "purchase_frequency": 63,
+      "total_units": 853,
+      "avg_basket_size": 13.53968253968254,
+      "avg_categories_per_txn": 13.53968253968254,
+      "category_diversity": 157,
+      "num_stores_visited": 1,
+      "active_days": 63
+    },
+    {
+      "client_id": 108642,
+      "purchase_frequency": 2,
+      "total_units": 6,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 666159,
+      "purchase_frequency": 11,
+      "total_units": 548,
+      "avg_basket_size": 49.81818181818182,
+      "avg_categories_per_txn": 49.81818181818182,
+      "category_diversity": 122,
+      "num_stores_visited": 1,
+      "active_days": 11
+    },
+    {
+      "client_id": 688365,
+      "purchase_frequency": 1,
+      "total_units": 30,
+      "avg_basket_size": 30.0,
+      "avg_categories_per_txn": 30.0,
+      "category_diversity": 30,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 509357,
+      "purchase_frequency": 3,
+      "total_units": 15,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 136201,
+      "purchase_frequency": 37,
+      "total_units": 318,
+      "avg_basket_size": 8.594594594594595,
+      "avg_categories_per_txn": 8.594594594594595,
+      "category_diversity": 89,
+      "num_stores_visited": 2,
+      "active_days": 37
+    },
+    {
+      "client_id": 881468,
+      "purchase_frequency": 12,
+      "total_units": 85,
+      "avg_basket_size": 7.083333333333333,
+      "avg_categories_per_txn": 7.083333333333333,
+      "category_diversity": 60,
+      "num_stores_visited": 1,
+      "active_days": 12
+    },
+    {
+      "client_id": 548710,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 208379,
+      "purchase_frequency": 1,
+      "total_units": 11,
+      "avg_basket_size": 11.0,
+      "avg_categories_per_txn": 11.0,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 576380,
+      "purchase_frequency": 2,
+      "total_units": 7,
+      "avg_basket_size": 3.5,
+      "avg_categories_per_txn": 3.5,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 619332,
+      "purchase_frequency": 14,
+      "total_units": 163,
+      "avg_basket_size": 11.642857142857142,
+      "avg_categories_per_txn": 11.642857142857142,
+      "category_diversity": 58,
+      "num_stores_visited": 1,
+      "active_days": 14
+    },
+    {
+      "client_id": 744891,
+      "purchase_frequency": 1,
+      "total_units": 5,
+      "avg_basket_size": 5.0,
+      "avg_categories_per_txn": 5.0,
+      "category_diversity": 5,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 30354,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 517724,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 436781,
+      "purchase_frequency": 3,
+      "total_units": 19,
+      "avg_basket_size": 6.333333333333333,
+      "avg_categories_per_txn": 6.333333333333333,
+      "category_diversity": 17,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 8975,
+      "purchase_frequency": 17,
+      "total_units": 274,
+      "avg_basket_size": 16.11764705882353,
+      "avg_categories_per_txn": 16.11764705882353,
+      "category_diversity": 53,
+      "num_stores_visited": 1,
+      "active_days": 17
+    },
+    {
+      "client_id": 768358,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 276266,
+      "purchase_frequency": 1,
+      "total_units": 15,
+      "avg_basket_size": 15.0,
+      "avg_categories_per_txn": 15.0,
+      "category_diversity": 15,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 675912,
+      "purchase_frequency": 4,
+      "total_units": 21,
+      "avg_basket_size": 5.25,
+      "avg_categories_per_txn": 5.25,
+      "category_diversity": 19,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 700211,
+      "purchase_frequency": 7,
+      "total_units": 126,
+      "avg_basket_size": 18.0,
+      "avg_categories_per_txn": 18.0,
+      "category_diversity": 66,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 660662,
+      "purchase_frequency": 5,
+      "total_units": 45,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 38,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 419502,
+      "purchase_frequency": 9,
+      "total_units": 81,
+      "avg_basket_size": 9.0,
+      "avg_categories_per_txn": 9.0,
+      "category_diversity": 46,
+      "num_stores_visited": 2,
+      "active_days": 9
+    },
+    {
+      "client_id": 310392,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 94681,
+      "purchase_frequency": 2,
+      "total_units": 7,
+      "avg_basket_size": 3.5,
+      "avg_categories_per_txn": 3.5,
+      "category_diversity": 7,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 574706,
+      "purchase_frequency": 7,
+      "total_units": 15,
+      "avg_basket_size": 2.142857142857143,
+      "avg_categories_per_txn": 2.142857142857143,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 7
+    },
+    {
+      "client_id": 843089,
+      "purchase_frequency": 1,
+      "total_units": 4,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 4,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 527039,
+      "purchase_frequency": 1,
+      "total_units": 8,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 8,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 484598,
+      "purchase_frequency": 1,
+      "total_units": 18,
+      "avg_basket_size": 18.0,
+      "avg_categories_per_txn": 18.0,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 863333,
+      "purchase_frequency": 16,
+      "total_units": 270,
+      "avg_basket_size": 16.875,
+      "avg_categories_per_txn": 16.875,
+      "category_diversity": 89,
+      "num_stores_visited": 2,
+      "active_days": 16
+    },
+    {
+      "client_id": 103926,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 800732,
+      "purchase_frequency": 47,
+      "total_units": 239,
+      "avg_basket_size": 5.085106382978723,
+      "avg_categories_per_txn": 5.085106382978723,
+      "category_diversity": 39,
+      "num_stores_visited": 1,
+      "active_days": 47
+    },
+    {
+      "client_id": 294215,
+      "purchase_frequency": 1,
+      "total_units": 3,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 3,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 290405,
+      "purchase_frequency": 18,
+      "total_units": 105,
+      "avg_basket_size": 5.833333333333333,
+      "avg_categories_per_txn": 5.833333333333333,
+      "category_diversity": 36,
+      "num_stores_visited": 2,
+      "active_days": 18
+    },
+    {
+      "client_id": 651670,
+      "purchase_frequency": 1,
+      "total_units": 6,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 410097,
+      "purchase_frequency": 42,
+      "total_units": 353,
+      "avg_basket_size": 8.404761904761905,
+      "avg_categories_per_txn": 8.404761904761905,
+      "category_diversity": 48,
+      "num_stores_visited": 2,
+      "active_days": 42
+    },
+    {
+      "client_id": 64546,
+      "purchase_frequency": 13,
+      "total_units": 214,
+      "avg_basket_size": 16.46153846153846,
+      "avg_categories_per_txn": 16.46153846153846,
+      "category_diversity": 108,
+      "num_stores_visited": 2,
+      "active_days": 13
+    },
+    {
+      "client_id": 20276,
+      "purchase_frequency": 21,
+      "total_units": 133,
+      "avg_basket_size": 6.333333333333333,
+      "avg_categories_per_txn": 6.333333333333333,
+      "category_diversity": 75,
+      "num_stores_visited": 1,
+      "active_days": 21
+    },
+    {
+      "client_id": 394523,
+      "purchase_frequency": 15,
+      "total_units": 251,
+      "avg_basket_size": 16.733333333333334,
+      "avg_categories_per_txn": 16.733333333333334,
+      "category_diversity": 114,
+      "num_stores_visited": 2,
+      "active_days": 15
+    },
+    {
+      "client_id": 516455,
+      "purchase_frequency": 24,
+      "total_units": 342,
+      "avg_basket_size": 14.25,
+      "avg_categories_per_txn": 14.25,
+      "category_diversity": 110,
+      "num_stores_visited": 1,
+      "active_days": 24
+    },
+    {
+      "client_id": 785802,
+      "purchase_frequency": 2,
+      "total_units": 5,
+      "avg_basket_size": 2.5,
+      "avg_categories_per_txn": 2.5,
+      "category_diversity": 5,
+      "num_stores_visited": 2,
+      "active_days": 2
+    },
+    {
+      "client_id": 621235,
+      "purchase_frequency": 1,
+      "total_units": 13,
+      "avg_basket_size": 13.0,
+      "avg_categories_per_txn": 13.0,
+      "category_diversity": 13,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 473841,
+      "purchase_frequency": 30,
+      "total_units": 290,
+      "avg_basket_size": 9.666666666666666,
+      "avg_categories_per_txn": 9.666666666666666,
+      "category_diversity": 116,
+      "num_stores_visited": 1,
+      "active_days": 30
+    },
+    {
+      "client_id": 562172,
+      "purchase_frequency": 5,
+      "total_units": 15,
+      "avg_basket_size": 3.0,
+      "avg_categories_per_txn": 3.0,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 69516,
+      "purchase_frequency": 4,
+      "total_units": 25,
+      "avg_basket_size": 6.25,
+      "avg_categories_per_txn": 6.25,
+      "category_diversity": 22,
+      "num_stores_visited": 1,
+      "active_days": 4
+    },
+    {
+      "client_id": 527800,
+      "purchase_frequency": 25,
+      "total_units": 188,
+      "avg_basket_size": 7.52,
+      "avg_categories_per_txn": 7.52,
+      "category_diversity": 71,
+      "num_stores_visited": 1,
+      "active_days": 25
+    },
+    {
+      "client_id": 463886,
+      "purchase_frequency": 3,
+      "total_units": 7,
+      "avg_basket_size": 2.3333333333333335,
+      "avg_categories_per_txn": 2.3333333333333335,
+      "category_diversity": 6,
+      "num_stores_visited": 1,
+      "active_days": 3
+    },
+    {
+      "client_id": 308298,
+      "purchase_frequency": 3,
+      "total_units": 12,
+      "avg_basket_size": 4.0,
+      "avg_categories_per_txn": 4.0,
+      "category_diversity": 12,
+      "num_stores_visited": 2,
+      "active_days": 3
+    },
+    {
+      "client_id": 38202,
+      "purchase_frequency": 2,
+      "total_units": 12,
+      "avg_basket_size": 6.0,
+      "avg_categories_per_txn": 6.0,
+      "category_diversity": 12,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 635488,
+      "purchase_frequency": 35,
+      "total_units": 462,
+      "avg_basket_size": 13.2,
+      "avg_categories_per_txn": 13.2,
+      "category_diversity": 106,
+      "num_stores_visited": 2,
+      "active_days": 33
+    },
+    {
+      "client_id": 410939,
+      "purchase_frequency": 12,
+      "total_units": 195,
+      "avg_basket_size": 16.25,
+      "avg_categories_per_txn": 16.25,
+      "category_diversity": 102,
+      "num_stores_visited": 2,
+      "active_days": 12
+    },
+    {
+      "client_id": 198947,
+      "purchase_frequency": 1,
+      "total_units": 11,
+      "avg_basket_size": 11.0,
+      "avg_categories_per_txn": 11.0,
+      "category_diversity": 11,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 682508,
+      "purchase_frequency": 1,
+      "total_units": 1,
+      "avg_basket_size": 1.0,
+      "avg_categories_per_txn": 1.0,
+      "category_diversity": 1,
+      "num_stores_visited": 1,
+      "active_days": 1
+    },
+    {
+      "client_id": 348858,
+      "purchase_frequency": 5,
+      "total_units": 41,
+      "avg_basket_size": 8.2,
+      "avg_categories_per_txn": 8.2,
+      "category_diversity": 30,
+      "num_stores_visited": 1,
+      "active_days": 5
+    },
+    {
+      "client_id": 13047,
+      "purchase_frequency": 2,
+      "total_units": 16,
+      "avg_basket_size": 8.0,
+      "avg_categories_per_txn": 8.0,
+      "category_diversity": 14,
+      "num_stores_visited": 1,
+      "active_days": 2
+    },
+    {
+      "client_id": 687015,
+      "purchase_frequency": 20,
+      "total_units": 56,
+      "avg_basket_size": 2.8,
+      "avg_categories_per_txn": 2.8,
+      "category_diversity": 31,
+      "num_stores_visited": 1,
+      "active_days": 20
+    },
+    {
+      "client_id": 224136,
+      "purchase_frequency": 1,
+      "total_units": 18,
+      "avg_basket_size": 18.0,
+      "avg_categories_per_txn": 18.0,
+      "category_diversity": 18,
+      "num_stores_visited": 1,
+      "active_days": 1
+    }
+  ],
+  "client_features_count": 131186
+}

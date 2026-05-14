@@ -1,0 +1,5419 @@
+{
+  "daily": [
+    {
+      "date": "2013-01-01",
+      "num_transactions": 2860,
+      "total_units": 21092
+    },
+    {
+      "date": "2013-01-02",
+      "num_transactions": 6577,
+      "total_units": 61022
+    },
+    {
+      "date": "2013-01-03",
+      "num_transactions": 6539,
+      "total_units": 67364
+    },
+    {
+      "date": "2013-01-04",
+      "num_transactions": 5961,
+      "total_units": 53489
+    },
+    {
+      "date": "2013-01-05",
+      "num_transactions": 6405,
+      "total_units": 61872
+    },
+    {
+      "date": "2013-01-06",
+      "num_transactions": 5217,
+      "total_units": 46044
+    },
+    {
+      "date": "2013-01-07",
+      "num_transactions": 5934,
+      "total_units": 57272
+    },
+    {
+      "date": "2013-01-08",
+      "num_transactions": 6380,
+      "total_units": 71453
+    },
+    {
+      "date": "2013-01-09",
+      "num_transactions": 5587,
+      "total_units": 49168
+    },
+    {
+      "date": "2013-01-10",
+      "num_transactions": 6090,
+      "total_units": 61003
+    },
+    {
+      "date": "2013-01-11",
+      "num_transactions": 5167,
+      "total_units": 45238
+    },
+    {
+      "date": "2013-01-12",
+      "num_transactions": 6418,
+      "total_units": 63196
+    },
+    {
+      "date": "2013-01-13",
+      "num_transactions": 6705,
+      "total_units": 68152
+    },
+    {
+      "date": "2013-01-14",
+      "num_transactions": 5825,
+      "total_units": 49721
+    },
+    {
+      "date": "2013-01-15",
+      "num_transactions": 6289,
+      "total_units": 70532
+    },
+    {
+      "date": "2013-01-16",
+      "num_transactions": 5989,
+      "total_units": 53556
+    },
+    {
+      "date": "2013-01-17",
+      "num_transactions": 6364,
+      "total_units": 62944
+    },
+    {
+      "date": "2013-01-18",
+      "num_transactions": 5261,
+      "total_units": 45437
+    },
+    {
+      "date": "2013-01-19",
+      "num_transactions": 6981,
+      "total_units": 69299
+    },
+    {
+      "date": "2013-01-20",
+      "num_transactions": 7400,
+      "total_units": 75322
+    },
+    {
+      "date": "2013-01-21",
+      "num_transactions": 5732,
+      "total_units": 47653
+    },
+    {
+      "date": "2013-01-22",
+      "num_transactions": 5547,
+      "total_units": 58186
+    },
+    {
+      "date": "2013-01-23",
+      "num_transactions": 4757,
+      "total_units": 37815
+    },
+    {
+      "date": "2013-01-24",
+      "num_transactions": 5420,
+      "total_units": 49789
+    },
+    {
+      "date": "2013-01-25",
+      "num_transactions": 5191,
+      "total_units": 47013
+    },
+    {
+      "date": "2013-01-26",
+      "num_transactions": 6978,
+      "total_units": 69548
+    },
+    {
+      "date": "2013-01-27",
+      "num_transactions": 7392,
+      "total_units": 77213
+    },
+    {
+      "date": "2013-01-28",
+      "num_transactions": 5714,
+      "total_units": 50423
+    },
+    {
+      "date": "2013-01-29",
+      "num_transactions": 5782,
+      "total_units": 62378
+    },
+    {
+      "date": "2013-01-30",
+      "num_transactions": 5592,
+      "total_units": 50032
+    },
+    {
+      "date": "2013-01-31",
+      "num_transactions": 6862,
+      "total_units": 74409
+    },
+    {
+      "date": "2013-02-01",
+      "num_transactions": 6352,
+      "total_units": 64372
+    },
+    {
+      "date": "2013-02-02",
+      "num_transactions": 8003,
+      "total_units": 89410
+    },
+    {
+      "date": "2013-02-03",
+      "num_transactions": 8523,
+      "total_units": 95644
+    },
+    {
+      "date": "2013-02-04",
+      "num_transactions": 5781,
+      "total_units": 53312
+    },
+    {
+      "date": "2013-02-05",
+      "num_transactions": 6052,
+      "total_units": 68320
+    },
+    {
+      "date": "2013-02-06",
+      "num_transactions": 4997,
+      "total_units": 41581
+    },
+    {
+      "date": "2013-02-07",
+      "num_transactions": 6317,
+      "total_units": 57599
+    },
+    {
+      "date": "2013-02-08",
+      "num_transactions": 4823,
+      "total_units": 42020
+    },
+    {
+      "date": "2013-02-09",
+      "num_transactions": 6814,
+      "total_units": 64407
+    },
+    {
+      "date": "2013-02-10",
+      "num_transactions": 7883,
+      "total_units": 79155
+    },
+    {
+      "date": "2013-02-11",
+      "num_transactions": 5079,
+      "total_units": 42400
+    },
+    {
+      "date": "2013-02-12",
+      "num_transactions": 5363,
+      "total_units": 55895
+    },
+    {
+      "date": "2013-02-13",
+      "num_transactions": 5045,
+      "total_units": 39430
+    },
+    {
+      "date": "2013-02-14",
+      "num_transactions": 5904,
+      "total_units": 53871
+    },
+    {
+      "date": "2013-02-15",
+      "num_transactions": 5373,
+      "total_units": 46604
+    },
+    {
+      "date": "2013-02-16",
+      "num_transactions": 7610,
+      "total_units": 79190
+    },
+    {
+      "date": "2013-02-17",
+      "num_transactions": 7866,
+      "total_units": 87282
+    },
+    {
+      "date": "2013-02-18",
+      "num_transactions": 5516,
+      "total_units": 47485
+    },
+    {
+      "date": "2013-02-19",
+      "num_transactions": 5716,
+      "total_units": 62731
+    },
+    {
+      "date": "2013-02-20",
+      "num_transactions": 4897,
+      "total_units": 39185
+    },
+    {
+      "date": "2013-02-21",
+      "num_transactions": 5869,
+      "total_units": 52677
+    },
+    {
+      "date": "2013-02-22",
+      "num_transactions": 4695,
+      "total_units": 37531
+    },
+    {
+      "date": "2013-02-23",
+      "num_transactions": 6423,
+      "total_units": 62606
+    },
+    {
+      "date": "2013-02-24",
+      "num_transactions": 7184,
+      "total_units": 73018
+    },
+    {
+      "date": "2013-02-25",
+      "num_transactions": 5249,
+      "total_units": 45951
+    },
+    {
+      "date": "2013-02-26",
+      "num_transactions": 5738,
+      "total_units": 62004
+    },
+    {
+      "date": "2013-02-27",
+      "num_transactions": 4870,
+      "total_units": 42197
+    },
+    {
+      "date": "2013-02-28",
+      "num_transactions": 6829,
+      "total_units": 66389
+    },
+    {
+      "date": "2013-03-01",
+      "num_transactions": 6242,
+      "total_units": 62086
+    },
+    {
+      "date": "2013-03-02",
+      "num_transactions": 8160,
+      "total_units": 93199
+    },
+    {
+      "date": "2013-03-03",
+      "num_transactions": 8426,
+      "total_units": 97246
+    },
+    {
+      "date": "2013-03-04",
+      "num_transactions": 5646,
+      "total_units": 54720
+    },
+    {
+      "date": "2013-03-05",
+      "num_transactions": 5841,
+      "total_units": 66157
+    },
+    {
+      "date": "2013-03-06",
+      "num_transactions": 4876,
+      "total_units": 41042
+    },
+    {
+      "date": "2013-03-07",
+      "num_transactions": 6596,
+      "total_units": 58151
+    },
+    {
+      "date": "2013-03-08",
+      "num_transactions": 4948,
+      "total_units": 40250
+    },
+    {
+      "date": "2013-03-09",
+      "num_transactions": 6715,
+      "total_units": 64981
+    },
+    {
+      "date": "2013-03-10",
+      "num_transactions": 7358,
+      "total_units": 74714
+    },
+    {
+      "date": "2013-03-11",
+      "num_transactions": 5125,
+      "total_units": 43665
+    },
+    {
+      "date": "2013-03-12",
+      "num_transactions": 5491,
+      "total_units": 56866
+    },
+    {
+      "date": "2013-03-13",
+      "num_transactions": 4482,
+      "total_units": 34954
+    },
+    {
+      "date": "2013-03-14",
+      "num_transactions": 5864,
+      "total_units": 51301
+    },
+    {
+      "date": "2013-03-15",
+      "num_transactions": 5259,
+      "total_units": 47229
+    },
+    {
+      "date": "2013-03-16",
+      "num_transactions": 7148,
+      "total_units": 73241
+    },
+    {
+      "date": "2013-03-17",
+      "num_transactions": 7878,
+      "total_units": 84349
+    },
+    {
+      "date": "2013-03-18",
+      "num_transactions": 5294,
+      "total_units": 44883
+    },
+    {
+      "date": "2013-03-19",
+      "num_transactions": 5510,
+      "total_units": 57186
+    },
+    {
+      "date": "2013-03-20",
+      "num_transactions": 4646,
+      "total_units": 37475
+    },
+    {
+      "date": "2013-03-21",
+      "num_transactions": 5742,
+      "total_units": 49608
+    },
+    {
+      "date": "2013-03-22",
+      "num_transactions": 5077,
+      "total_units": 43817
+    },
+    {
+      "date": "2013-03-23",
+      "num_transactions": 7123,
+      "total_units": 67430
+    },
+    {
+      "date": "2013-03-24",
+      "num_transactions": 6177,
+      "total_units": 57306
+    },
+    {
+      "date": "2013-03-25",
+      "num_transactions": 6056,
+      "total_units": 58466
+    },
+    {
+      "date": "2013-03-26",
+      "num_transactions": 6040,
+      "total_units": 60718
+    },
+    {
+      "date": "2013-03-27",
+      "num_transactions": 7251,
+      "total_units": 68299
+    },
+    {
+      "date": "2013-03-28",
+      "num_transactions": 6897,
+      "total_units": 67808
+    },
+    {
+      "date": "2013-03-29",
+      "num_transactions": 3935,
+      "total_units": 34398
+    },
+    {
+      "date": "2013-03-30",
+      "num_transactions": 6695,
+      "total_units": 68655
+    },
+    {
+      "date": "2013-03-31",
+      "num_transactions": 6815,
+      "total_units": 75206
+    },
+    {
+      "date": "2013-04-01",
+      "num_transactions": 6389,
+      "total_units": 66468
+    },
+    {
+      "date": "2013-04-02",
+      "num_transactions": 6720,
+      "total_units": 82483
+    },
+    {
+      "date": "2013-04-03",
+      "num_transactions": 5611,
+      "total_units": 51476
+    },
+    {
+      "date": "2013-04-04",
+      "num_transactions": 6428,
+      "total_units": 66873
+    },
+    {
+      "date": "2013-04-05",
+      "num_transactions": 5195,
+      "total_units": 44941
+    },
+    {
+      "date": "2013-04-06",
+      "num_transactions": 7125,
+      "total_units": 70462
+    },
+    {
+      "date": "2013-04-07",
+      "num_transactions": 8265,
+      "total_units": 83480
+    },
+    {
+      "date": "2013-04-08",
+      "num_transactions": 5031,
+      "total_units": 42772
+    },
+    {
+      "date": "2013-04-09",
+      "num_transactions": 5561,
+      "total_units": 57709
+    },
+    {
+      "date": "2013-04-10",
+      "num_transactions": 4943,
+      "total_units": 38832
+    },
+    {
+      "date": "2013-04-11",
+      "num_transactions": 5628,
+      "total_units": 50339
+    },
+    {
+      "date": "2013-04-12",
+      "num_transactions": 4774,
+      "total_units": 38870
+    },
+    {
+      "date": "2013-04-13",
+      "num_transactions": 7120,
+      "total_units": 69013
+    },
+    {
+      "date": "2013-04-14",
+      "num_transactions": 7937,
+      "total_units": 80765
+    },
+    {
+      "date": "2013-04-15",
+      "num_transactions": 6006,
+      "total_units": 54842
+    },
+    {
+      "date": "2013-04-16",
+      "num_transactions": 6517,
+      "total_units": 72025
+    },
+    {
+      "date": "2013-04-17",
+      "num_transactions": 4999,
+      "total_units": 42166
+    },
+    {
+      "date": "2013-04-18",
+      "num_transactions": 6260,
+      "total_units": 59647
+    },
+    {
+      "date": "2013-04-19",
+      "num_transactions": 5028,
+      "total_units": 41719
+    },
+    {
+      "date": "2013-04-20",
+      "num_transactions": 6824,
+      "total_units": 64660
+    },
+    {
+      "date": "2013-04-21",
+      "num_transactions": 8126,
+      "total_units": 81710
+    },
+    {
+      "date": "2013-04-22",
+      "num_transactions": 5027,
+      "total_units": 41029
+    },
+    {
+      "date": "2013-04-23",
+      "num_transactions": 4948,
+      "total_units": 51170
+    },
+    {
+      "date": "2013-04-24",
+      "num_transactions": 4776,
+      "total_units": 37670
+    },
+    {
+      "date": "2013-04-25",
+      "num_transactions": 5808,
+      "total_units": 55087
+    },
+    {
+      "date": "2013-04-26",
+      "num_transactions": 5186,
+      "total_units": 45931
+    },
+    {
+      "date": "2013-04-27",
+      "num_transactions": 6921,
+      "total_units": 67959
+    },
+    {
+      "date": "2013-04-28",
+      "num_transactions": 8286,
+      "total_units": 84813
+    },
+    {
+      "date": "2013-04-29",
+      "num_transactions": 4850,
+      "total_units": 42871
+    },
+    {
+      "date": "2013-04-30",
+      "num_transactions": 6343,
+      "total_units": 71435
+    },
+    {
+      "date": "2013-05-01",
+      "num_transactions": 7495,
+      "total_units": 80553
+    },
+    {
+      "date": "2013-05-02",
+      "num_transactions": 5516,
+      "total_units": 57163
+    },
+    {
+      "date": "2013-05-03",
+      "num_transactions": 5913,
+      "total_units": 55966
+    },
+    {
+      "date": "2013-05-04",
+      "num_transactions": 7190,
+      "total_units": 71753
+    },
+    {
+      "date": "2013-05-05",
+      "num_transactions": 7637,
+      "total_units": 80191
+    },
+    {
+      "date": "2013-05-06",
+      "num_transactions": 5431,
+      "total_units": 49039
+    },
+    {
+      "date": "2013-05-07",
+      "num_transactions": 6126,
+      "total_units": 62898
+    },
+    {
+      "date": "2013-05-08",
+      "num_transactions": 5012,
+      "total_units": 37903
+    },
+    {
+      "date": "2013-05-09",
+      "num_transactions": 5880,
+      "total_units": 50655
+    },
+    {
+      "date": "2013-05-10",
+      "num_transactions": 5461,
+      "total_units": 42686
+    },
+    {
+      "date": "2013-05-11",
+      "num_transactions": 8854,
+      "total_units": 73143
+    },
+    {
+      "date": "2013-05-12",
+      "num_transactions": 6527,
+      "total_units": 43431
+    },
+    {
+      "date": "2013-05-13",
+      "num_transactions": 6707,
+      "total_units": 67818
+    },
+    {
+      "date": "2013-05-14",
+      "num_transactions": 5779,
+      "total_units": 58181
+    },
+    {
+      "date": "2013-05-15",
+      "num_transactions": 5171,
+      "total_units": 46335
+    },
+    {
+      "date": "2013-05-16",
+      "num_transactions": 6864,
+      "total_units": 67920
+    },
+    {
+      "date": "2013-05-17",
+      "num_transactions": 5477,
+      "total_units": 47970
+    },
+    {
+      "date": "2013-05-18",
+      "num_transactions": 7104,
+      "total_units": 68298
+    },
+    {
+      "date": "2013-05-19",
+      "num_transactions": 7559,
+      "total_units": 78070
+    },
+    {
+      "date": "2013-05-20",
+      "num_transactions": 4998,
+      "total_units": 42568
+    },
+    {
+      "date": "2013-05-21",
+      "num_transactions": 5944,
+      "total_units": 59585
+    },
+    {
+      "date": "2013-05-22",
+      "num_transactions": 3753,
+      "total_units": 30069
+    },
+    {
+      "date": "2013-05-23",
+      "num_transactions": 5762,
+      "total_units": 51689
+    },
+    {
+      "date": "2013-05-24",
+      "num_transactions": 4799,
+      "total_units": 38803
+    },
+    {
+      "date": "2013-05-25",
+      "num_transactions": 6756,
+      "total_units": 65811
+    },
+    {
+      "date": "2013-05-26",
+      "num_transactions": 6562,
+      "total_units": 66868
+    },
+    {
+      "date": "2013-05-27",
+      "num_transactions": 5544,
+      "total_units": 50995
+    },
+    {
+      "date": "2013-05-28",
+      "num_transactions": 5934,
+      "total_units": 61731
+    },
+    {
+      "date": "2013-05-29",
+      "num_transactions": 4966,
+      "total_units": 41707
+    },
+    {
+      "date": "2013-05-30",
+      "num_transactions": 5574,
+      "total_units": 55151
+    },
+    {
+      "date": "2013-05-31",
+      "num_transactions": 5904,
+      "total_units": 56135
+    },
+    {
+      "date": "2013-06-01",
+      "num_transactions": 8420,
+      "total_units": 92298
+    },
+    {
+      "date": "2013-06-02",
+      "num_transactions": 7319,
+      "total_units": 75562
+    },
+    {
+      "date": "2013-06-03",
+      "num_transactions": 7754,
+      "total_units": 86810
+    },
+    {
+      "date": "2013-06-04",
+      "num_transactions": 6485,
+      "total_units": 72387
+    },
+    {
+      "date": "2013-06-05",
+      "num_transactions": 5470,
+      "total_units": 47419
+    },
+    {
+      "date": "2013-06-06",
+      "num_transactions": 6184,
+      "total_units": 59824
+    },
+    {
+      "date": "2013-06-07",
+      "num_transactions": 5664,
+      "total_units": 44672
+    },
+    {
+      "date": "2013-06-08",
+      "num_transactions": 6917,
+      "total_units": 64052
+    },
+    {
+      "date": "2013-06-09",
+      "num_transactions": 6200,
+      "total_units": 54282
+    },
+    {
+      "date": "2013-06-10",
+      "num_transactions": 6652,
+      "total_units": 63751
+    },
+    {
+      "date": "2013-06-11",
+      "num_transactions": 5571,
+      "total_units": 55087
+    },
+    {
+      "date": "2013-06-12",
+      "num_transactions": 5057,
+      "total_units": 39235
+    },
+    {
+      "date": "2013-06-13",
+      "num_transactions": 5706,
+      "total_units": 49556
+    },
+    {
+      "date": "2013-06-14",
+      "num_transactions": 5658,
+      "total_units": 46338
+    },
+    {
+      "date": "2013-06-15",
+      "num_transactions": 9476,
+      "total_units": 85462
+    },
+    {
+      "date": "2013-06-16",
+      "num_transactions": 8126,
+      "total_units": 71302
+    },
+    {
+      "date": "2013-06-17",
+      "num_transactions": 5988,
+      "total_units": 54810
+    },
+    {
+      "date": "2013-06-18",
+      "num_transactions": 6311,
+      "total_units": 65376
+    },
+    {
+      "date": "2013-06-19",
+      "num_transactions": 5104,
+      "total_units": 42057
+    },
+    {
+      "date": "2013-06-20",
+      "num_transactions": 5957,
+      "total_units": 52472
+    },
+    {
+      "date": "2013-06-21",
+      "num_transactions": 5752,
+      "total_units": 45775
+    },
+    {
+      "date": "2013-06-22",
+      "num_transactions": 6679,
+      "total_units": 61591
+    },
+    {
+      "date": "2013-06-23",
+      "num_transactions": 6965,
+      "total_units": 68266
+    },
+    {
+      "date": "2013-06-24",
+      "num_transactions": 5117,
+      "total_units": 42023
+    },
+    {
+      "date": "2013-06-25",
+      "num_transactions": 5891,
+      "total_units": 62986
+    },
+    {
+      "date": "2013-06-26",
+      "num_transactions": 5322,
+      "total_units": 44511
+    },
+    {
+      "date": "2013-06-27",
+      "num_transactions": 5906,
+      "total_units": 57296
+    },
+    {
+      "date": "2013-06-28",
+      "num_transactions": 6276,
+      "total_units": 54312
+    },
+    {
+      "date": "2013-06-29",
+      "num_transactions": 8156,
+      "total_units": 79412
+    },
+    {
+      "date": "2013-06-30",
+      "num_transactions": 7073,
+      "total_units": 67260
+    }
+  ],
+  "weekly": [
+    {
+      "week_start": "2012-12-31",
+      "num_transactions": 33559,
+      "total_units": 310883
+    },
+    {
+      "week_start": "2013-01-07",
+      "num_transactions": 42281,
+      "total_units": 415482
+    },
+    {
+      "week_start": "2013-01-14",
+      "num_transactions": 44109,
+      "total_units": 426811
+    },
+    {
+      "week_start": "2013-01-21",
+      "num_transactions": 41017,
+      "total_units": 387217
+    },
+    {
+      "week_start": "2013-01-28",
+      "num_transactions": 46828,
+      "total_units": 486668
+    },
+    {
+      "week_start": "2013-02-04",
+      "num_transactions": 42667,
+      "total_units": 406394
+    },
+    {
+      "week_start": "2013-02-11",
+      "num_transactions": 42240,
+      "total_units": 404672
+    },
+    {
+      "week_start": "2013-02-18",
+      "num_transactions": 40300,
+      "total_units": 375233
+    },
+    {
+      "week_start": "2013-02-25",
+      "num_transactions": 45514,
+      "total_units": 469072
+    },
+    {
+      "week_start": "2013-03-04",
+      "num_transactions": 41980,
+      "total_units": 400015
+    },
+    {
+      "week_start": "2013-03-11",
+      "num_transactions": 41247,
+      "total_units": 391605
+    },
+    {
+      "week_start": "2013-03-18",
+      "num_transactions": 39569,
+      "total_units": 357705
+    },
+    {
+      "week_start": "2013-03-25",
+      "num_transactions": 43689,
+      "total_units": 433550
+    },
+    {
+      "week_start": "2013-04-01",
+      "num_transactions": 45733,
+      "total_units": 466183
+    },
+    {
+      "week_start": "2013-04-08",
+      "num_transactions": 40994,
+      "total_units": 378300
+    },
+    {
+      "week_start": "2013-04-15",
+      "num_transactions": 43760,
+      "total_units": 416769
+    },
+    {
+      "week_start": "2013-04-22",
+      "num_transactions": 40952,
+      "total_units": 383659
+    },
+    {
+      "week_start": "2013-04-29",
+      "num_transactions": 44944,
+      "total_units": 459932
+    },
+    {
+      "week_start": "2013-05-06",
+      "num_transactions": 43291,
+      "total_units": 359755
+    },
+    {
+      "week_start": "2013-05-13",
+      "num_transactions": 44661,
+      "total_units": 434592
+    },
+    {
+      "week_start": "2013-05-20",
+      "num_transactions": 38574,
+      "total_units": 355393
+    },
+    {
+      "week_start": "2013-05-27",
+      "num_transactions": 43661,
+      "total_units": 433579
+    },
+    {
+      "week_start": "2013-06-03",
+      "num_transactions": 44674,
+      "total_units": 429446
+    },
+    {
+      "week_start": "2013-06-10",
+      "num_transactions": 46246,
+      "total_units": 410731
+    },
+    {
+      "week_start": "2013-06-17",
+      "num_transactions": 42756,
+      "total_units": 390347
+    },
+    {
+      "week_start": "2013-06-24",
+      "num_transactions": 43741,
+      "total_units": 407800
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2013-01",
+      "num_transactions": 184916,
+      "total_units": 1777635
+    },
+    {
+      "month": "2013-02",
+      "num_transactions": 170771,
+      "total_units": 1652266
+    },
+    {
+      "month": "2013-03",
+      "num_transactions": 189313,
+      "total_units": 1835406
+    },
+    {
+      "month": "2013-04",
+      "num_transactions": 182632,
+      "total_units": 1759217
+    },
+    {
+      "month": "2013-05",
+      "num_transactions": 188199,
+      "total_units": 1761085
+    },
+    {
+      "month": "2013-06",
+      "num_transactions": 193156,
+      "total_units": 1806184
+    }
+  ],
+  "by_store_daily": [
+    {
+      "date": "2013-01-01",
+      "store_id": 102,
+      "num_transactions": 904,
+      "total_units": 5318
+    },
+    {
+      "date": "2013-01-02",
+      "store_id": 102,
+      "num_transactions": 1842,
+      "total_units": 13720
+    },
+    {
+      "date": "2013-01-03",
+      "store_id": 102,
+      "num_transactions": 2163,
+      "total_units": 21396
+    },
+    {
+      "date": "2013-01-04",
+      "store_id": 102,
+      "num_transactions": 1525,
+      "total_units": 11195
+    },
+    {
+      "date": "2013-01-05",
+      "store_id": 102,
+      "num_transactions": 1662,
+      "total_units": 13114
+    },
+    {
+      "date": "2013-01-06",
+      "store_id": 102,
+      "num_transactions": 1464,
+      "total_units": 11351
+    },
+    {
+      "date": "2013-01-07",
+      "store_id": 102,
+      "num_transactions": 1737,
+      "total_units": 14968
+    },
+    {
+      "date": "2013-01-08",
+      "store_id": 102,
+      "num_transactions": 1681,
+      "total_units": 13924
+    },
+    {
+      "date": "2013-01-09",
+      "store_id": 102,
+      "num_transactions": 1721,
+      "total_units": 12814
+    },
+    {
+      "date": "2013-01-10",
+      "store_id": 102,
+      "num_transactions": 2124,
+      "total_units": 21451
+    },
+    {
+      "date": "2013-01-11",
+      "store_id": 102,
+      "num_transactions": 1445,
+      "total_units": 11331
+    },
+    {
+      "date": "2013-01-12",
+      "store_id": 102,
+      "num_transactions": 1718,
+      "total_units": 14136
+    },
+    {
+      "date": "2013-01-13",
+      "store_id": 102,
+      "num_transactions": 2160,
+      "total_units": 18915
+    },
+    {
+      "date": "2013-01-14",
+      "store_id": 102,
+      "num_transactions": 1672,
+      "total_units": 13400
+    },
+    {
+      "date": "2013-01-15",
+      "store_id": 102,
+      "num_transactions": 1600,
+      "total_units": 12402
+    },
+    {
+      "date": "2013-01-16",
+      "store_id": 102,
+      "num_transactions": 1636,
+      "total_units": 12036
+    },
+    {
+      "date": "2013-01-17",
+      "store_id": 102,
+      "num_transactions": 2108,
+      "total_units": 21817
+    },
+    {
+      "date": "2013-01-18",
+      "store_id": 102,
+      "num_transactions": 1341,
+      "total_units": 9586
+    },
+    {
+      "date": "2013-01-19",
+      "store_id": 102,
+      "num_transactions": 1768,
+      "total_units": 15203
+    },
+    {
+      "date": "2013-01-20",
+      "store_id": 102,
+      "num_transactions": 2367,
+      "total_units": 20963
+    },
+    {
+      "date": "2013-01-21",
+      "store_id": 102,
+      "num_transactions": 1595,
+      "total_units": 11652
+    },
+    {
+      "date": "2013-01-22",
+      "store_id": 102,
+      "num_transactions": 1431,
+      "total_units": 10515
+    },
+    {
+      "date": "2013-01-23",
+      "store_id": 102,
+      "num_transactions": 1437,
+      "total_units": 9501
+    },
+    {
+      "date": "2013-01-24",
+      "store_id": 102,
+      "num_transactions": 1898,
+      "total_units": 18964
+    },
+    {
+      "date": "2013-01-25",
+      "store_id": 102,
+      "num_transactions": 1313,
+      "total_units": 9459
+    },
+    {
+      "date": "2013-01-26",
+      "store_id": 102,
+      "num_transactions": 1776,
+      "total_units": 14851
+    },
+    {
+      "date": "2013-01-27",
+      "store_id": 102,
+      "num_transactions": 2306,
+      "total_units": 20129
+    },
+    {
+      "date": "2013-01-28",
+      "store_id": 102,
+      "num_transactions": 1510,
+      "total_units": 11782
+    },
+    {
+      "date": "2013-01-29",
+      "store_id": 102,
+      "num_transactions": 1326,
+      "total_units": 9670
+    },
+    {
+      "date": "2013-01-30",
+      "store_id": 102,
+      "num_transactions": 1475,
+      "total_units": 10747
+    },
+    {
+      "date": "2013-01-31",
+      "store_id": 102,
+      "num_transactions": 2255,
+      "total_units": 23752
+    },
+    {
+      "date": "2013-02-01",
+      "store_id": 102,
+      "num_transactions": 1586,
+      "total_units": 11916
+    },
+    {
+      "date": "2013-02-02",
+      "store_id": 102,
+      "num_transactions": 1937,
+      "total_units": 17906
+    },
+    {
+      "date": "2013-02-03",
+      "store_id": 102,
+      "num_transactions": 2478,
+      "total_units": 23426
+    },
+    {
+      "date": "2013-02-04",
+      "store_id": 102,
+      "num_transactions": 1545,
+      "total_units": 12484
+    },
+    {
+      "date": "2013-02-05",
+      "store_id": 102,
+      "num_transactions": 1548,
+      "total_units": 11332
+    },
+    {
+      "date": "2013-02-06",
+      "store_id": 102,
+      "num_transactions": 1302,
+      "total_units": 9370
+    },
+    {
+      "date": "2013-02-07",
+      "store_id": 102,
+      "num_transactions": 2082,
+      "total_units": 20670
+    },
+    {
+      "date": "2013-02-08",
+      "store_id": 102,
+      "num_transactions": 1206,
+      "total_units": 8809
+    },
+    {
+      "date": "2013-02-09",
+      "store_id": 102,
+      "num_transactions": 1708,
+      "total_units": 13214
+    },
+    {
+      "date": "2013-02-10",
+      "store_id": 102,
+      "num_transactions": 2368,
+      "total_units": 20203
+    },
+    {
+      "date": "2013-02-11",
+      "store_id": 102,
+      "num_transactions": 1327,
+      "total_units": 10156
+    },
+    {
+      "date": "2013-02-12",
+      "store_id": 102,
+      "num_transactions": 1273,
+      "total_units": 9389
+    },
+    {
+      "date": "2013-02-13",
+      "store_id": 102,
+      "num_transactions": 1499,
+      "total_units": 9991
+    },
+    {
+      "date": "2013-02-14",
+      "store_id": 102,
+      "num_transactions": 2043,
+      "total_units": 19817
+    },
+    {
+      "date": "2013-02-15",
+      "store_id": 102,
+      "num_transactions": 1382,
+      "total_units": 9777
+    },
+    {
+      "date": "2013-02-16",
+      "store_id": 102,
+      "num_transactions": 1933,
+      "total_units": 16602
+    },
+    {
+      "date": "2013-02-17",
+      "store_id": 102,
+      "num_transactions": 2427,
+      "total_units": 22716
+    },
+    {
+      "date": "2013-02-18",
+      "store_id": 102,
+      "num_transactions": 1599,
+      "total_units": 12202
+    },
+    {
+      "date": "2013-02-19",
+      "store_id": 102,
+      "num_transactions": 1343,
+      "total_units": 9685
+    },
+    {
+      "date": "2013-02-20",
+      "store_id": 102,
+      "num_transactions": 1345,
+      "total_units": 9423
+    },
+    {
+      "date": "2013-02-21",
+      "store_id": 102,
+      "num_transactions": 2017,
+      "total_units": 19493
+    },
+    {
+      "date": "2013-02-22",
+      "store_id": 102,
+      "num_transactions": 1212,
+      "total_units": 8111
+    },
+    {
+      "date": "2013-02-23",
+      "store_id": 102,
+      "num_transactions": 1649,
+      "total_units": 13912
+    },
+    {
+      "date": "2013-02-24",
+      "store_id": 102,
+      "num_transactions": 2310,
+      "total_units": 20374
+    },
+    {
+      "date": "2013-02-25",
+      "store_id": 102,
+      "num_transactions": 1495,
+      "total_units": 11189
+    },
+    {
+      "date": "2013-02-26",
+      "store_id": 102,
+      "num_transactions": 1429,
+      "total_units": 10588
+    },
+    {
+      "date": "2013-02-27",
+      "store_id": 102,
+      "num_transactions": 1422,
+      "total_units": 9752
+    },
+    {
+      "date": "2013-02-28",
+      "store_id": 102,
+      "num_transactions": 2189,
+      "total_units": 21905
+    },
+    {
+      "date": "2013-03-01",
+      "store_id": 102,
+      "num_transactions": 1585,
+      "total_units": 12162
+    },
+    {
+      "date": "2013-03-02",
+      "store_id": 102,
+      "num_transactions": 2005,
+      "total_units": 18165
+    },
+    {
+      "date": "2013-03-03",
+      "store_id": 102,
+      "num_transactions": 2522,
+      "total_units": 24393
+    },
+    {
+      "date": "2013-03-04",
+      "store_id": 102,
+      "num_transactions": 1557,
+      "total_units": 12773
+    },
+    {
+      "date": "2013-03-05",
+      "store_id": 102,
+      "num_transactions": 1491,
+      "total_units": 11290
+    },
+    {
+      "date": "2013-03-06",
+      "store_id": 102,
+      "num_transactions": 1389,
+      "total_units": 9925
+    },
+    {
+      "date": "2013-03-07",
+      "store_id": 102,
+      "num_transactions": 2166,
+      "total_units": 20015
+    },
+    {
+      "date": "2013-03-08",
+      "store_id": 102,
+      "num_transactions": 1236,
+      "total_units": 8215
+    },
+    {
+      "date": "2013-03-09",
+      "store_id": 102,
+      "num_transactions": 1679,
+      "total_units": 13486
+    },
+    {
+      "date": "2013-03-10",
+      "store_id": 102,
+      "num_transactions": 2340,
+      "total_units": 19866
+    },
+    {
+      "date": "2013-03-11",
+      "store_id": 102,
+      "num_transactions": 1520,
+      "total_units": 11081
+    },
+    {
+      "date": "2013-03-12",
+      "store_id": 102,
+      "num_transactions": 1390,
+      "total_units": 9848
+    },
+    {
+      "date": "2013-03-13",
+      "store_id": 102,
+      "num_transactions": 1322,
+      "total_units": 8394
+    },
+    {
+      "date": "2013-03-14",
+      "store_id": 102,
+      "num_transactions": 1964,
+      "total_units": 19082
+    },
+    {
+      "date": "2013-03-15",
+      "store_id": 102,
+      "num_transactions": 1358,
+      "total_units": 9781
+    },
+    {
+      "date": "2013-03-16",
+      "store_id": 102,
+      "num_transactions": 1798,
+      "total_units": 15810
+    },
+    {
+      "date": "2013-03-17",
+      "store_id": 102,
+      "num_transactions": 2453,
+      "total_units": 22446
+    },
+    {
+      "date": "2013-03-18",
+      "store_id": 102,
+      "num_transactions": 1538,
+      "total_units": 11691
+    },
+    {
+      "date": "2013-03-19",
+      "store_id": 102,
+      "num_transactions": 1434,
+      "total_units": 10064
+    },
+    {
+      "date": "2013-03-20",
+      "store_id": 102,
+      "num_transactions": 1314,
+      "total_units": 9137
+    },
+    {
+      "date": "2013-03-21",
+      "store_id": 102,
+      "num_transactions": 1977,
+      "total_units": 18500
+    },
+    {
+      "date": "2013-03-22",
+      "store_id": 102,
+      "num_transactions": 1311,
+      "total_units": 9160
+    },
+    {
+      "date": "2013-03-23",
+      "store_id": 102,
+      "num_transactions": 1860,
+      "total_units": 13994
+    },
+    {
+      "date": "2013-03-24",
+      "store_id": 102,
+      "num_transactions": 1862,
+      "total_units": 13901
+    },
+    {
+      "date": "2013-03-25",
+      "store_id": 102,
+      "num_transactions": 1840,
+      "total_units": 15140
+    },
+    {
+      "date": "2013-03-26",
+      "store_id": 102,
+      "num_transactions": 1579,
+      "total_units": 11024
+    },
+    {
+      "date": "2013-03-27",
+      "store_id": 102,
+      "num_transactions": 1982,
+      "total_units": 14723
+    },
+    {
+      "date": "2013-03-28",
+      "store_id": 102,
+      "num_transactions": 2077,
+      "total_units": 17174
+    },
+    {
+      "date": "2013-03-29",
+      "store_id": 102,
+      "num_transactions": 1215,
+      "total_units": 8843
+    },
+    {
+      "date": "2013-03-30",
+      "store_id": 102,
+      "num_transactions": 1673,
+      "total_units": 13218
+    },
+    {
+      "date": "2013-03-31",
+      "store_id": 102,
+      "num_transactions": 2227,
+      "total_units": 20420
+    },
+    {
+      "date": "2013-04-01",
+      "store_id": 102,
+      "num_transactions": 1907,
+      "total_units": 17078
+    },
+    {
+      "date": "2013-04-02",
+      "store_id": 102,
+      "num_transactions": 1663,
+      "total_units": 13864
+    },
+    {
+      "date": "2013-04-03",
+      "store_id": 102,
+      "num_transactions": 1569,
+      "total_units": 11754
+    },
+    {
+      "date": "2013-04-04",
+      "store_id": 102,
+      "num_transactions": 2273,
+      "total_units": 24406
+    },
+    {
+      "date": "2013-04-05",
+      "store_id": 102,
+      "num_transactions": 1318,
+      "total_units": 9158
+    },
+    {
+      "date": "2013-04-06",
+      "store_id": 102,
+      "num_transactions": 1838,
+      "total_units": 15068
+    },
+    {
+      "date": "2013-04-07",
+      "store_id": 102,
+      "num_transactions": 2493,
+      "total_units": 21839
+    },
+    {
+      "date": "2013-04-08",
+      "store_id": 102,
+      "num_transactions": 1489,
+      "total_units": 11327
+    },
+    {
+      "date": "2013-04-09",
+      "store_id": 102,
+      "num_transactions": 1378,
+      "total_units": 9837
+    },
+    {
+      "date": "2013-04-10",
+      "store_id": 102,
+      "num_transactions": 1396,
+      "total_units": 9183
+    },
+    {
+      "date": "2013-04-11",
+      "store_id": 102,
+      "num_transactions": 1976,
+      "total_units": 18292
+    },
+    {
+      "date": "2013-04-12",
+      "store_id": 102,
+      "num_transactions": 1322,
+      "total_units": 8578
+    },
+    {
+      "date": "2013-04-13",
+      "store_id": 102,
+      "num_transactions": 1893,
+      "total_units": 15284
+    },
+    {
+      "date": "2013-04-14",
+      "store_id": 102,
+      "num_transactions": 2439,
+      "total_units": 21460
+    },
+    {
+      "date": "2013-04-15",
+      "store_id": 102,
+      "num_transactions": 1783,
+      "total_units": 14247
+    },
+    {
+      "date": "2013-04-16",
+      "store_id": 102,
+      "num_transactions": 1589,
+      "total_units": 12445
+    },
+    {
+      "date": "2013-04-17",
+      "store_id": 102,
+      "num_transactions": 1367,
+      "total_units": 9776
+    },
+    {
+      "date": "2013-04-18",
+      "store_id": 102,
+      "num_transactions": 2141,
+      "total_units": 21695
+    },
+    {
+      "date": "2013-04-19",
+      "store_id": 102,
+      "num_transactions": 1322,
+      "total_units": 8938
+    },
+    {
+      "date": "2013-04-20",
+      "store_id": 102,
+      "num_transactions": 1780,
+      "total_units": 14329
+    },
+    {
+      "date": "2013-04-21",
+      "store_id": 102,
+      "num_transactions": 2536,
+      "total_units": 22403
+    },
+    {
+      "date": "2013-04-22",
+      "store_id": 102,
+      "num_transactions": 1487,
+      "total_units": 10950
+    },
+    {
+      "date": "2013-04-23",
+      "store_id": 102,
+      "num_transactions": 1255,
+      "total_units": 8670
+    },
+    {
+      "date": "2013-04-24",
+      "store_id": 102,
+      "num_transactions": 1457,
+      "total_units": 9653
+    },
+    {
+      "date": "2013-04-25",
+      "store_id": 102,
+      "num_transactions": 1984,
+      "total_units": 19429
+    },
+    {
+      "date": "2013-04-26",
+      "store_id": 102,
+      "num_transactions": 1298,
+      "total_units": 9028
+    },
+    {
+      "date": "2013-04-27",
+      "store_id": 102,
+      "num_transactions": 1803,
+      "total_units": 14623
+    },
+    {
+      "date": "2013-04-28",
+      "store_id": 102,
+      "num_transactions": 2573,
+      "total_units": 22668
+    },
+    {
+      "date": "2013-04-29",
+      "store_id": 102,
+      "num_transactions": 1415,
+      "total_units": 10719
+    },
+    {
+      "date": "2013-04-30",
+      "store_id": 102,
+      "num_transactions": 1508,
+      "total_units": 11390
+    },
+    {
+      "date": "2013-05-01",
+      "store_id": 102,
+      "num_transactions": 2439,
+      "total_units": 21879
+    },
+    {
+      "date": "2013-05-02",
+      "store_id": 102,
+      "num_transactions": 2260,
+      "total_units": 23188
+    },
+    {
+      "date": "2013-05-03",
+      "store_id": 102,
+      "num_transactions": 1504,
+      "total_units": 10872
+    },
+    {
+      "date": "2013-05-04",
+      "store_id": 102,
+      "num_transactions": 1877,
+      "total_units": 15392
+    },
+    {
+      "date": "2013-05-05",
+      "store_id": 102,
+      "num_transactions": 2387,
+      "total_units": 20741
+    },
+    {
+      "date": "2013-05-06",
+      "store_id": 102,
+      "num_transactions": 1559,
+      "total_units": 12512
+    },
+    {
+      "date": "2013-05-07",
+      "store_id": 102,
+      "num_transactions": 1482,
+      "total_units": 10679
+    },
+    {
+      "date": "2013-05-08",
+      "store_id": 102,
+      "num_transactions": 1410,
+      "total_units": 9176
+    },
+    {
+      "date": "2013-05-09",
+      "store_id": 102,
+      "num_transactions": 2050,
+      "total_units": 18802
+    },
+    {
+      "date": "2013-05-10",
+      "store_id": 102,
+      "num_transactions": 1393,
+      "total_units": 8881
+    },
+    {
+      "date": "2013-05-11",
+      "store_id": 102,
+      "num_transactions": 2214,
+      "total_units": 15452
+    },
+    {
+      "date": "2013-05-12",
+      "store_id": 102,
+      "num_transactions": 1744,
+      "total_units": 10401
+    },
+    {
+      "date": "2013-05-13",
+      "store_id": 102,
+      "num_transactions": 2140,
+      "total_units": 18654
+    },
+    {
+      "date": "2013-05-14",
+      "store_id": 102,
+      "num_transactions": 1516,
+      "total_units": 11182
+    },
+    {
+      "date": "2013-05-15",
+      "store_id": 102,
+      "num_transactions": 1536,
+      "total_units": 11379
+    },
+    {
+      "date": "2013-05-16",
+      "store_id": 102,
+      "num_transactions": 2251,
+      "total_units": 23020
+    },
+    {
+      "date": "2013-05-17",
+      "store_id": 102,
+      "num_transactions": 1400,
+      "total_units": 10416
+    },
+    {
+      "date": "2013-05-18",
+      "store_id": 102,
+      "num_transactions": 1837,
+      "total_units": 15072
+    },
+    {
+      "date": "2013-05-19",
+      "store_id": 102,
+      "num_transactions": 2379,
+      "total_units": 20558
+    },
+    {
+      "date": "2013-05-20",
+      "store_id": 102,
+      "num_transactions": 1512,
+      "total_units": 11594
+    },
+    {
+      "date": "2013-05-21",
+      "store_id": 102,
+      "num_transactions": 1454,
+      "total_units": 10161
+    },
+    {
+      "date": "2013-05-22",
+      "store_id": 102,
+      "num_transactions": 579,
+      "total_units": 4054
+    },
+    {
+      "date": "2013-05-23",
+      "store_id": 102,
+      "num_transactions": 2048,
+      "total_units": 19714
+    },
+    {
+      "date": "2013-05-24",
+      "store_id": 102,
+      "num_transactions": 1257,
+      "total_units": 8233
+    },
+    {
+      "date": "2013-05-25",
+      "store_id": 102,
+      "num_transactions": 1760,
+      "total_units": 14170
+    },
+    {
+      "date": "2013-05-26",
+      "store_id": 102,
+      "num_transactions": 2066,
+      "total_units": 17794
+    },
+    {
+      "date": "2013-05-27",
+      "store_id": 102,
+      "num_transactions": 1648,
+      "total_units": 12705
+    },
+    {
+      "date": "2013-05-28",
+      "store_id": 102,
+      "num_transactions": 1424,
+      "total_units": 9797
+    },
+    {
+      "date": "2013-05-29",
+      "store_id": 102,
+      "num_transactions": 1310,
+      "total_units": 8968
+    },
+    {
+      "date": "2013-05-30",
+      "store_id": 102,
+      "num_transactions": 2148,
+      "total_units": 20899
+    },
+    {
+      "date": "2013-05-31",
+      "store_id": 102,
+      "num_transactions": 1446,
+      "total_units": 10917
+    },
+    {
+      "date": "2013-06-01",
+      "store_id": 102,
+      "num_transactions": 2066,
+      "total_units": 17892
+    },
+    {
+      "date": "2013-06-02",
+      "store_id": 102,
+      "num_transactions": 2012,
+      "total_units": 17426
+    },
+    {
+      "date": "2013-06-03",
+      "store_id": 102,
+      "num_transactions": 2300,
+      "total_units": 21957
+    },
+    {
+      "date": "2013-06-04",
+      "store_id": 102,
+      "num_transactions": 1666,
+      "total_units": 13035
+    },
+    {
+      "date": "2013-06-05",
+      "store_id": 102,
+      "num_transactions": 1553,
+      "total_units": 11534
+    },
+    {
+      "date": "2013-06-06",
+      "store_id": 102,
+      "num_transactions": 2146,
+      "total_units": 21023
+    },
+    {
+      "date": "2013-06-07",
+      "store_id": 102,
+      "num_transactions": 1402,
+      "total_units": 9010
+    },
+    {
+      "date": "2013-06-08",
+      "store_id": 102,
+      "num_transactions": 1764,
+      "total_units": 13576
+    },
+    {
+      "date": "2013-06-09",
+      "store_id": 102,
+      "num_transactions": 1719,
+      "total_units": 13060
+    },
+    {
+      "date": "2013-06-10",
+      "store_id": 102,
+      "num_transactions": 2070,
+      "total_units": 16968
+    },
+    {
+      "date": "2013-06-11",
+      "store_id": 102,
+      "num_transactions": 1491,
+      "total_units": 10630
+    },
+    {
+      "date": "2013-06-12",
+      "store_id": 102,
+      "num_transactions": 1442,
+      "total_units": 9179
+    },
+    {
+      "date": "2013-06-13",
+      "store_id": 102,
+      "num_transactions": 2057,
+      "total_units": 19241
+    },
+    {
+      "date": "2013-06-14",
+      "store_id": 102,
+      "num_transactions": 1405,
+      "total_units": 9664
+    },
+    {
+      "date": "2013-06-15",
+      "store_id": 102,
+      "num_transactions": 2300,
+      "total_units": 16786
+    },
+    {
+      "date": "2013-06-16",
+      "store_id": 102,
+      "num_transactions": 2228,
+      "total_units": 16767
+    },
+    {
+      "date": "2013-06-17",
+      "store_id": 102,
+      "num_transactions": 1743,
+      "total_units": 14002
+    },
+    {
+      "date": "2013-06-18",
+      "store_id": 102,
+      "num_transactions": 1633,
+      "total_units": 11937
+    },
+    {
+      "date": "2013-06-19",
+      "store_id": 102,
+      "num_transactions": 1449,
+      "total_units": 9866
+    },
+    {
+      "date": "2013-06-20",
+      "store_id": 102,
+      "num_transactions": 2125,
+      "total_units": 20228
+    },
+    {
+      "date": "2013-06-21",
+      "store_id": 102,
+      "num_transactions": 1438,
+      "total_units": 9811
+    },
+    {
+      "date": "2013-06-22",
+      "store_id": 102,
+      "num_transactions": 1725,
+      "total_units": 13349
+    },
+    {
+      "date": "2013-06-23",
+      "store_id": 102,
+      "num_transactions": 2174,
+      "total_units": 18523
+    },
+    {
+      "date": "2013-06-24",
+      "store_id": 102,
+      "num_transactions": 1494,
+      "total_units": 11061
+    },
+    {
+      "date": "2013-06-25",
+      "store_id": 102,
+      "num_transactions": 1514,
+      "total_units": 11397
+    },
+    {
+      "date": "2013-06-26",
+      "store_id": 102,
+      "num_transactions": 1410,
+      "total_units": 9852
+    },
+    {
+      "date": "2013-06-27",
+      "store_id": 102,
+      "num_transactions": 2023,
+      "total_units": 19798
+    },
+    {
+      "date": "2013-06-28",
+      "store_id": 102,
+      "num_transactions": 1549,
+      "total_units": 10789
+    },
+    {
+      "date": "2013-06-29",
+      "store_id": 102,
+      "num_transactions": 1961,
+      "total_units": 15563
+    },
+    {
+      "date": "2013-06-30",
+      "store_id": 102,
+      "num_transactions": 1867,
+      "total_units": 14855
+    },
+    {
+      "date": "2013-01-01",
+      "store_id": 103,
+      "num_transactions": 1143,
+      "total_units": 10243
+    },
+    {
+      "date": "2013-01-02",
+      "store_id": 103,
+      "num_transactions": 2479,
+      "total_units": 25448
+    },
+    {
+      "date": "2013-01-03",
+      "store_id": 103,
+      "num_transactions": 2132,
+      "total_units": 21522
+    },
+    {
+      "date": "2013-01-04",
+      "store_id": 103,
+      "num_transactions": 2129,
+      "total_units": 20327
+    },
+    {
+      "date": "2013-01-05",
+      "store_id": 103,
+      "num_transactions": 2307,
+      "total_units": 24362
+    },
+    {
+      "date": "2013-01-06",
+      "store_id": 103,
+      "num_transactions": 2003,
+      "total_units": 19503
+    },
+    {
+      "date": "2013-01-07",
+      "store_id": 103,
+      "num_transactions": 2413,
+      "total_units": 25988
+    },
+    {
+      "date": "2013-01-08",
+      "store_id": 103,
+      "num_transactions": 2643,
+      "total_units": 37273
+    },
+    {
+      "date": "2013-01-09",
+      "store_id": 103,
+      "num_transactions": 1988,
+      "total_units": 20533
+    },
+    {
+      "date": "2013-01-10",
+      "store_id": 103,
+      "num_transactions": 1954,
+      "total_units": 19806
+    },
+    {
+      "date": "2013-01-11",
+      "store_id": 103,
+      "num_transactions": 1855,
+      "total_units": 17049
+    },
+    {
+      "date": "2013-01-12",
+      "store_id": 103,
+      "num_transactions": 2479,
+      "total_units": 26925
+    },
+    {
+      "date": "2013-01-13",
+      "store_id": 103,
+      "num_transactions": 2622,
+      "total_units": 30331
+    },
+    {
+      "date": "2013-01-14",
+      "store_id": 103,
+      "num_transactions": 2239,
+      "total_units": 20036
+    },
+    {
+      "date": "2013-01-15",
+      "store_id": 103,
+      "num_transactions": 2655,
+      "total_units": 36891
+    },
+    {
+      "date": "2013-01-16",
+      "store_id": 103,
+      "num_transactions": 2179,
+      "total_units": 21375
+    },
+    {
+      "date": "2013-01-17",
+      "store_id": 103,
+      "num_transactions": 1921,
+      "total_units": 17581
+    },
+    {
+      "date": "2013-01-18",
+      "store_id": 103,
+      "num_transactions": 1800,
+      "total_units": 16125
+    },
+    {
+      "date": "2013-01-19",
+      "store_id": 103,
+      "num_transactions": 2696,
+      "total_units": 28227
+    },
+    {
+      "date": "2013-01-20",
+      "store_id": 103,
+      "num_transactions": 2807,
+      "total_units": 31944
+    },
+    {
+      "date": "2013-01-21",
+      "store_id": 103,
+      "num_transactions": 2201,
+      "total_units": 19204
+    },
+    {
+      "date": "2013-01-22",
+      "store_id": 103,
+      "num_transactions": 2463,
+      "total_units": 33225
+    },
+    {
+      "date": "2013-01-23",
+      "store_id": 103,
+      "num_transactions": 1843,
+      "total_units": 15844
+    },
+    {
+      "date": "2013-01-24",
+      "store_id": 103,
+      "num_transactions": 1709,
+      "total_units": 14299
+    },
+    {
+      "date": "2013-01-25",
+      "store_id": 103,
+      "num_transactions": 1807,
+      "total_units": 15636
+    },
+    {
+      "date": "2013-01-26",
+      "store_id": 103,
+      "num_transactions": 2600,
+      "total_units": 27073
+    },
+    {
+      "date": "2013-01-27",
+      "store_id": 103,
+      "num_transactions": 2825,
+      "total_units": 32937
+    },
+    {
+      "date": "2013-01-28",
+      "store_id": 103,
+      "num_transactions": 2164,
+      "total_units": 20047
+    },
+    {
+      "date": "2013-01-29",
+      "store_id": 103,
+      "num_transactions": 2489,
+      "total_units": 33377
+    },
+    {
+      "date": "2013-01-30",
+      "store_id": 103,
+      "num_transactions": 2084,
+      "total_units": 19738
+    },
+    {
+      "date": "2013-01-31",
+      "store_id": 103,
+      "num_transactions": 2114,
+      "total_units": 20297
+    },
+    {
+      "date": "2013-02-01",
+      "store_id": 103,
+      "num_transactions": 2141,
+      "total_units": 21529
+    },
+    {
+      "date": "2013-02-02",
+      "store_id": 103,
+      "num_transactions": 2869,
+      "total_units": 32834
+    },
+    {
+      "date": "2013-02-03",
+      "store_id": 103,
+      "num_transactions": 3246,
+      "total_units": 39736
+    },
+    {
+      "date": "2013-02-04",
+      "store_id": 103,
+      "num_transactions": 2063,
+      "total_units": 20181
+    },
+    {
+      "date": "2013-02-05",
+      "store_id": 103,
+      "num_transactions": 2543,
+      "total_units": 37018
+    },
+    {
+      "date": "2013-02-06",
+      "store_id": 103,
+      "num_transactions": 1887,
+      "total_units": 17680
+    },
+    {
+      "date": "2013-02-07",
+      "store_id": 103,
+      "num_transactions": 1947,
+      "total_units": 15640
+    },
+    {
+      "date": "2013-02-08",
+      "store_id": 103,
+      "num_transactions": 1659,
+      "total_units": 14708
+    },
+    {
+      "date": "2013-02-09",
+      "store_id": 103,
+      "num_transactions": 2552,
+      "total_units": 26059
+    },
+    {
+      "date": "2013-02-10",
+      "store_id": 103,
+      "num_transactions": 2885,
+      "total_units": 31718
+    },
+    {
+      "date": "2013-02-11",
+      "store_id": 103,
+      "num_transactions": 1820,
+      "total_units": 15953
+    },
+    {
+      "date": "2013-02-12",
+      "store_id": 103,
+      "num_transactions": 2362,
+      "total_units": 31206
+    },
+    {
+      "date": "2013-02-13",
+      "store_id": 103,
+      "num_transactions": 1859,
+      "total_units": 16183
+    },
+    {
+      "date": "2013-02-14",
+      "store_id": 103,
+      "num_transactions": 1907,
+      "total_units": 15609
+    },
+    {
+      "date": "2013-02-15",
+      "store_id": 103,
+      "num_transactions": 1852,
+      "total_units": 16505
+    },
+    {
+      "date": "2013-02-16",
+      "store_id": 103,
+      "num_transactions": 2731,
+      "total_units": 30237
+    },
+    {
+      "date": "2013-02-17",
+      "store_id": 103,
+      "num_transactions": 2832,
+      "total_units": 33814
+    },
+    {
+      "date": "2013-02-18",
+      "store_id": 103,
+      "num_transactions": 1934,
+      "total_units": 17511
+    },
+    {
+      "date": "2013-02-19",
+      "store_id": 103,
+      "num_transactions": 2474,
+      "total_units": 35259
+    },
+    {
+      "date": "2013-02-20",
+      "store_id": 103,
+      "num_transactions": 1824,
+      "total_units": 16001
+    },
+    {
+      "date": "2013-02-21",
+      "store_id": 103,
+      "num_transactions": 1871,
+      "total_units": 15186
+    },
+    {
+      "date": "2013-02-22",
+      "store_id": 103,
+      "num_transactions": 1664,
+      "total_units": 14215
+    },
+    {
+      "date": "2013-02-23",
+      "store_id": 103,
+      "num_transactions": 2405,
+      "total_units": 25221
+    },
+    {
+      "date": "2013-02-24",
+      "store_id": 103,
+      "num_transactions": 2661,
+      "total_units": 30002
+    },
+    {
+      "date": "2013-02-25",
+      "store_id": 103,
+      "num_transactions": 1842,
+      "total_units": 16288
+    },
+    {
+      "date": "2013-02-26",
+      "store_id": 103,
+      "num_transactions": 2402,
+      "total_units": 32813
+    },
+    {
+      "date": "2013-02-27",
+      "store_id": 103,
+      "num_transactions": 1803,
+      "total_units": 17142
+    },
+    {
+      "date": "2013-02-28",
+      "store_id": 103,
+      "num_transactions": 2077,
+      "total_units": 17752
+    },
+    {
+      "date": "2013-03-01",
+      "store_id": 103,
+      "num_transactions": 2030,
+      "total_units": 19874
+    },
+    {
+      "date": "2013-03-02",
+      "store_id": 103,
+      "num_transactions": 2904,
+      "total_units": 34295
+    },
+    {
+      "date": "2013-03-03",
+      "store_id": 103,
+      "num_transactions": 3085,
+      "total_units": 38180
+    },
+    {
+      "date": "2013-03-04",
+      "store_id": 103,
+      "num_transactions": 1913,
+      "total_units": 19652
+    },
+    {
+      "date": "2013-03-05",
+      "store_id": 103,
+      "num_transactions": 2543,
+      "total_units": 37247
+    },
+    {
+      "date": "2013-03-06",
+      "store_id": 103,
+      "num_transactions": 1889,
+      "total_units": 17831
+    },
+    {
+      "date": "2013-03-07",
+      "store_id": 103,
+      "num_transactions": 2114,
+      "total_units": 16315
+    },
+    {
+      "date": "2013-03-08",
+      "store_id": 103,
+      "num_transactions": 1671,
+      "total_units": 14238
+    },
+    {
+      "date": "2013-03-09",
+      "store_id": 103,
+      "num_transactions": 2436,
+      "total_units": 25170
+    },
+    {
+      "date": "2013-03-10",
+      "store_id": 103,
+      "num_transactions": 2707,
+      "total_units": 31005
+    },
+    {
+      "date": "2013-03-11",
+      "store_id": 103,
+      "num_transactions": 1744,
+      "total_units": 16469
+    },
+    {
+      "date": "2013-03-12",
+      "store_id": 103,
+      "num_transactions": 2393,
+      "total_units": 32109
+    },
+    {
+      "date": "2013-03-13",
+      "store_id": 103,
+      "num_transactions": 1688,
+      "total_units": 15051
+    },
+    {
+      "date": "2013-03-14",
+      "store_id": 103,
+      "num_transactions": 1855,
+      "total_units": 14871
+    },
+    {
+      "date": "2013-03-15",
+      "store_id": 103,
+      "num_transactions": 1759,
+      "total_units": 15867
+    },
+    {
+      "date": "2013-03-16",
+      "store_id": 103,
+      "num_transactions": 2663,
+      "total_units": 28288
+    },
+    {
+      "date": "2013-03-17",
+      "store_id": 103,
+      "num_transactions": 2923,
+      "total_units": 34238
+    },
+    {
+      "date": "2013-03-18",
+      "store_id": 103,
+      "num_transactions": 1809,
+      "total_units": 16428
+    },
+    {
+      "date": "2013-03-19",
+      "store_id": 103,
+      "num_transactions": 2323,
+      "total_units": 31226
+    },
+    {
+      "date": "2013-03-20",
+      "store_id": 103,
+      "num_transactions": 1787,
+      "total_units": 15972
+    },
+    {
+      "date": "2013-03-21",
+      "store_id": 103,
+      "num_transactions": 1864,
+      "total_units": 14312
+    },
+    {
+      "date": "2013-03-22",
+      "store_id": 103,
+      "num_transactions": 1714,
+      "total_units": 15402
+    },
+    {
+      "date": "2013-03-23",
+      "store_id": 103,
+      "num_transactions": 2658,
+      "total_units": 26141
+    },
+    {
+      "date": "2013-03-24",
+      "store_id": 103,
+      "num_transactions": 2204,
+      "total_units": 22816
+    },
+    {
+      "date": "2013-03-25",
+      "store_id": 103,
+      "num_transactions": 2138,
+      "total_units": 22097
+    },
+    {
+      "date": "2013-03-26",
+      "store_id": 103,
+      "num_transactions": 2355,
+      "total_units": 27864
+    },
+    {
+      "date": "2013-03-27",
+      "store_id": 103,
+      "num_transactions": 2539,
+      "total_units": 25245
+    },
+    {
+      "date": "2013-03-28",
+      "store_id": 103,
+      "num_transactions": 2057,
+      "total_units": 19746
+    },
+    {
+      "date": "2013-03-29",
+      "store_id": 103,
+      "num_transactions": 1346,
+      "total_units": 12524
+    },
+    {
+      "date": "2013-03-30",
+      "store_id": 103,
+      "num_transactions": 2267,
+      "total_units": 24306
+    },
+    {
+      "date": "2013-03-31",
+      "store_id": 103,
+      "num_transactions": 2544,
+      "total_units": 31692
+    },
+    {
+      "date": "2013-04-01",
+      "store_id": 103,
+      "num_transactions": 2237,
+      "total_units": 25620
+    },
+    {
+      "date": "2013-04-02",
+      "store_id": 103,
+      "num_transactions": 2797,
+      "total_units": 43404
+    },
+    {
+      "date": "2013-04-03",
+      "store_id": 103,
+      "num_transactions": 2014,
+      "total_units": 20547
+    },
+    {
+      "date": "2013-04-04",
+      "store_id": 103,
+      "num_transactions": 1822,
+      "total_units": 16865
+    },
+    {
+      "date": "2013-04-05",
+      "store_id": 103,
+      "num_transactions": 1736,
+      "total_units": 15728
+    },
+    {
+      "date": "2013-04-06",
+      "store_id": 103,
+      "num_transactions": 2636,
+      "total_units": 28430
+    },
+    {
+      "date": "2013-04-07",
+      "store_id": 103,
+      "num_transactions": 3229,
+      "total_units": 36374
+    },
+    {
+      "date": "2013-04-08",
+      "store_id": 103,
+      "num_transactions": 1816,
+      "total_units": 16595
+    },
+    {
+      "date": "2013-04-09",
+      "store_id": 103,
+      "num_transactions": 2400,
+      "total_units": 32397
+    },
+    {
+      "date": "2013-04-10",
+      "store_id": 103,
+      "num_transactions": 1890,
+      "total_units": 16426
+    },
+    {
+      "date": "2013-04-11",
+      "store_id": 103,
+      "num_transactions": 1758,
+      "total_units": 15160
+    },
+    {
+      "date": "2013-04-12",
+      "store_id": 103,
+      "num_transactions": 1617,
+      "total_units": 13965
+    },
+    {
+      "date": "2013-04-13",
+      "store_id": 103,
+      "num_transactions": 2663,
+      "total_units": 27271
+    },
+    {
+      "date": "2013-04-14",
+      "store_id": 103,
+      "num_transactions": 3181,
+      "total_units": 35511
+    },
+    {
+      "date": "2013-04-15",
+      "store_id": 103,
+      "num_transactions": 2044,
+      "total_units": 20625
+    },
+    {
+      "date": "2013-04-16",
+      "store_id": 103,
+      "num_transactions": 2759,
+      "total_units": 38638
+    },
+    {
+      "date": "2013-04-17",
+      "store_id": 103,
+      "num_transactions": 1802,
+      "total_units": 16608
+    },
+    {
+      "date": "2013-04-18",
+      "store_id": 103,
+      "num_transactions": 1881,
+      "total_units": 16420
+    },
+    {
+      "date": "2013-04-19",
+      "store_id": 103,
+      "num_transactions": 1740,
+      "total_units": 15485
+    },
+    {
+      "date": "2013-04-20",
+      "store_id": 103,
+      "num_transactions": 2527,
+      "total_units": 25430
+    },
+    {
+      "date": "2013-04-21",
+      "store_id": 103,
+      "num_transactions": 3197,
+      "total_units": 35591
+    },
+    {
+      "date": "2013-04-22",
+      "store_id": 103,
+      "num_transactions": 1830,
+      "total_units": 16494
+    },
+    {
+      "date": "2013-04-23",
+      "store_id": 103,
+      "num_transactions": 2142,
+      "total_units": 29017
+    },
+    {
+      "date": "2013-04-24",
+      "store_id": 103,
+      "num_transactions": 1912,
+      "total_units": 16862
+    },
+    {
+      "date": "2013-04-25",
+      "store_id": 103,
+      "num_transactions": 1802,
+      "total_units": 14926
+    },
+    {
+      "date": "2013-04-26",
+      "store_id": 103,
+      "num_transactions": 1764,
+      "total_units": 14993
+    },
+    {
+      "date": "2013-04-27",
+      "store_id": 103,
+      "num_transactions": 2553,
+      "total_units": 25319
+    },
+    {
+      "date": "2013-04-28",
+      "store_id": 103,
+      "num_transactions": 3091,
+      "total_units": 34342
+    },
+    {
+      "date": "2013-04-29",
+      "store_id": 103,
+      "num_transactions": 1705,
+      "total_units": 16467
+    },
+    {
+      "date": "2013-04-30",
+      "store_id": 103,
+      "num_transactions": 2608,
+      "total_units": 36825
+    },
+    {
+      "date": "2013-05-01",
+      "store_id": 103,
+      "num_transactions": 3180,
+      "total_units": 37945
+    },
+    {
+      "date": "2013-05-02",
+      "store_id": 103,
+      "num_transactions": 2048,
+      "total_units": 19961
+    },
+    {
+      "date": "2013-05-03",
+      "store_id": 103,
+      "num_transactions": 1941,
+      "total_units": 18311
+    },
+    {
+      "date": "2013-05-04",
+      "store_id": 103,
+      "num_transactions": 2569,
+      "total_units": 26813
+    },
+    {
+      "date": "2013-05-05",
+      "store_id": 103,
+      "num_transactions": 2782,
+      "total_units": 32008
+    },
+    {
+      "date": "2013-05-06",
+      "store_id": 103,
+      "num_transactions": 1935,
+      "total_units": 18895
+    },
+    {
+      "date": "2013-05-07",
+      "store_id": 103,
+      "num_transactions": 2726,
+      "total_units": 35384
+    },
+    {
+      "date": "2013-05-08",
+      "store_id": 103,
+      "num_transactions": 1922,
+      "total_units": 15928
+    },
+    {
+      "date": "2013-05-09",
+      "store_id": 103,
+      "num_transactions": 1817,
+      "total_units": 14399
+    },
+    {
+      "date": "2013-05-10",
+      "store_id": 103,
+      "num_transactions": 2010,
+      "total_units": 16423
+    },
+    {
+      "date": "2013-05-11",
+      "store_id": 103,
+      "num_transactions": 3348,
+      "total_units": 29357
+    },
+    {
+      "date": "2013-05-12",
+      "store_id": 103,
+      "num_transactions": 2324,
+      "total_units": 16821
+    },
+    {
+      "date": "2013-05-13",
+      "store_id": 103,
+      "num_transactions": 2553,
+      "total_units": 29806
+    },
+    {
+      "date": "2013-05-14",
+      "store_id": 103,
+      "num_transactions": 2452,
+      "total_units": 30466
+    },
+    {
+      "date": "2013-05-15",
+      "store_id": 103,
+      "num_transactions": 1941,
+      "total_units": 19394
+    },
+    {
+      "date": "2013-05-16",
+      "store_id": 103,
+      "num_transactions": 2073,
+      "total_units": 18344
+    },
+    {
+      "date": "2013-05-17",
+      "store_id": 103,
+      "num_transactions": 1847,
+      "total_units": 15606
+    },
+    {
+      "date": "2013-05-18",
+      "store_id": 103,
+      "num_transactions": 2643,
+      "total_units": 26119
+    },
+    {
+      "date": "2013-05-19",
+      "store_id": 103,
+      "num_transactions": 2824,
+      "total_units": 32271
+    },
+    {
+      "date": "2013-05-20",
+      "store_id": 103,
+      "num_transactions": 1810,
+      "total_units": 16698
+    },
+    {
+      "date": "2013-05-21",
+      "store_id": 103,
+      "num_transactions": 2674,
+      "total_units": 33553
+    },
+    {
+      "date": "2013-05-22",
+      "store_id": 103,
+      "num_transactions": 1728,
+      "total_units": 14883
+    },
+    {
+      "date": "2013-05-23",
+      "store_id": 103,
+      "num_transactions": 1828,
+      "total_units": 15455
+    },
+    {
+      "date": "2013-05-24",
+      "store_id": 103,
+      "num_transactions": 1749,
+      "total_units": 14992
+    },
+    {
+      "date": "2013-05-25",
+      "store_id": 103,
+      "num_transactions": 2613,
+      "total_units": 26323
+    },
+    {
+      "date": "2013-05-26",
+      "store_id": 103,
+      "num_transactions": 2415,
+      "total_units": 27614
+    },
+    {
+      "date": "2013-05-27",
+      "store_id": 103,
+      "num_transactions": 2017,
+      "total_units": 19936
+    },
+    {
+      "date": "2013-05-28",
+      "store_id": 103,
+      "num_transactions": 2642,
+      "total_units": 34227
+    },
+    {
+      "date": "2013-05-29",
+      "store_id": 103,
+      "num_transactions": 1881,
+      "total_units": 17166
+    },
+    {
+      "date": "2013-05-30",
+      "store_id": 103,
+      "num_transactions": 1892,
+      "total_units": 16426
+    },
+    {
+      "date": "2013-05-31",
+      "store_id": 103,
+      "num_transactions": 1985,
+      "total_units": 17169
+    },
+    {
+      "date": "2013-06-01",
+      "store_id": 103,
+      "num_transactions": 3019,
+      "total_units": 33622
+    },
+    {
+      "date": "2013-06-02",
+      "store_id": 103,
+      "num_transactions": 2611,
+      "total_units": 29336
+    },
+    {
+      "date": "2013-06-03",
+      "store_id": 103,
+      "num_transactions": 2901,
+      "total_units": 35667
+    },
+    {
+      "date": "2013-06-04",
+      "store_id": 103,
+      "num_transactions": 2743,
+      "total_units": 38093
+    },
+    {
+      "date": "2013-06-05",
+      "store_id": 103,
+      "num_transactions": 2040,
+      "total_units": 19470
+    },
+    {
+      "date": "2013-06-06",
+      "store_id": 103,
+      "num_transactions": 1837,
+      "total_units": 16389
+    },
+    {
+      "date": "2013-06-07",
+      "store_id": 103,
+      "num_transactions": 2063,
+      "total_units": 16350
+    },
+    {
+      "date": "2013-06-08",
+      "store_id": 103,
+      "num_transactions": 2597,
+      "total_units": 25638
+    },
+    {
+      "date": "2013-06-09",
+      "store_id": 103,
+      "num_transactions": 2260,
+      "total_units": 21430
+    },
+    {
+      "date": "2013-06-10",
+      "store_id": 103,
+      "num_transactions": 2533,
+      "total_units": 27104
+    },
+    {
+      "date": "2013-06-11",
+      "store_id": 103,
+      "num_transactions": 2320,
+      "total_units": 29229
+    },
+    {
+      "date": "2013-06-12",
+      "store_id": 103,
+      "num_transactions": 1944,
+      "total_units": 17217
+    },
+    {
+      "date": "2013-06-13",
+      "store_id": 103,
+      "num_transactions": 1752,
+      "total_units": 14017
+    },
+    {
+      "date": "2013-06-14",
+      "store_id": 103,
+      "num_transactions": 2141,
+      "total_units": 17072
+    },
+    {
+      "date": "2013-06-15",
+      "store_id": 103,
+      "num_transactions": 3526,
+      "total_units": 32183
+    },
+    {
+      "date": "2013-06-16",
+      "store_id": 103,
+      "num_transactions": 2903,
+      "total_units": 27460
+    },
+    {
+      "date": "2013-06-17",
+      "store_id": 103,
+      "num_transactions": 2146,
+      "total_units": 20541
+    },
+    {
+      "date": "2013-06-18",
+      "store_id": 103,
+      "num_transactions": 2674,
+      "total_units": 33971
+    },
+    {
+      "date": "2013-06-19",
+      "store_id": 103,
+      "num_transactions": 1892,
+      "total_units": 17204
+    },
+    {
+      "date": "2013-06-20",
+      "store_id": 103,
+      "num_transactions": 1897,
+      "total_units": 14813
+    },
+    {
+      "date": "2013-06-21",
+      "store_id": 103,
+      "num_transactions": 2176,
+      "total_units": 17550
+    },
+    {
+      "date": "2013-06-22",
+      "store_id": 103,
+      "num_transactions": 2584,
+      "total_units": 25075
+    },
+    {
+      "date": "2013-06-23",
+      "store_id": 103,
+      "num_transactions": 2578,
+      "total_units": 28692
+    },
+    {
+      "date": "2013-06-24",
+      "store_id": 103,
+      "num_transactions": 1925,
+      "total_units": 17279
+    },
+    {
+      "date": "2013-06-25",
+      "store_id": 103,
+      "num_transactions": 2545,
+      "total_units": 34665
+    },
+    {
+      "date": "2013-06-26",
+      "store_id": 103,
+      "num_transactions": 1897,
+      "total_units": 17155
+    },
+    {
+      "date": "2013-06-27",
+      "store_id": 103,
+      "num_transactions": 1797,
+      "total_units": 15608
+    },
+    {
+      "date": "2013-06-28",
+      "store_id": 103,
+      "num_transactions": 2187,
+      "total_units": 17897
+    },
+    {
+      "date": "2013-06-29",
+      "store_id": 103,
+      "num_transactions": 3075,
+      "total_units": 29006
+    },
+    {
+      "date": "2013-06-30",
+      "store_id": 103,
+      "num_transactions": 2468,
+      "total_units": 23994
+    },
+    {
+      "date": "2013-01-01",
+      "store_id": 107,
+      "num_transactions": 380,
+      "total_units": 2539
+    },
+    {
+      "date": "2013-01-02",
+      "store_id": 107,
+      "num_transactions": 1450,
+      "total_units": 13652
+    },
+    {
+      "date": "2013-01-03",
+      "store_id": 107,
+      "num_transactions": 1542,
+      "total_units": 16470
+    },
+    {
+      "date": "2013-01-04",
+      "store_id": 107,
+      "num_transactions": 1628,
+      "total_units": 15894
+    },
+    {
+      "date": "2013-01-05",
+      "store_id": 107,
+      "num_transactions": 1510,
+      "total_units": 13411
+    },
+    {
+      "date": "2013-01-06",
+      "store_id": 107,
+      "num_transactions": 936,
+      "total_units": 7892
+    },
+    {
+      "date": "2013-01-07",
+      "store_id": 107,
+      "num_transactions": 916,
+      "total_units": 7793
+    },
+    {
+      "date": "2013-01-08",
+      "store_id": 107,
+      "num_transactions": 1372,
+      "total_units": 11772
+    },
+    {
+      "date": "2013-01-09",
+      "store_id": 107,
+      "num_transactions": 1261,
+      "total_units": 9997
+    },
+    {
+      "date": "2013-01-10",
+      "store_id": 107,
+      "num_transactions": 1392,
+      "total_units": 13173
+    },
+    {
+      "date": "2013-01-11",
+      "store_id": 107,
+      "num_transactions": 1403,
+      "total_units": 12729
+    },
+    {
+      "date": "2013-01-12",
+      "store_id": 107,
+      "num_transactions": 1326,
+      "total_units": 11447
+    },
+    {
+      "date": "2013-01-13",
+      "store_id": 107,
+      "num_transactions": 921,
+      "total_units": 8475
+    },
+    {
+      "date": "2013-01-14",
+      "store_id": 107,
+      "num_transactions": 1308,
+      "total_units": 10730
+    },
+    {
+      "date": "2013-01-15",
+      "store_id": 107,
+      "num_transactions": 1352,
+      "total_units": 13114
+    },
+    {
+      "date": "2013-01-16",
+      "store_id": 107,
+      "num_transactions": 1489,
+      "total_units": 13966
+    },
+    {
+      "date": "2013-01-17",
+      "store_id": 107,
+      "num_transactions": 1710,
+      "total_units": 17241
+    },
+    {
+      "date": "2013-01-18",
+      "store_id": 107,
+      "num_transactions": 1572,
+      "total_units": 14923
+    },
+    {
+      "date": "2013-01-19",
+      "store_id": 107,
+      "num_transactions": 1523,
+      "total_units": 13437
+    },
+    {
+      "date": "2013-01-20",
+      "store_id": 107,
+      "num_transactions": 1165,
+      "total_units": 11119
+    },
+    {
+      "date": "2013-01-21",
+      "store_id": 107,
+      "num_transactions": 1294,
+      "total_units": 10451
+    },
+    {
+      "date": "2013-01-22",
+      "store_id": 107,
+      "num_transactions": 1060,
+      "total_units": 8163
+    },
+    {
+      "date": "2013-01-23",
+      "store_id": 107,
+      "num_transactions": 962,
+      "total_units": 8154
+    },
+    {
+      "date": "2013-01-24",
+      "store_id": 107,
+      "num_transactions": 1258,
+      "total_units": 10461
+    },
+    {
+      "date": "2013-01-25",
+      "store_id": 107,
+      "num_transactions": 1524,
+      "total_units": 17177
+    },
+    {
+      "date": "2013-01-26",
+      "store_id": 107,
+      "num_transactions": 1598,
+      "total_units": 15568
+    },
+    {
+      "date": "2013-01-27",
+      "store_id": 107,
+      "num_transactions": 1227,
+      "total_units": 12728
+    },
+    {
+      "date": "2013-01-28",
+      "store_id": 107,
+      "num_transactions": 1406,
+      "total_units": 12790
+    },
+    {
+      "date": "2013-01-29",
+      "store_id": 107,
+      "num_transactions": 1341,
+      "total_units": 12691
+    },
+    {
+      "date": "2013-01-30",
+      "store_id": 107,
+      "num_transactions": 1404,
+      "total_units": 13577
+    },
+    {
+      "date": "2013-01-31",
+      "store_id": 107,
+      "num_transactions": 1727,
+      "total_units": 21334
+    },
+    {
+      "date": "2013-02-01",
+      "store_id": 107,
+      "num_transactions": 1949,
+      "total_units": 23921
+    },
+    {
+      "date": "2013-02-02",
+      "store_id": 107,
+      "num_transactions": 2068,
+      "total_units": 22956
+    },
+    {
+      "date": "2013-02-03",
+      "store_id": 107,
+      "num_transactions": 1536,
+      "total_units": 17847
+    },
+    {
+      "date": "2013-02-04",
+      "store_id": 107,
+      "num_transactions": 1578,
+      "total_units": 14844
+    },
+    {
+      "date": "2013-02-05",
+      "store_id": 107,
+      "num_transactions": 1313,
+      "total_units": 11841
+    },
+    {
+      "date": "2013-02-06",
+      "store_id": 107,
+      "num_transactions": 1278,
+      "total_units": 10255
+    },
+    {
+      "date": "2013-02-07",
+      "store_id": 107,
+      "num_transactions": 1645,
+      "total_units": 15282
+    },
+    {
+      "date": "2013-02-08",
+      "store_id": 107,
+      "num_transactions": 1467,
+      "total_units": 14174
+    },
+    {
+      "date": "2013-02-09",
+      "store_id": 107,
+      "num_transactions": 1600,
+      "total_units": 14319
+    },
+    {
+      "date": "2013-02-10",
+      "store_id": 107,
+      "num_transactions": 1494,
+      "total_units": 15326
+    },
+    {
+      "date": "2013-02-11",
+      "store_id": 107,
+      "num_transactions": 1395,
+      "total_units": 11822
+    },
+    {
+      "date": "2013-02-12",
+      "store_id": 107,
+      "num_transactions": 1169,
+      "total_units": 9858
+    },
+    {
+      "date": "2013-02-13",
+      "store_id": 107,
+      "num_transactions": 1185,
+      "total_units": 9022
+    },
+    {
+      "date": "2013-02-14",
+      "store_id": 107,
+      "num_transactions": 1437,
+      "total_units": 13498
+    },
+    {
+      "date": "2013-02-15",
+      "store_id": 107,
+      "num_transactions": 1556,
+      "total_units": 15457
+    },
+    {
+      "date": "2013-02-16",
+      "store_id": 107,
+      "num_transactions": 1888,
+      "total_units": 19139
+    },
+    {
+      "date": "2013-02-17",
+      "store_id": 107,
+      "num_transactions": 1428,
+      "total_units": 16582
+    },
+    {
+      "date": "2013-02-18",
+      "store_id": 107,
+      "num_transactions": 1404,
+      "total_units": 12345
+    },
+    {
+      "date": "2013-02-19",
+      "store_id": 107,
+      "num_transactions": 1351,
+      "total_units": 11505
+    },
+    {
+      "date": "2013-02-20",
+      "store_id": 107,
+      "num_transactions": 1239,
+      "total_units": 9437
+    },
+    {
+      "date": "2013-02-21",
+      "store_id": 107,
+      "num_transactions": 1418,
+      "total_units": 12442
+    },
+    {
+      "date": "2013-02-22",
+      "store_id": 107,
+      "num_transactions": 1313,
+      "total_units": 11021
+    },
+    {
+      "date": "2013-02-23",
+      "store_id": 107,
+      "num_transactions": 1449,
+      "total_units": 12555
+    },
+    {
+      "date": "2013-02-24",
+      "store_id": 107,
+      "num_transactions": 1185,
+      "total_units": 11506
+    },
+    {
+      "date": "2013-02-25",
+      "store_id": 107,
+      "num_transactions": 1365,
+      "total_units": 13285
+    },
+    {
+      "date": "2013-02-26",
+      "store_id": 107,
+      "num_transactions": 1338,
+      "total_units": 12130
+    },
+    {
+      "date": "2013-02-27",
+      "store_id": 107,
+      "num_transactions": 1102,
+      "total_units": 10500
+    },
+    {
+      "date": "2013-02-28",
+      "store_id": 107,
+      "num_transactions": 1840,
+      "total_units": 19523
+    },
+    {
+      "date": "2013-03-01",
+      "store_id": 107,
+      "num_transactions": 1949,
+      "total_units": 22678
+    },
+    {
+      "date": "2013-03-02",
+      "store_id": 107,
+      "num_transactions": 2078,
+      "total_units": 24603
+    },
+    {
+      "date": "2013-03-03",
+      "store_id": 107,
+      "num_transactions": 1606,
+      "total_units": 19990
+    },
+    {
+      "date": "2013-03-04",
+      "store_id": 107,
+      "num_transactions": 1611,
+      "total_units": 16532
+    },
+    {
+      "date": "2013-03-05",
+      "store_id": 107,
+      "num_transactions": 1190,
+      "total_units": 10332
+    },
+    {
+      "date": "2013-03-06",
+      "store_id": 107,
+      "num_transactions": 1122,
+      "total_units": 9162
+    },
+    {
+      "date": "2013-03-07",
+      "store_id": 107,
+      "num_transactions": 1662,
+      "total_units": 15195
+    },
+    {
+      "date": "2013-03-08",
+      "store_id": 107,
+      "num_transactions": 1561,
+      "total_units": 14277
+    },
+    {
+      "date": "2013-03-09",
+      "store_id": 107,
+      "num_transactions": 1642,
+      "total_units": 15027
+    },
+    {
+      "date": "2013-03-10",
+      "store_id": 107,
+      "num_transactions": 1223,
+      "total_units": 11830
+    },
+    {
+      "date": "2013-03-11",
+      "store_id": 107,
+      "num_transactions": 1358,
+      "total_units": 11150
+    },
+    {
+      "date": "2013-03-12",
+      "store_id": 107,
+      "num_transactions": 1153,
+      "total_units": 8938
+    },
+    {
+      "date": "2013-03-13",
+      "store_id": 107,
+      "num_transactions": 1012,
+      "total_units": 7630
+    },
+    {
+      "date": "2013-03-14",
+      "store_id": 107,
+      "num_transactions": 1484,
+      "total_units": 12088
+    },
+    {
+      "date": "2013-03-15",
+      "store_id": 107,
+      "num_transactions": 1567,
+      "total_units": 16319
+    },
+    {
+      "date": "2013-03-16",
+      "store_id": 107,
+      "num_transactions": 1638,
+      "total_units": 15969
+    },
+    {
+      "date": "2013-03-17",
+      "store_id": 107,
+      "num_transactions": 1444,
+      "total_units": 16298
+    },
+    {
+      "date": "2013-03-18",
+      "store_id": 107,
+      "num_transactions": 1377,
+      "total_units": 11716
+    },
+    {
+      "date": "2013-03-19",
+      "store_id": 107,
+      "num_transactions": 1188,
+      "total_units": 9715
+    },
+    {
+      "date": "2013-03-20",
+      "store_id": 107,
+      "num_transactions": 1048,
+      "total_units": 8234
+    },
+    {
+      "date": "2013-03-21",
+      "store_id": 107,
+      "num_transactions": 1355,
+      "total_units": 11687
+    },
+    {
+      "date": "2013-03-22",
+      "store_id": 107,
+      "num_transactions": 1515,
+      "total_units": 14698
+    },
+    {
+      "date": "2013-03-23",
+      "store_id": 107,
+      "num_transactions": 1664,
+      "total_units": 15642
+    },
+    {
+      "date": "2013-03-24",
+      "store_id": 107,
+      "num_transactions": 1190,
+      "total_units": 11517
+    },
+    {
+      "date": "2013-03-25",
+      "store_id": 107,
+      "num_transactions": 1138,
+      "total_units": 11913
+    },
+    {
+      "date": "2013-03-26",
+      "store_id": 107,
+      "num_transactions": 1434,
+      "total_units": 14634
+    },
+    {
+      "date": "2013-03-27",
+      "store_id": 107,
+      "num_transactions": 1953,
+      "total_units": 20930
+    },
+    {
+      "date": "2013-03-28",
+      "store_id": 107,
+      "num_transactions": 1767,
+      "total_units": 20349
+    },
+    {
+      "date": "2013-03-29",
+      "store_id": 107,
+      "num_transactions": 784,
+      "total_units": 7989
+    },
+    {
+      "date": "2013-03-30",
+      "store_id": 107,
+      "num_transactions": 1703,
+      "total_units": 17943
+    },
+    {
+      "date": "2013-03-31",
+      "store_id": 107,
+      "num_transactions": 1104,
+      "total_units": 12277
+    },
+    {
+      "date": "2013-04-01",
+      "store_id": 107,
+      "num_transactions": 1602,
+      "total_units": 16502
+    },
+    {
+      "date": "2013-04-02",
+      "store_id": 107,
+      "num_transactions": 1552,
+      "total_units": 16241
+    },
+    {
+      "date": "2013-04-03",
+      "store_id": 107,
+      "num_transactions": 1494,
+      "total_units": 13911
+    },
+    {
+      "date": "2013-04-04",
+      "store_id": 107,
+      "num_transactions": 1765,
+      "total_units": 19093
+    },
+    {
+      "date": "2013-04-05",
+      "store_id": 107,
+      "num_transactions": 1652,
+      "total_units": 16015
+    },
+    {
+      "date": "2013-04-06",
+      "store_id": 107,
+      "num_transactions": 1622,
+      "total_units": 14374
+    },
+    {
+      "date": "2013-04-07",
+      "store_id": 107,
+      "num_transactions": 1406,
+      "total_units": 13362
+    },
+    {
+      "date": "2013-04-08",
+      "store_id": 107,
+      "num_transactions": 1224,
+      "total_units": 10160
+    },
+    {
+      "date": "2013-04-09",
+      "store_id": 107,
+      "num_transactions": 1205,
+      "total_units": 9383
+    },
+    {
+      "date": "2013-04-10",
+      "store_id": 107,
+      "num_transactions": 1134,
+      "total_units": 8672
+    },
+    {
+      "date": "2013-04-11",
+      "store_id": 107,
+      "num_transactions": 1365,
+      "total_units": 11819
+    },
+    {
+      "date": "2013-04-12",
+      "store_id": 107,
+      "num_transactions": 1343,
+      "total_units": 12463
+    },
+    {
+      "date": "2013-04-13",
+      "store_id": 107,
+      "num_transactions": 1571,
+      "total_units": 14078
+    },
+    {
+      "date": "2013-04-14",
+      "store_id": 107,
+      "num_transactions": 1272,
+      "total_units": 12166
+    },
+    {
+      "date": "2013-04-15",
+      "store_id": 107,
+      "num_transactions": 1490,
+      "total_units": 13285
+    },
+    {
+      "date": "2013-04-16",
+      "store_id": 107,
+      "num_transactions": 1473,
+      "total_units": 13458
+    },
+    {
+      "date": "2013-04-17",
+      "store_id": 107,
+      "num_transactions": 1377,
+      "total_units": 12057
+    },
+    {
+      "date": "2013-04-18",
+      "store_id": 107,
+      "num_transactions": 1628,
+      "total_units": 15247
+    },
+    {
+      "date": "2013-04-19",
+      "store_id": 107,
+      "num_transactions": 1435,
+      "total_units": 12956
+    },
+    {
+      "date": "2013-04-20",
+      "store_id": 107,
+      "num_transactions": 1605,
+      "total_units": 13358
+    },
+    {
+      "date": "2013-04-21",
+      "store_id": 107,
+      "num_transactions": 1225,
+      "total_units": 11605
+    },
+    {
+      "date": "2013-04-22",
+      "store_id": 107,
+      "num_transactions": 1190,
+      "total_units": 9104
+    },
+    {
+      "date": "2013-04-23",
+      "store_id": 107,
+      "num_transactions": 1072,
+      "total_units": 8421
+    },
+    {
+      "date": "2013-04-24",
+      "store_id": 107,
+      "num_transactions": 889,
+      "total_units": 6546
+    },
+    {
+      "date": "2013-04-25",
+      "store_id": 107,
+      "num_transactions": 1478,
+      "total_units": 15709
+    },
+    {
+      "date": "2013-04-26",
+      "store_id": 107,
+      "num_transactions": 1606,
+      "total_units": 17378
+    },
+    {
+      "date": "2013-04-27",
+      "store_id": 107,
+      "num_transactions": 1645,
+      "total_units": 16553
+    },
+    {
+      "date": "2013-04-28",
+      "store_id": 107,
+      "num_transactions": 1372,
+      "total_units": 14408
+    },
+    {
+      "date": "2013-04-29",
+      "store_id": 107,
+      "num_transactions": 1215,
+      "total_units": 10766
+    },
+    {
+      "date": "2013-04-30",
+      "store_id": 107,
+      "num_transactions": 1538,
+      "total_units": 14733
+    },
+    {
+      "date": "2013-05-01",
+      "store_id": 107,
+      "num_transactions": 664,
+      "total_units": 7237
+    },
+    {
+      "date": "2013-05-02",
+      "store_id": 107,
+      "num_transactions": 619,
+      "total_units": 7422
+    },
+    {
+      "date": "2013-05-03",
+      "store_id": 107,
+      "num_transactions": 1792,
+      "total_units": 20792
+    },
+    {
+      "date": "2013-05-04",
+      "store_id": 107,
+      "num_transactions": 1658,
+      "total_units": 16025
+    },
+    {
+      "date": "2013-05-05",
+      "store_id": 107,
+      "num_transactions": 1406,
+      "total_units": 15796
+    },
+    {
+      "date": "2013-05-06",
+      "store_id": 107,
+      "num_transactions": 1369,
+      "total_units": 12393
+    },
+    {
+      "date": "2013-05-07",
+      "store_id": 107,
+      "num_transactions": 1283,
+      "total_units": 10282
+    },
+    {
+      "date": "2013-05-08",
+      "store_id": 107,
+      "num_transactions": 1148,
+      "total_units": 8603
+    },
+    {
+      "date": "2013-05-09",
+      "store_id": 107,
+      "num_transactions": 1413,
+      "total_units": 12025
+    },
+    {
+      "date": "2013-05-10",
+      "store_id": 107,
+      "num_transactions": 1473,
+      "total_units": 12760
+    },
+    {
+      "date": "2013-05-11",
+      "store_id": 107,
+      "num_transactions": 2114,
+      "total_units": 16503
+    },
+    {
+      "date": "2013-05-12",
+      "store_id": 107,
+      "num_transactions": 1336,
+      "total_units": 7993
+    },
+    {
+      "date": "2013-05-13",
+      "store_id": 107,
+      "num_transactions": 1096,
+      "total_units": 10308
+    },
+    {
+      "date": "2013-05-14",
+      "store_id": 107,
+      "num_transactions": 1200,
+      "total_units": 10051
+    },
+    {
+      "date": "2013-05-15",
+      "store_id": 107,
+      "num_transactions": 1158,
+      "total_units": 10518
+    },
+    {
+      "date": "2013-05-16",
+      "store_id": 107,
+      "num_transactions": 1851,
+      "total_units": 19295
+    },
+    {
+      "date": "2013-05-17",
+      "store_id": 107,
+      "num_transactions": 1691,
+      "total_units": 17172
+    },
+    {
+      "date": "2013-05-18",
+      "store_id": 107,
+      "num_transactions": 1622,
+      "total_units": 14883
+    },
+    {
+      "date": "2013-05-19",
+      "store_id": 107,
+      "num_transactions": 1277,
+      "total_units": 13400
+    },
+    {
+      "date": "2013-05-20",
+      "store_id": 107,
+      "num_transactions": 1182,
+      "total_units": 9634
+    },
+    {
+      "date": "2013-05-21",
+      "store_id": 107,
+      "num_transactions": 1250,
+      "total_units": 9897
+    },
+    {
+      "date": "2013-05-22",
+      "store_id": 107,
+      "num_transactions": 1032,
+      "total_units": 7673
+    },
+    {
+      "date": "2013-05-23",
+      "store_id": 107,
+      "num_transactions": 1326,
+      "total_units": 11125
+    },
+    {
+      "date": "2013-05-24",
+      "store_id": 107,
+      "num_transactions": 1272,
+      "total_units": 11342
+    },
+    {
+      "date": "2013-05-25",
+      "store_id": 107,
+      "num_transactions": 1410,
+      "total_units": 13237
+    },
+    {
+      "date": "2013-05-26",
+      "store_id": 107,
+      "num_transactions": 1139,
+      "total_units": 11445
+    },
+    {
+      "date": "2013-05-27",
+      "store_id": 107,
+      "num_transactions": 1333,
+      "total_units": 13157
+    },
+    {
+      "date": "2013-05-28",
+      "store_id": 107,
+      "num_transactions": 1251,
+      "total_units": 11101
+    },
+    {
+      "date": "2013-05-29",
+      "store_id": 107,
+      "num_transactions": 1276,
+      "total_units": 11494
+    },
+    {
+      "date": "2013-05-30",
+      "store_id": 107,
+      "num_transactions": 919,
+      "total_units": 11057
+    },
+    {
+      "date": "2013-05-31",
+      "store_id": 107,
+      "num_transactions": 1836,
+      "total_units": 21790
+    },
+    {
+      "date": "2013-06-01",
+      "store_id": 107,
+      "num_transactions": 2126,
+      "total_units": 24451
+    },
+    {
+      "date": "2013-06-02",
+      "store_id": 107,
+      "num_transactions": 1551,
+      "total_units": 16735
+    },
+    {
+      "date": "2013-06-03",
+      "store_id": 107,
+      "num_transactions": 1414,
+      "total_units": 16663
+    },
+    {
+      "date": "2013-06-04",
+      "store_id": 107,
+      "num_transactions": 1438,
+      "total_units": 14254
+    },
+    {
+      "date": "2013-06-05",
+      "store_id": 107,
+      "num_transactions": 1308,
+      "total_units": 11242
+    },
+    {
+      "date": "2013-06-06",
+      "store_id": 107,
+      "num_transactions": 1654,
+      "total_units": 16709
+    },
+    {
+      "date": "2013-06-07",
+      "store_id": 107,
+      "num_transactions": 1636,
+      "total_units": 15055
+    },
+    {
+      "date": "2013-06-08",
+      "store_id": 107,
+      "num_transactions": 1508,
+      "total_units": 13014
+    },
+    {
+      "date": "2013-06-09",
+      "store_id": 107,
+      "num_transactions": 1233,
+      "total_units": 10762
+    },
+    {
+      "date": "2013-06-10",
+      "store_id": 107,
+      "num_transactions": 1111,
+      "total_units": 10723
+    },
+    {
+      "date": "2013-06-11",
+      "store_id": 107,
+      "num_transactions": 1199,
+      "total_units": 9388
+    },
+    {
+      "date": "2013-06-12",
+      "store_id": 107,
+      "num_transactions": 1122,
+      "total_units": 8228
+    },
+    {
+      "date": "2013-06-13",
+      "store_id": 107,
+      "num_transactions": 1353,
+      "total_units": 11033
+    },
+    {
+      "date": "2013-06-14",
+      "store_id": 107,
+      "num_transactions": 1555,
+      "total_units": 14790
+    },
+    {
+      "date": "2013-06-15",
+      "store_id": 107,
+      "num_transactions": 2253,
+      "total_units": 21128
+    },
+    {
+      "date": "2013-06-16",
+      "store_id": 107,
+      "num_transactions": 1707,
+      "total_units": 14975
+    },
+    {
+      "date": "2013-06-17",
+      "store_id": 107,
+      "num_transactions": 1477,
+      "total_units": 14232
+    },
+    {
+      "date": "2013-06-18",
+      "store_id": 107,
+      "num_transactions": 1355,
+      "total_units": 12331
+    },
+    {
+      "date": "2013-06-19",
+      "store_id": 107,
+      "num_transactions": 1217,
+      "total_units": 10063
+    },
+    {
+      "date": "2013-06-20",
+      "store_id": 107,
+      "num_transactions": 1364,
+      "total_units": 11744
+    },
+    {
+      "date": "2013-06-21",
+      "store_id": 107,
+      "num_transactions": 1514,
+      "total_units": 13310
+    },
+    {
+      "date": "2013-06-22",
+      "store_id": 107,
+      "num_transactions": 1393,
+      "total_units": 12181
+    },
+    {
+      "date": "2013-06-23",
+      "store_id": 107,
+      "num_transactions": 1187,
+      "total_units": 10818
+    },
+    {
+      "date": "2013-06-24",
+      "store_id": 107,
+      "num_transactions": 1156,
+      "total_units": 8968
+    },
+    {
+      "date": "2013-06-25",
+      "store_id": 107,
+      "num_transactions": 1188,
+      "total_units": 10345
+    },
+    {
+      "date": "2013-06-26",
+      "store_id": 107,
+      "num_transactions": 1387,
+      "total_units": 11681
+    },
+    {
+      "date": "2013-06-27",
+      "store_id": 107,
+      "num_transactions": 1466,
+      "total_units": 15631
+    },
+    {
+      "date": "2013-06-28",
+      "store_id": 107,
+      "num_transactions": 1878,
+      "total_units": 19910
+    },
+    {
+      "date": "2013-06-29",
+      "store_id": 107,
+      "num_transactions": 1956,
+      "total_units": 20590
+    },
+    {
+      "date": "2013-06-30",
+      "store_id": 107,
+      "num_transactions": 1619,
+      "total_units": 17259
+    },
+    {
+      "date": "2013-01-01",
+      "store_id": 110,
+      "num_transactions": 433,
+      "total_units": 2992
+    },
+    {
+      "date": "2013-01-02",
+      "store_id": 110,
+      "num_transactions": 806,
+      "total_units": 8202
+    },
+    {
+      "date": "2013-01-03",
+      "store_id": 110,
+      "num_transactions": 702,
+      "total_units": 7976
+    },
+    {
+      "date": "2013-01-04",
+      "store_id": 110,
+      "num_transactions": 679,
+      "total_units": 6073
+    },
+    {
+      "date": "2013-01-05",
+      "store_id": 110,
+      "num_transactions": 926,
+      "total_units": 10985
+    },
+    {
+      "date": "2013-01-06",
+      "store_id": 110,
+      "num_transactions": 814,
+      "total_units": 7298
+    },
+    {
+      "date": "2013-01-07",
+      "store_id": 110,
+      "num_transactions": 868,
+      "total_units": 8523
+    },
+    {
+      "date": "2013-01-08",
+      "store_id": 110,
+      "num_transactions": 684,
+      "total_units": 8484
+    },
+    {
+      "date": "2013-01-09",
+      "store_id": 110,
+      "num_transactions": 617,
+      "total_units": 5824
+    },
+    {
+      "date": "2013-01-10",
+      "store_id": 110,
+      "num_transactions": 620,
+      "total_units": 6573
+    },
+    {
+      "date": "2013-01-11",
+      "store_id": 110,
+      "num_transactions": 464,
+      "total_units": 4129
+    },
+    {
+      "date": "2013-01-12",
+      "store_id": 110,
+      "num_transactions": 895,
+      "total_units": 10688
+    },
+    {
+      "date": "2013-01-13",
+      "store_id": 110,
+      "num_transactions": 1002,
+      "total_units": 10431
+    },
+    {
+      "date": "2013-01-14",
+      "store_id": 110,
+      "num_transactions": 606,
+      "total_units": 5555
+    },
+    {
+      "date": "2013-01-15",
+      "store_id": 110,
+      "num_transactions": 682,
+      "total_units": 8125
+    },
+    {
+      "date": "2013-01-16",
+      "store_id": 110,
+      "num_transactions": 685,
+      "total_units": 6179
+    },
+    {
+      "date": "2013-01-17",
+      "store_id": 110,
+      "num_transactions": 625,
+      "total_units": 6305
+    },
+    {
+      "date": "2013-01-18",
+      "store_id": 110,
+      "num_transactions": 548,
+      "total_units": 4803
+    },
+    {
+      "date": "2013-01-19",
+      "store_id": 110,
+      "num_transactions": 994,
+      "total_units": 12432
+    },
+    {
+      "date": "2013-01-20",
+      "store_id": 110,
+      "num_transactions": 1061,
+      "total_units": 11296
+    },
+    {
+      "date": "2013-01-21",
+      "store_id": 110,
+      "num_transactions": 642,
+      "total_units": 6346
+    },
+    {
+      "date": "2013-01-22",
+      "store_id": 110,
+      "num_transactions": 593,
+      "total_units": 6283
+    },
+    {
+      "date": "2013-01-23",
+      "store_id": 110,
+      "num_transactions": 515,
+      "total_units": 4316
+    },
+    {
+      "date": "2013-01-24",
+      "store_id": 110,
+      "num_transactions": 555,
+      "total_units": 6065
+    },
+    {
+      "date": "2013-01-25",
+      "store_id": 110,
+      "num_transactions": 547,
+      "total_units": 4741
+    },
+    {
+      "date": "2013-01-26",
+      "store_id": 110,
+      "num_transactions": 1004,
+      "total_units": 12056
+    },
+    {
+      "date": "2013-01-27",
+      "store_id": 110,
+      "num_transactions": 1034,
+      "total_units": 11419
+    },
+    {
+      "date": "2013-01-28",
+      "store_id": 110,
+      "num_transactions": 634,
+      "total_units": 5804
+    },
+    {
+      "date": "2013-01-29",
+      "store_id": 110,
+      "num_transactions": 626,
+      "total_units": 6640
+    },
+    {
+      "date": "2013-01-30",
+      "store_id": 110,
+      "num_transactions": 629,
+      "total_units": 5970
+    },
+    {
+      "date": "2013-01-31",
+      "store_id": 110,
+      "num_transactions": 766,
+      "total_units": 9026
+    },
+    {
+      "date": "2013-02-01",
+      "store_id": 110,
+      "num_transactions": 676,
+      "total_units": 7006
+    },
+    {
+      "date": "2013-02-02",
+      "store_id": 110,
+      "num_transactions": 1129,
+      "total_units": 15714
+    },
+    {
+      "date": "2013-02-03",
+      "store_id": 110,
+      "num_transactions": 1263,
+      "total_units": 14635
+    },
+    {
+      "date": "2013-02-04",
+      "store_id": 110,
+      "num_transactions": 595,
+      "total_units": 5803
+    },
+    {
+      "date": "2013-02-05",
+      "store_id": 110,
+      "num_transactions": 648,
+      "total_units": 8129
+    },
+    {
+      "date": "2013-02-06",
+      "store_id": 110,
+      "num_transactions": 530,
+      "total_units": 4276
+    },
+    {
+      "date": "2013-02-07",
+      "store_id": 110,
+      "num_transactions": 643,
+      "total_units": 6007
+    },
+    {
+      "date": "2013-02-08",
+      "store_id": 110,
+      "num_transactions": 491,
+      "total_units": 4329
+    },
+    {
+      "date": "2013-02-09",
+      "store_id": 110,
+      "num_transactions": 954,
+      "total_units": 10815
+    },
+    {
+      "date": "2013-02-10",
+      "store_id": 110,
+      "num_transactions": 1136,
+      "total_units": 11908
+    },
+    {
+      "date": "2013-02-11",
+      "store_id": 110,
+      "num_transactions": 537,
+      "total_units": 4469
+    },
+    {
+      "date": "2013-02-12",
+      "store_id": 110,
+      "num_transactions": 559,
+      "total_units": 5442
+    },
+    {
+      "date": "2013-02-13",
+      "store_id": 110,
+      "num_transactions": 502,
+      "total_units": 4234
+    },
+    {
+      "date": "2013-02-14",
+      "store_id": 110,
+      "num_transactions": 517,
+      "total_units": 4947
+    },
+    {
+      "date": "2013-02-15",
+      "store_id": 110,
+      "num_transactions": 583,
+      "total_units": 4865
+    },
+    {
+      "date": "2013-02-16",
+      "store_id": 110,
+      "num_transactions": 1058,
+      "total_units": 13212
+    },
+    {
+      "date": "2013-02-17",
+      "store_id": 110,
+      "num_transactions": 1179,
+      "total_units": 14170
+    },
+    {
+      "date": "2013-02-18",
+      "store_id": 110,
+      "num_transactions": 579,
+      "total_units": 5427
+    },
+    {
+      "date": "2013-02-19",
+      "store_id": 110,
+      "num_transactions": 548,
+      "total_units": 6282
+    },
+    {
+      "date": "2013-02-20",
+      "store_id": 110,
+      "num_transactions": 489,
+      "total_units": 4324
+    },
+    {
+      "date": "2013-02-21",
+      "store_id": 110,
+      "num_transactions": 563,
+      "total_units": 5556
+    },
+    {
+      "date": "2013-02-22",
+      "store_id": 110,
+      "num_transactions": 506,
+      "total_units": 4184
+    },
+    {
+      "date": "2013-02-23",
+      "store_id": 110,
+      "num_transactions": 920,
+      "total_units": 10918
+    },
+    {
+      "date": "2013-02-24",
+      "store_id": 110,
+      "num_transactions": 1028,
+      "total_units": 11136
+    },
+    {
+      "date": "2013-02-25",
+      "store_id": 110,
+      "num_transactions": 547,
+      "total_units": 5189
+    },
+    {
+      "date": "2013-02-26",
+      "store_id": 110,
+      "num_transactions": 569,
+      "total_units": 6473
+    },
+    {
+      "date": "2013-02-27",
+      "store_id": 110,
+      "num_transactions": 543,
+      "total_units": 4803
+    },
+    {
+      "date": "2013-02-28",
+      "store_id": 110,
+      "num_transactions": 723,
+      "total_units": 7209
+    },
+    {
+      "date": "2013-03-01",
+      "store_id": 110,
+      "num_transactions": 678,
+      "total_units": 7372
+    },
+    {
+      "date": "2013-03-02",
+      "store_id": 110,
+      "num_transactions": 1173,
+      "total_units": 16136
+    },
+    {
+      "date": "2013-03-03",
+      "store_id": 110,
+      "num_transactions": 1213,
+      "total_units": 14683
+    },
+    {
+      "date": "2013-03-04",
+      "store_id": 110,
+      "num_transactions": 565,
+      "total_units": 5763
+    },
+    {
+      "date": "2013-03-05",
+      "store_id": 110,
+      "num_transactions": 617,
+      "total_units": 7288
+    },
+    {
+      "date": "2013-03-06",
+      "store_id": 110,
+      "num_transactions": 476,
+      "total_units": 4124
+    },
+    {
+      "date": "2013-03-07",
+      "store_id": 110,
+      "num_transactions": 654,
+      "total_units": 6626
+    },
+    {
+      "date": "2013-03-08",
+      "store_id": 110,
+      "num_transactions": 480,
+      "total_units": 3520
+    },
+    {
+      "date": "2013-03-09",
+      "store_id": 110,
+      "num_transactions": 958,
+      "total_units": 11298
+    },
+    {
+      "date": "2013-03-10",
+      "store_id": 110,
+      "num_transactions": 1088,
+      "total_units": 12013
+    },
+    {
+      "date": "2013-03-11",
+      "store_id": 110,
+      "num_transactions": 503,
+      "total_units": 4965
+    },
+    {
+      "date": "2013-03-12",
+      "store_id": 110,
+      "num_transactions": 555,
+      "total_units": 5971
+    },
+    {
+      "date": "2013-03-13",
+      "store_id": 110,
+      "num_transactions": 460,
+      "total_units": 3879
+    },
+    {
+      "date": "2013-03-14",
+      "store_id": 110,
+      "num_transactions": 561,
+      "total_units": 5260
+    },
+    {
+      "date": "2013-03-15",
+      "store_id": 110,
+      "num_transactions": 575,
+      "total_units": 5262
+    },
+    {
+      "date": "2013-03-16",
+      "store_id": 110,
+      "num_transactions": 1049,
+      "total_units": 13174
+    },
+    {
+      "date": "2013-03-17",
+      "store_id": 110,
+      "num_transactions": 1058,
+      "total_units": 11367
+    },
+    {
+      "date": "2013-03-18",
+      "store_id": 110,
+      "num_transactions": 570,
+      "total_units": 5048
+    },
+    {
+      "date": "2013-03-19",
+      "store_id": 110,
+      "num_transactions": 565,
+      "total_units": 6181
+    },
+    {
+      "date": "2013-03-20",
+      "store_id": 110,
+      "num_transactions": 497,
+      "total_units": 4132
+    },
+    {
+      "date": "2013-03-21",
+      "store_id": 110,
+      "num_transactions": 546,
+      "total_units": 5109
+    },
+    {
+      "date": "2013-03-22",
+      "store_id": 110,
+      "num_transactions": 537,
+      "total_units": 4557
+    },
+    {
+      "date": "2013-03-23",
+      "store_id": 110,
+      "num_transactions": 941,
+      "total_units": 11653
+    },
+    {
+      "date": "2013-03-24",
+      "store_id": 110,
+      "num_transactions": 921,
+      "total_units": 9072
+    },
+    {
+      "date": "2013-03-25",
+      "store_id": 110,
+      "num_transactions": 940,
+      "total_units": 9316
+    },
+    {
+      "date": "2013-03-26",
+      "store_id": 110,
+      "num_transactions": 672,
+      "total_units": 7196
+    },
+    {
+      "date": "2013-03-27",
+      "store_id": 110,
+      "num_transactions": 777,
+      "total_units": 7401
+    },
+    {
+      "date": "2013-03-28",
+      "store_id": 110,
+      "num_transactions": 996,
+      "total_units": 10539
+    },
+    {
+      "date": "2013-03-29",
+      "store_id": 110,
+      "num_transactions": 590,
+      "total_units": 5042
+    },
+    {
+      "date": "2013-03-30",
+      "store_id": 110,
+      "num_transactions": 1052,
+      "total_units": 13188
+    },
+    {
+      "date": "2013-03-31",
+      "store_id": 110,
+      "num_transactions": 940,
+      "total_units": 10817
+    },
+    {
+      "date": "2013-04-01",
+      "store_id": 110,
+      "num_transactions": 643,
+      "total_units": 7268
+    },
+    {
+      "date": "2013-04-02",
+      "store_id": 110,
+      "num_transactions": 708,
+      "total_units": 8974
+    },
+    {
+      "date": "2013-04-03",
+      "store_id": 110,
+      "num_transactions": 534,
+      "total_units": 5264
+    },
+    {
+      "date": "2013-04-04",
+      "store_id": 110,
+      "num_transactions": 568,
+      "total_units": 6509
+    },
+    {
+      "date": "2013-04-05",
+      "store_id": 110,
+      "num_transactions": 489,
+      "total_units": 4040
+    },
+    {
+      "date": "2013-04-06",
+      "store_id": 110,
+      "num_transactions": 1029,
+      "total_units": 12590
+    },
+    {
+      "date": "2013-04-07",
+      "store_id": 110,
+      "num_transactions": 1137,
+      "total_units": 11905
+    },
+    {
+      "date": "2013-04-08",
+      "store_id": 110,
+      "num_transactions": 502,
+      "total_units": 4690
+    },
+    {
+      "date": "2013-04-09",
+      "store_id": 110,
+      "num_transactions": 578,
+      "total_units": 6092
+    },
+    {
+      "date": "2013-04-10",
+      "store_id": 110,
+      "num_transactions": 523,
+      "total_units": 4551
+    },
+    {
+      "date": "2013-04-11",
+      "store_id": 110,
+      "num_transactions": 529,
+      "total_units": 5068
+    },
+    {
+      "date": "2013-04-12",
+      "store_id": 110,
+      "num_transactions": 492,
+      "total_units": 3864
+    },
+    {
+      "date": "2013-04-13",
+      "store_id": 110,
+      "num_transactions": 993,
+      "total_units": 12380
+    },
+    {
+      "date": "2013-04-14",
+      "store_id": 110,
+      "num_transactions": 1045,
+      "total_units": 11628
+    },
+    {
+      "date": "2013-04-15",
+      "store_id": 110,
+      "num_transactions": 689,
+      "total_units": 6685
+    },
+    {
+      "date": "2013-04-16",
+      "store_id": 110,
+      "num_transactions": 696,
+      "total_units": 7484
+    },
+    {
+      "date": "2013-04-17",
+      "store_id": 110,
+      "num_transactions": 453,
+      "total_units": 3725
+    },
+    {
+      "date": "2013-04-18",
+      "store_id": 110,
+      "num_transactions": 610,
+      "total_units": 6285
+    },
+    {
+      "date": "2013-04-19",
+      "store_id": 110,
+      "num_transactions": 531,
+      "total_units": 4340
+    },
+    {
+      "date": "2013-04-20",
+      "store_id": 110,
+      "num_transactions": 912,
+      "total_units": 11543
+    },
+    {
+      "date": "2013-04-21",
+      "store_id": 110,
+      "num_transactions": 1168,
+      "total_units": 12111
+    },
+    {
+      "date": "2013-04-22",
+      "store_id": 110,
+      "num_transactions": 520,
+      "total_units": 4481
+    },
+    {
+      "date": "2013-04-23",
+      "store_id": 110,
+      "num_transactions": 479,
+      "total_units": 5062
+    },
+    {
+      "date": "2013-04-24",
+      "store_id": 110,
+      "num_transactions": 518,
+      "total_units": 4609
+    },
+    {
+      "date": "2013-04-25",
+      "store_id": 110,
+      "num_transactions": 544,
+      "total_units": 5023
+    },
+    {
+      "date": "2013-04-26",
+      "store_id": 110,
+      "num_transactions": 518,
+      "total_units": 4532
+    },
+    {
+      "date": "2013-04-27",
+      "store_id": 110,
+      "num_transactions": 920,
+      "total_units": 11464
+    },
+    {
+      "date": "2013-04-28",
+      "store_id": 110,
+      "num_transactions": 1250,
+      "total_units": 13395
+    },
+    {
+      "date": "2013-04-29",
+      "store_id": 110,
+      "num_transactions": 515,
+      "total_units": 4919
+    },
+    {
+      "date": "2013-04-30",
+      "store_id": 110,
+      "num_transactions": 689,
+      "total_units": 8487
+    },
+    {
+      "date": "2013-05-01",
+      "store_id": 110,
+      "num_transactions": 1212,
+      "total_units": 13492
+    },
+    {
+      "date": "2013-05-02",
+      "store_id": 110,
+      "num_transactions": 589,
+      "total_units": 6592
+    },
+    {
+      "date": "2013-05-03",
+      "store_id": 110,
+      "num_transactions": 676,
+      "total_units": 5991
+    },
+    {
+      "date": "2013-05-04",
+      "store_id": 110,
+      "num_transactions": 1086,
+      "total_units": 13523
+    },
+    {
+      "date": "2013-05-05",
+      "store_id": 110,
+      "num_transactions": 1062,
+      "total_units": 11646
+    },
+    {
+      "date": "2013-05-06",
+      "store_id": 110,
+      "num_transactions": 568,
+      "total_units": 5239
+    },
+    {
+      "date": "2013-05-07",
+      "store_id": 110,
+      "num_transactions": 635,
+      "total_units": 6553
+    },
+    {
+      "date": "2013-05-08",
+      "store_id": 110,
+      "num_transactions": 532,
+      "total_units": 4196
+    },
+    {
+      "date": "2013-05-09",
+      "store_id": 110,
+      "num_transactions": 600,
+      "total_units": 5429
+    },
+    {
+      "date": "2013-05-10",
+      "store_id": 110,
+      "num_transactions": 585,
+      "total_units": 4622
+    },
+    {
+      "date": "2013-05-11",
+      "store_id": 110,
+      "num_transactions": 1178,
+      "total_units": 11831
+    },
+    {
+      "date": "2013-05-12",
+      "store_id": 110,
+      "num_transactions": 1123,
+      "total_units": 8216
+    },
+    {
+      "date": "2013-05-13",
+      "store_id": 110,
+      "num_transactions": 918,
+      "total_units": 9050
+    },
+    {
+      "date": "2013-05-14",
+      "store_id": 110,
+      "num_transactions": 611,
+      "total_units": 6482
+    },
+    {
+      "date": "2013-05-15",
+      "store_id": 110,
+      "num_transactions": 536,
+      "total_units": 5044
+    },
+    {
+      "date": "2013-05-16",
+      "store_id": 110,
+      "num_transactions": 689,
+      "total_units": 7261
+    },
+    {
+      "date": "2013-05-17",
+      "store_id": 110,
+      "num_transactions": 539,
+      "total_units": 4776
+    },
+    {
+      "date": "2013-05-18",
+      "store_id": 110,
+      "num_transactions": 1002,
+      "total_units": 12224
+    },
+    {
+      "date": "2013-05-19",
+      "store_id": 110,
+      "num_transactions": 1079,
+      "total_units": 11841
+    },
+    {
+      "date": "2013-05-20",
+      "store_id": 110,
+      "num_transactions": 494,
+      "total_units": 4642
+    },
+    {
+      "date": "2013-05-21",
+      "store_id": 110,
+      "num_transactions": 566,
+      "total_units": 5974
+    },
+    {
+      "date": "2013-05-22",
+      "store_id": 110,
+      "num_transactions": 414,
+      "total_units": 3459
+    },
+    {
+      "date": "2013-05-23",
+      "store_id": 110,
+      "num_transactions": 560,
+      "total_units": 5395
+    },
+    {
+      "date": "2013-05-24",
+      "store_id": 110,
+      "num_transactions": 521,
+      "total_units": 4236
+    },
+    {
+      "date": "2013-05-25",
+      "store_id": 110,
+      "num_transactions": 973,
+      "total_units": 12081
+    },
+    {
+      "date": "2013-05-26",
+      "store_id": 110,
+      "num_transactions": 942,
+      "total_units": 10015
+    },
+    {
+      "date": "2013-05-27",
+      "store_id": 110,
+      "num_transactions": 546,
+      "total_units": 5197
+    },
+    {
+      "date": "2013-05-28",
+      "store_id": 110,
+      "num_transactions": 617,
+      "total_units": 6606
+    },
+    {
+      "date": "2013-05-29",
+      "store_id": 110,
+      "num_transactions": 499,
+      "total_units": 4079
+    },
+    {
+      "date": "2013-05-30",
+      "store_id": 110,
+      "num_transactions": 615,
+      "total_units": 6769
+    },
+    {
+      "date": "2013-05-31",
+      "store_id": 110,
+      "num_transactions": 637,
+      "total_units": 6259
+    },
+    {
+      "date": "2013-06-01",
+      "store_id": 110,
+      "num_transactions": 1209,
+      "total_units": 16333
+    },
+    {
+      "date": "2013-06-02",
+      "store_id": 110,
+      "num_transactions": 1145,
+      "total_units": 12065
+    },
+    {
+      "date": "2013-06-03",
+      "store_id": 110,
+      "num_transactions": 1139,
+      "total_units": 12523
+    },
+    {
+      "date": "2013-06-04",
+      "store_id": 110,
+      "num_transactions": 638,
+      "total_units": 7005
+    },
+    {
+      "date": "2013-06-05",
+      "store_id": 110,
+      "num_transactions": 569,
+      "total_units": 5173
+    },
+    {
+      "date": "2013-06-06",
+      "store_id": 110,
+      "num_transactions": 547,
+      "total_units": 5703
+    },
+    {
+      "date": "2013-06-07",
+      "store_id": 110,
+      "num_transactions": 563,
+      "total_units": 4257
+    },
+    {
+      "date": "2013-06-08",
+      "store_id": 110,
+      "num_transactions": 1048,
+      "total_units": 11824
+    },
+    {
+      "date": "2013-06-09",
+      "store_id": 110,
+      "num_transactions": 988,
+      "total_units": 9030
+    },
+    {
+      "date": "2013-06-10",
+      "store_id": 110,
+      "num_transactions": 938,
+      "total_units": 8956
+    },
+    {
+      "date": "2013-06-11",
+      "store_id": 110,
+      "num_transactions": 561,
+      "total_units": 5840
+    },
+    {
+      "date": "2013-06-12",
+      "store_id": 110,
+      "num_transactions": 549,
+      "total_units": 4611
+    },
+    {
+      "date": "2013-06-13",
+      "store_id": 110,
+      "num_transactions": 544,
+      "total_units": 5265
+    },
+    {
+      "date": "2013-06-14",
+      "store_id": 110,
+      "num_transactions": 557,
+      "total_units": 4812
+    },
+    {
+      "date": "2013-06-15",
+      "store_id": 110,
+      "num_transactions": 1397,
+      "total_units": 15365
+    },
+    {
+      "date": "2013-06-16",
+      "store_id": 110,
+      "num_transactions": 1288,
+      "total_units": 12100
+    },
+    {
+      "date": "2013-06-17",
+      "store_id": 110,
+      "num_transactions": 622,
+      "total_units": 6035
+    },
+    {
+      "date": "2013-06-18",
+      "store_id": 110,
+      "num_transactions": 649,
+      "total_units": 7137
+    },
+    {
+      "date": "2013-06-19",
+      "store_id": 110,
+      "num_transactions": 546,
+      "total_units": 4924
+    },
+    {
+      "date": "2013-06-20",
+      "store_id": 110,
+      "num_transactions": 571,
+      "total_units": 5687
+    },
+    {
+      "date": "2013-06-21",
+      "store_id": 110,
+      "num_transactions": 624,
+      "total_units": 5104
+    },
+    {
+      "date": "2013-06-22",
+      "store_id": 110,
+      "num_transactions": 977,
+      "total_units": 10986
+    },
+    {
+      "date": "2013-06-23",
+      "store_id": 110,
+      "num_transactions": 1026,
+      "total_units": 10233
+    },
+    {
+      "date": "2013-06-24",
+      "store_id": 110,
+      "num_transactions": 542,
+      "total_units": 4715
+    },
+    {
+      "date": "2013-06-25",
+      "store_id": 110,
+      "num_transactions": 644,
+      "total_units": 6579
+    },
+    {
+      "date": "2013-06-26",
+      "store_id": 110,
+      "num_transactions": 628,
+      "total_units": 5823
+    },
+    {
+      "date": "2013-06-27",
+      "store_id": 110,
+      "num_transactions": 620,
+      "total_units": 6259
+    },
+    {
+      "date": "2013-06-28",
+      "store_id": 110,
+      "num_transactions": 662,
+      "total_units": 5716
+    },
+    {
+      "date": "2013-06-29",
+      "store_id": 110,
+      "num_transactions": 1164,
+      "total_units": 14253
+    },
+    {
+      "date": "2013-06-30",
+      "store_id": 110,
+      "num_transactions": 1119,
+      "total_units": 11152
+    }
+  ]
+}

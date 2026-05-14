@@ -1,0 +1,5249 @@
+{
+  "basket_size_stats": {
+    "label": "Tamaño de cesta",
+    "min": 1.0,
+    "q1": 3.0,
+    "median": 6.0,
+    "q3": 12.0,
+    "max": 128.0,
+    "mean": 9.550872102197772,
+    "std": 9.999498661178462,
+    "count": 1108987
+  },
+  "client_total_stats": {
+    "label": "Total unidades por cliente",
+    "min": 1.0,
+    "q1": 7.0,
+    "median": 26.0,
+    "q3": 95.0,
+    "max": 2860.0,
+    "mean": 80.73874498803227,
+    "std": 131.99186229947125,
+    "count": 131186
+  },
+  "outlier_clients": [
+    {
+      "client_id": 336296,
+      "total_units": 2860
+    },
+    {
+      "client_id": 340719,
+      "total_units": 1888
+    },
+    {
+      "client_id": 522427,
+      "total_units": 1812
+    },
+    {
+      "client_id": 212565,
+      "total_units": 1805
+    },
+    {
+      "client_id": 360041,
+      "total_units": 1782
+    },
+    {
+      "client_id": 263972,
+      "total_units": 1701
+    },
+    {
+      "client_id": 538011,
+      "total_units": 1693
+    },
+    {
+      "client_id": 684690,
+      "total_units": 1611
+    },
+    {
+      "client_id": 517807,
+      "total_units": 1574
+    },
+    {
+      "client_id": 797856,
+      "total_units": 1566
+    },
+    {
+      "client_id": 460566,
+      "total_units": 1489
+    },
+    {
+      "client_id": 883371,
+      "total_units": 1468
+    },
+    {
+      "client_id": 952242,
+      "total_units": 1455
+    },
+    {
+      "client_id": 440157,
+      "total_units": 1437
+    },
+    {
+      "client_id": 425590,
+      "total_units": 1406
+    },
+    {
+      "client_id": 857107,
+      "total_units": 1397
+    },
+    {
+      "client_id": 667764,
+      "total_units": 1394
+    },
+    {
+      "client_id": 613588,
+      "total_units": 1353
+    },
+    {
+      "client_id": 791242,
+      "total_units": 1351
+    },
+    {
+      "client_id": 860192,
+      "total_units": 1350
+    }
+  ],
+  "category_basket_stats": [
+    {
+      "category_name": "PANES-TOSTADAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 300526
+    },
+    {
+      "category_name": "LECHE LIQUIDA",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 290313
+    },
+    {
+      "category_name": "VERDURAS DE FRUTOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 269855
+    },
+    {
+      "category_name": "CUIDADO DE LA ROPA",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 260418
+    },
+    {
+      "category_name": "VERDURAS RAIZ,TUBERCULO Y BULBOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 254644
+    },
+    {
+      "category_name": "QUESO",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 253899
+    },
+    {
+      "category_name": "CARNES PROCESADAS AL VACIO",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 225877
+    },
+    {
+      "category_name": "AREPAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 224159
+    },
+    {
+      "category_name": "CUIDADO DE LA COCINA",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 221968
+    },
+    {
+      "category_name": "PASABOCAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 212480
+    },
+    {
+      "category_name": "YOGURT",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 210081
+    },
+    {
+      "category_name": "HUEVOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 202214
+    },
+    {
+      "category_name": "GALLETAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 185167
+    },
+    {
+      "category_name": "CEREALES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 183467
+    },
+    {
+      "category_name": "ENLATADOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 179634
+    },
+    {
+      "category_name": "GASEOSAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 173154
+    },
+    {
+      "category_name": "JUGOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 166405
+    },
+    {
+      "category_name": "VERDURAS DE HOJAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 166233
+    },
+    {
+      "category_name": "GRANOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 151794
+    },
+    {
+      "category_name": "AZUCAR",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 145956
+    },
+    {
+      "category_name": "AROMATICAS CONDIMENTOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 141429
+    },
+    {
+      "category_name": "SALSAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 136176
+    },
+    {
+      "category_name": "CUIDADO DE PISOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 133878
+    },
+    {
+      "category_name": "PAPEL HIGIENICO",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 130965
+    },
+    {
+      "category_name": "AROMATICAS MEDICINALES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 126722
+    },
+    {
+      "category_name": "VERDURAS RAIZ,TUBE,ETC, PESO FIJO",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 122922
+    },
+    {
+      "category_name": "PASTAS COMESTIBLES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 121363
+    },
+    {
+      "category_name": "SOPAS-CREMAS-CALDOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 113850
+    },
+    {
+      "category_name": "ACEITE DE COCINA",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 113668
+    },
+    {
+      "category_name": "CONCESIONARIOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 113246
+    },
+    {
+      "category_name": "TORTAS Y PORQUES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 111990
+    },
+    {
+      "category_name": "CONDIMENTOS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 105759
+    },
+    {
+      "category_name": "LULO NACIONAL",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 103820
+    },
+    {
+      "category_name": "LEGUMBRES VERDES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 97318
+    },
+    {
+      "category_name": "CAFE NO SOLUBLES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 96928
+    },
+    {
+      "category_name": "PAPAYA COMUN",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 93336
+    },
+    {
+      "category_name": "CEREALES PARA EL DESAYUNO",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 91271
+    },
+    {
+      "category_name": "CONFITES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 91233
+    },
+    {
+      "category_name": "GRUPO FRUVER-EXCEPCIONES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 88841
+    },
+    {
+      "category_name": "BEBIDAS INSTANTANEAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 86638
+    },
+    {
+      "category_name": "JABONES DE TOCADOR",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 83654
+    },
+    {
+      "category_name": "BANANO EXPORTACION",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 83424
+    },
+    {
+      "category_name": "DESODORANTES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 80302
+    },
+    {
+      "category_name": "GOMAS DE MASCAR",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 80223
+    },
+    {
+      "category_name": "MARGARINAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 80068
+    },
+    {
+      "category_name": "VARIOS USOS ASEO HOGAR",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 78085
+    },
+    {
+      "category_name": "MASCOTAS",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 75493
+    },
+    {
+      "category_name": "MANGO TOMY",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 74601
+    },
+    {
+      "category_name": "AVES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 73295
+    },
+    {
+      "category_name": "CREMAS DENTALES",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 68629
+    },
+    {
+      "category_name": "Categoría 68",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 67816
+    },
+    {
+      "category_name": "Categoría 52",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 67414
+    },
+    {
+      "category_name": "Categoría 54",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 55329
+    },
+    {
+      "category_name": "Categoría 51",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 54311
+    },
+    {
+      "category_name": "Categoría 55",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 52349
+    },
+    {
+      "category_name": "Categoría 53",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 50118
+    },
+    {
+      "category_name": "Categoría 57",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 48021
+    },
+    {
+      "category_name": "Categoría 59",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 42819
+    },
+    {
+      "category_name": "Categoría 58",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 41609
+    },
+    {
+      "category_name": "Categoría 56",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 41073
+    },
+    {
+      "category_name": "Categoría 62",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 38926
+    },
+    {
+      "category_name": "Categoría 66",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 37775
+    },
+    {
+      "category_name": "Categoría 60",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 37089
+    },
+    {
+      "category_name": "Categoría 65",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 35833
+    },
+    {
+      "category_name": "Categoría 63",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 34854
+    },
+    {
+      "category_name": "Categoría 71",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 33587
+    },
+    {
+      "category_name": "Categoría 73",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 33128
+    },
+    {
+      "category_name": "Categoría 70",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 32896
+    },
+    {
+      "category_name": "Categoría 67",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 29402
+    },
+    {
+      "category_name": "Categoría 76",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 29334
+    },
+    {
+      "category_name": "Categoría 75",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 29156
+    },
+    {
+      "category_name": "Categoría 77",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 28777
+    },
+    {
+      "category_name": "Categoría 82",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 28346
+    },
+    {
+      "category_name": "Categoría 87",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 28080
+    },
+    {
+      "category_name": "Categoría 96",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 27935
+    },
+    {
+      "category_name": "Categoría 83",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 27578
+    },
+    {
+      "category_name": "Categoría 90",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 27045
+    },
+    {
+      "category_name": "Categoría 84",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 27035
+    },
+    {
+      "category_name": "Categoría 81",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 26587
+    },
+    {
+      "category_name": "Categoría 93",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 26371
+    },
+    {
+      "category_name": "Categoría 69",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 25462
+    },
+    {
+      "category_name": "Categoría 79",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 25399
+    },
+    {
+      "category_name": "Categoría 97",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 25050
+    },
+    {
+      "category_name": "Categoría 61",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 25032
+    },
+    {
+      "category_name": "Categoría 89",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24855
+    },
+    {
+      "category_name": "Categoría 74",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24730
+    },
+    {
+      "category_name": "Categoría 72",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24673
+    },
+    {
+      "category_name": "Categoría 94",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24647
+    },
+    {
+      "category_name": "Categoría 80",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24518
+    },
+    {
+      "category_name": "Categoría 100",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24310
+    },
+    {
+      "category_name": "Categoría 85",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 24144
+    },
+    {
+      "category_name": "Categoría 91",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 23955
+    },
+    {
+      "category_name": "Categoría 98",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 22524
+    },
+    {
+      "category_name": "Categoría 78",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 22447
+    },
+    {
+      "category_name": "Categoría 92",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 22089
+    },
+    {
+      "category_name": "Categoría 86",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 21893
+    },
+    {
+      "category_name": "Categoría 102",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 21503
+    },
+    {
+      "category_name": "Categoría 95",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 21128
+    },
+    {
+      "category_name": "Categoría 107",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 21061
+    },
+    {
+      "category_name": "Categoría 109",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 20016
+    },
+    {
+      "category_name": "Categoría 99",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 19777
+    },
+    {
+      "category_name": "Categoría 106",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 19050
+    },
+    {
+      "category_name": "Categoría 104",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 18868
+    },
+    {
+      "category_name": "Categoría 133",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 18171
+    },
+    {
+      "category_name": "Categoría 103",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 17744
+    },
+    {
+      "category_name": "Categoría 105",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 17481
+    },
+    {
+      "category_name": "Categoría 108",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16975
+    },
+    {
+      "category_name": "Categoría 113",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16559
+    },
+    {
+      "category_name": "Categoría 111",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16227
+    },
+    {
+      "category_name": "Categoría 150",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16216
+    },
+    {
+      "category_name": "Categoría 88",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16136
+    },
+    {
+      "category_name": "Categoría 120",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 16135
+    },
+    {
+      "category_name": "Categoría 121",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 15667
+    },
+    {
+      "category_name": "Categoría 117",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 15663
+    },
+    {
+      "category_name": "Categoría 124",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 15003
+    },
+    {
+      "category_name": "Categoría 135",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 14721
+    },
+    {
+      "category_name": "Categoría 114",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 14357
+    },
+    {
+      "category_name": "Categoría 134",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 14177
+    },
+    {
+      "category_name": "Categoría 112",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 14026
+    },
+    {
+      "category_name": "Categoría 115",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13777
+    },
+    {
+      "category_name": "Categoría 148",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13668
+    },
+    {
+      "category_name": "Categoría 116",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13537
+    },
+    {
+      "category_name": "Categoría 126",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13280
+    },
+    {
+      "category_name": "Categoría 64",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 13178
+    },
+    {
+      "category_name": "Categoría 122",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12640
+    },
+    {
+      "category_name": "Categoría 125",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12580
+    },
+    {
+      "category_name": "Categoría 123",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12522
+    },
+    {
+      "category_name": "Categoría 137",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12343
+    },
+    {
+      "category_name": "Categoría 101",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12341
+    },
+    {
+      "category_name": "Categoría 136",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12336
+    },
+    {
+      "category_name": "Categoría 143",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12315
+    },
+    {
+      "category_name": "Categoría 132",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12272
+    },
+    {
+      "category_name": "Categoría 127",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12257
+    },
+    {
+      "category_name": "Categoría 145",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12240
+    },
+    {
+      "category_name": "Categoría 131",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12191
+    },
+    {
+      "category_name": "Categoría 139",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 12010
+    },
+    {
+      "category_name": "Categoría 146",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11920
+    },
+    {
+      "category_name": "Categoría 129",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11919
+    },
+    {
+      "category_name": "Categoría 140",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11803
+    },
+    {
+      "category_name": "Categoría 152",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11655
+    },
+    {
+      "category_name": "Categoría 160",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11556
+    },
+    {
+      "category_name": "Categoría 144",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11364
+    },
+    {
+      "category_name": "Categoría 141",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11062
+    },
+    {
+      "category_name": "Categoría 118",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 11038
+    },
+    {
+      "category_name": "Categoría 130",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 10855
+    },
+    {
+      "category_name": "Categoría 110",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 10614
+    },
+    {
+      "category_name": "Categoría 142",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 10603
+    },
+    {
+      "category_name": "Categoría 128",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 10560
+    },
+    {
+      "category_name": "Categoría 156",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 10427
+    },
+    {
+      "category_name": "Categoría 138",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9849
+    },
+    {
+      "category_name": "Categoría 174",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9711
+    },
+    {
+      "category_name": "Categoría 149",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9662
+    },
+    {
+      "category_name": "Categoría 151",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9348
+    },
+    {
+      "category_name": "Categoría 166",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9173
+    },
+    {
+      "category_name": "Categoría 176",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9024
+    },
+    {
+      "category_name": "Categoría 147",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 9023
+    },
+    {
+      "category_name": "Categoría 155",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8835
+    },
+    {
+      "category_name": "Categoría 191",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8683
+    },
+    {
+      "category_name": "Categoría 167",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8155
+    },
+    {
+      "category_name": "Categoría 184",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8087
+    },
+    {
+      "category_name": "Categoría 170",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8073
+    },
+    {
+      "category_name": "Categoría 197",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8039
+    },
+    {
+      "category_name": "Categoría 119",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 8015
+    },
+    {
+      "category_name": "Categoría 168",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7977
+    },
+    {
+      "category_name": "Categoría 182",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7946
+    },
+    {
+      "category_name": "Categoría 164",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7945
+    },
+    {
+      "category_name": "Categoría 163",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7851
+    },
+    {
+      "category_name": "Categoría 187",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7814
+    },
+    {
+      "category_name": "Categoría 172",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7796
+    },
+    {
+      "category_name": "Categoría 186",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7563
+    },
+    {
+      "category_name": "Categoría 201",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7538
+    },
+    {
+      "category_name": "Categoría 171",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7526
+    },
+    {
+      "category_name": "Categoría 158",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7447
+    },
+    {
+      "category_name": "Categoría 200",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7435
+    },
+    {
+      "category_name": "Categoría 198",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7430
+    },
+    {
+      "category_name": "Categoría 157",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7422
+    },
+    {
+      "category_name": "Categoría 196",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7342
+    },
+    {
+      "category_name": "Categoría 179",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7319
+    },
+    {
+      "category_name": "Categoría 175",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7245
+    },
+    {
+      "category_name": "Categoría 213",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7226
+    },
+    {
+      "category_name": "Categoría 159",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7200
+    },
+    {
+      "category_name": "Categoría 195",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7160
+    },
+    {
+      "category_name": "Categoría 180",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7108
+    },
+    {
+      "category_name": "Categoría 153",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7092
+    },
+    {
+      "category_name": "Categoría 169",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7080
+    },
+    {
+      "category_name": "Categoría 165",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 7031
+    },
+    {
+      "category_name": "Categoría 229",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6960
+    },
+    {
+      "category_name": "Categoría 206",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6937
+    },
+    {
+      "category_name": "Categoría 211",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6875
+    },
+    {
+      "category_name": "Categoría 162",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6861
+    },
+    {
+      "category_name": "Categoría 193",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6844
+    },
+    {
+      "category_name": "Categoría 154",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6828
+    },
+    {
+      "category_name": "Categoría 181",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6734
+    },
+    {
+      "category_name": "Categoría 189",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6704
+    },
+    {
+      "category_name": "Categoría 178",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6696
+    },
+    {
+      "category_name": "Categoría 208",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6359
+    },
+    {
+      "category_name": "Categoría 217",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6343
+    },
+    {
+      "category_name": "Categoría 205",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6271
+    },
+    {
+      "category_name": "Categoría 227",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6258
+    },
+    {
+      "category_name": "Categoría 239",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6249
+    },
+    {
+      "category_name": "Categoría 207",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6180
+    },
+    {
+      "category_name": "Categoría 188",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 6136
+    },
+    {
+      "category_name": "Categoría 161",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5916
+    },
+    {
+      "category_name": "Categoría 225",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5876
+    },
+    {
+      "category_name": "Categoría 204",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5824
+    },
+    {
+      "category_name": "Categoría 209",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5794
+    },
+    {
+      "category_name": "Categoría 192",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5681
+    },
+    {
+      "category_name": "Categoría 223",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5574
+    },
+    {
+      "category_name": "Categoría 218",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5534
+    },
+    {
+      "category_name": "Categoría 177",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5493
+    },
+    {
+      "category_name": "Categoría 237",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5428
+    },
+    {
+      "category_name": "Categoría 260",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5424
+    },
+    {
+      "category_name": "Categoría 210",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5384
+    },
+    {
+      "category_name": "Categoría 226",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5321
+    },
+    {
+      "category_name": "Categoría 183",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5305
+    },
+    {
+      "category_name": "Categoría 224",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5285
+    },
+    {
+      "category_name": "Categoría 221",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5278
+    },
+    {
+      "category_name": "Categoría 214",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5225
+    },
+    {
+      "category_name": "Categoría 190",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5218
+    },
+    {
+      "category_name": "Categoría 241",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5130
+    },
+    {
+      "category_name": "Categoría 228",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 5103
+    },
+    {
+      "category_name": "Categoría 215",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4894
+    },
+    {
+      "category_name": "Categoría 212",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4866
+    },
+    {
+      "category_name": "Categoría 251",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4859
+    },
+    {
+      "category_name": "Categoría 240",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4845
+    },
+    {
+      "category_name": "Categoría 230",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4814
+    },
+    {
+      "category_name": "Categoría 234",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4791
+    },
+    {
+      "category_name": "Categoría 202",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4782
+    },
+    {
+      "category_name": "Categoría 246",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4721
+    },
+    {
+      "category_name": "Categoría 244",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4657
+    },
+    {
+      "category_name": "Categoría 220",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4476
+    },
+    {
+      "category_name": "Categoría 247",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4455
+    },
+    {
+      "category_name": "Categoría 236",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4377
+    },
+    {
+      "category_name": "Categoría 243",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4338
+    },
+    {
+      "category_name": "Categoría 194",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4319
+    },
+    {
+      "category_name": "Categoría 199",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4212
+    },
+    {
+      "category_name": "Categoría 231",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4186
+    },
+    {
+      "category_name": "Categoría 249",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4121
+    },
+    {
+      "category_name": "Categoría 252",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4069
+    },
+    {
+      "category_name": "Categoría 271",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 4007
+    },
+    {
+      "category_name": "Categoría 232",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3999
+    },
+    {
+      "category_name": "Categoría 258",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3991
+    },
+    {
+      "category_name": "Categoría 264",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3960
+    },
+    {
+      "category_name": "Categoría 222",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3944
+    },
+    {
+      "category_name": "Categoría 270",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3934
+    },
+    {
+      "category_name": "Categoría 265",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3842
+    },
+    {
+      "category_name": "Categoría 262",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3767
+    },
+    {
+      "category_name": "Categoría 273",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3752
+    },
+    {
+      "category_name": "Categoría 233",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3654
+    },
+    {
+      "category_name": "Categoría 245",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3644
+    },
+    {
+      "category_name": "Categoría 173",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3586
+    },
+    {
+      "category_name": "Categoría 304",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3543
+    },
+    {
+      "category_name": "Categoría 250",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3540
+    },
+    {
+      "category_name": "Categoría 253",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3506
+    },
+    {
+      "category_name": "Categoría 299",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3465
+    },
+    {
+      "category_name": "Categoría 272",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3439
+    },
+    {
+      "category_name": "Categoría 286",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3437
+    },
+    {
+      "category_name": "Categoría 281",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3426
+    },
+    {
+      "category_name": "Categoría 235",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3420
+    },
+    {
+      "category_name": "Categoría 259",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3407
+    },
+    {
+      "category_name": "Categoría 242",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3374
+    },
+    {
+      "category_name": "Categoría 238",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3330
+    },
+    {
+      "category_name": "Categoría 300",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3302
+    },
+    {
+      "category_name": "Categoría 313",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3212
+    },
+    {
+      "category_name": "Categoría 277",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3199
+    },
+    {
+      "category_name": "Categoría 203",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3177
+    },
+    {
+      "category_name": "Categoría 274",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3143
+    },
+    {
+      "category_name": "Categoría 257",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3133
+    },
+    {
+      "category_name": "Categoría 275",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3109
+    },
+    {
+      "category_name": "Categoría 185",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3079
+    },
+    {
+      "category_name": "Categoría 285",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3054
+    },
+    {
+      "category_name": "Categoría 293",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 3015
+    },
+    {
+      "category_name": "Categoría 216",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2999
+    },
+    {
+      "category_name": "Categoría 295",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2995
+    },
+    {
+      "category_name": "Categoría 311",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2973
+    },
+    {
+      "category_name": "Categoría 276",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2953
+    },
+    {
+      "category_name": "Categoría 312",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2933
+    },
+    {
+      "category_name": "Categoría 308",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2929
+    },
+    {
+      "category_name": "Categoría 278",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2926
+    },
+    {
+      "category_name": "Categoría 255",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2908
+    },
+    {
+      "category_name": "Categoría 267",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2887
+    },
+    {
+      "category_name": "Categoría 268",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2857
+    },
+    {
+      "category_name": "Categoría 287",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2850
+    },
+    {
+      "category_name": "Categoría 269",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2811
+    },
+    {
+      "category_name": "Categoría 290",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2806
+    },
+    {
+      "category_name": "Categoría 306",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2793
+    },
+    {
+      "category_name": "Categoría 327",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2787
+    },
+    {
+      "category_name": "Categoría 280",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2786
+    },
+    {
+      "category_name": "Categoría 298",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2765
+    },
+    {
+      "category_name": "Categoría 310",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2763
+    },
+    {
+      "category_name": "Categoría 254",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2754
+    },
+    {
+      "category_name": "Categoría 329",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2746
+    },
+    {
+      "category_name": "Categoría 282",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2723
+    },
+    {
+      "category_name": "Categoría 283",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2709
+    },
+    {
+      "category_name": "Categoría 266",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2708
+    },
+    {
+      "category_name": "Categoría 333",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2672
+    },
+    {
+      "category_name": "Categoría 322",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2652
+    },
+    {
+      "category_name": "Categoría 337",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2645
+    },
+    {
+      "category_name": "Categoría 305",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2642
+    },
+    {
+      "category_name": "Categoría 315",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2641
+    },
+    {
+      "category_name": "Categoría 261",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2609
+    },
+    {
+      "category_name": "Categoría 292",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2609
+    },
+    {
+      "category_name": "Categoría 256",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2604
+    },
+    {
+      "category_name": "Categoría 297",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2548
+    },
+    {
+      "category_name": "Categoría 302",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2545
+    },
+    {
+      "category_name": "Categoría 320",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2540
+    },
+    {
+      "category_name": "Categoría 331",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2529
+    },
+    {
+      "category_name": "Categoría 303",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2527
+    },
+    {
+      "category_name": "Categoría 332",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2512
+    },
+    {
+      "category_name": "Categoría 248",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2472
+    },
+    {
+      "category_name": "Categoría 344",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2433
+    },
+    {
+      "category_name": "Categoría 347",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2427
+    },
+    {
+      "category_name": "Categoría 319",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2380
+    },
+    {
+      "category_name": "Categoría 321",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2379
+    },
+    {
+      "category_name": "Categoría 263",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2368
+    },
+    {
+      "category_name": "Categoría 371",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2366
+    },
+    {
+      "category_name": "Categoría 340",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2362
+    },
+    {
+      "category_name": "Categoría 325",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2340
+    },
+    {
+      "category_name": "Categoría 294",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2320
+    },
+    {
+      "category_name": "Categoría 301",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2312
+    },
+    {
+      "category_name": "Categoría 314",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2293
+    },
+    {
+      "category_name": "Categoría 342",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2231
+    },
+    {
+      "category_name": "Categoría 288",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2220
+    },
+    {
+      "category_name": "Categoría 370",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2216
+    },
+    {
+      "category_name": "Categoría 328",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2210
+    },
+    {
+      "category_name": "Categoría 364",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2180
+    },
+    {
+      "category_name": "Categoría 414",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2156
+    },
+    {
+      "category_name": "Categoría 316",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2140
+    },
+    {
+      "category_name": "Categoría 375",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2137
+    },
+    {
+      "category_name": "Categoría 346",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2133
+    },
+    {
+      "category_name": "Categoría 334",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2078
+    },
+    {
+      "category_name": "Categoría 359",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2064
+    },
+    {
+      "category_name": "Categoría 349",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2041
+    },
+    {
+      "category_name": "Categoría 279",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2035
+    },
+    {
+      "category_name": "Categoría 382",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2035
+    },
+    {
+      "category_name": "Categoría 284",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2018
+    },
+    {
+      "category_name": "Categoría 348",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 2018
+    },
+    {
+      "category_name": "Categoría 352",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1993
+    },
+    {
+      "category_name": "Categoría 372",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1988
+    },
+    {
+      "category_name": "Categoría 296",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1986
+    },
+    {
+      "category_name": "Categoría 358",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1984
+    },
+    {
+      "category_name": "Categoría 381",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1973
+    },
+    {
+      "category_name": "Categoría 398",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1963
+    },
+    {
+      "category_name": "Categoría 392",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1937
+    },
+    {
+      "category_name": "Categoría 361",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1936
+    },
+    {
+      "category_name": "Categoría 289",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1921
+    },
+    {
+      "category_name": "Categoría 363",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1917
+    },
+    {
+      "category_name": "Categoría 447",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1897
+    },
+    {
+      "category_name": "Categoría 343",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1888
+    },
+    {
+      "category_name": "Categoría 407",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1879
+    },
+    {
+      "category_name": "Categoría 413",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1851
+    },
+    {
+      "category_name": "Categoría 357",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1840
+    },
+    {
+      "category_name": "Categoría 354",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1831
+    },
+    {
+      "category_name": "Categoría 396",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1827
+    },
+    {
+      "category_name": "Categoría 390",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1812
+    },
+    {
+      "category_name": "Categoría 291",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1806
+    },
+    {
+      "category_name": "Categoría 425",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1805
+    },
+    {
+      "category_name": "Categoría 377",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1797
+    },
+    {
+      "category_name": "Categoría 309",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1768
+    },
+    {
+      "category_name": "Categoría 433",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1743
+    },
+    {
+      "category_name": "Categoría 317",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1729
+    },
+    {
+      "category_name": "Categoría 326",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1727
+    },
+    {
+      "category_name": "Categoría 360",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1714
+    },
+    {
+      "category_name": "Categoría 443",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1707
+    },
+    {
+      "category_name": "Categoría 420",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1706
+    },
+    {
+      "category_name": "Categoría 421",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1700
+    },
+    {
+      "category_name": "Categoría 428",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1685
+    },
+    {
+      "category_name": "Categoría 353",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1676
+    },
+    {
+      "category_name": "Categoría 338",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1672
+    },
+    {
+      "category_name": "Categoría 356",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1672
+    },
+    {
+      "category_name": "Categoría 423",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1670
+    },
+    {
+      "category_name": "Categoría 378",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1664
+    },
+    {
+      "category_name": "Categoría 429",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1660
+    },
+    {
+      "category_name": "Categoría 336",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1654
+    },
+    {
+      "category_name": "Categoría 404",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1640
+    },
+    {
+      "category_name": "Categoría 324",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1636
+    },
+    {
+      "category_name": "Categoría 341",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1632
+    },
+    {
+      "category_name": "Categoría 362",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1606
+    },
+    {
+      "category_name": "Categoría 416",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1602
+    },
+    {
+      "category_name": "Categoría 401",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1601
+    },
+    {
+      "category_name": "Categoría 388",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1595
+    },
+    {
+      "category_name": "Categoría 373",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1585
+    },
+    {
+      "category_name": "Categoría 442",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1569
+    },
+    {
+      "category_name": "Categoría 318",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1560
+    },
+    {
+      "category_name": "Categoría 432",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1546
+    },
+    {
+      "category_name": "Categoría 323",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1530
+    },
+    {
+      "category_name": "Categoría 368",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1524
+    },
+    {
+      "category_name": "Categoría 345",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1523
+    },
+    {
+      "category_name": "Categoría 355",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1519
+    },
+    {
+      "category_name": "Categoría 400",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1495
+    },
+    {
+      "category_name": "Categoría 415",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1492
+    },
+    {
+      "category_name": "Categoría 408",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1489
+    },
+    {
+      "category_name": "Categoría 330",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1481
+    },
+    {
+      "category_name": "Categoría 411",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1471
+    },
+    {
+      "category_name": "Categoría 426",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1470
+    },
+    {
+      "category_name": "Categoría 389",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1461
+    },
+    {
+      "category_name": "Categoría 419",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1461
+    },
+    {
+      "category_name": "Categoría 339",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1458
+    },
+    {
+      "category_name": "Categoría 369",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1454
+    },
+    {
+      "category_name": "Categoría 391",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1438
+    },
+    {
+      "category_name": "Categoría 219",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1437
+    },
+    {
+      "category_name": "Categoría 436",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1422
+    },
+    {
+      "category_name": "Categoría 379",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1415
+    },
+    {
+      "category_name": "Categoría 376",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1406
+    },
+    {
+      "category_name": "Categoría 427",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1399
+    },
+    {
+      "category_name": "Categoría 350",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1398
+    },
+    {
+      "category_name": "Categoría 409",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1395
+    },
+    {
+      "category_name": "Categoría 439",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1390
+    },
+    {
+      "category_name": "Categoría 437",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1354
+    },
+    {
+      "category_name": "Categoría 394",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1338
+    },
+    {
+      "category_name": "Categoría 397",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1334
+    },
+    {
+      "category_name": "Categoría 366",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1333
+    },
+    {
+      "category_name": "Categoría 385",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1333
+    },
+    {
+      "category_name": "Categoría 365",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1305
+    },
+    {
+      "category_name": "Categoría 386",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1294
+    },
+    {
+      "category_name": "Categoría 410",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1293
+    },
+    {
+      "category_name": "Categoría 422",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1283
+    },
+    {
+      "category_name": "Categoría 438",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1282
+    },
+    {
+      "category_name": "Categoría 399",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1280
+    },
+    {
+      "category_name": "Categoría 393",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1265
+    },
+    {
+      "category_name": "Categoría 405",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1256
+    },
+    {
+      "category_name": "Categoría 380",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1250
+    },
+    {
+      "category_name": "Categoría 435",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1248
+    },
+    {
+      "category_name": "Categoría 430",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1235
+    },
+    {
+      "category_name": "Categoría 387",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1229
+    },
+    {
+      "category_name": "Categoría 406",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1207
+    },
+    {
+      "category_name": "Categoría 440",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1202
+    },
+    {
+      "category_name": "Categoría 367",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1176
+    },
+    {
+      "category_name": "Categoría 424",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1175
+    },
+    {
+      "category_name": "Categoría 446",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1149
+    },
+    {
+      "category_name": "Categoría 374",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1144
+    },
+    {
+      "category_name": "Categoría 431",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1135
+    },
+    {
+      "category_name": "Categoría 383",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1134
+    },
+    {
+      "category_name": "Categoría 351",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1128
+    },
+    {
+      "category_name": "Categoría 417",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1127
+    },
+    {
+      "category_name": "Categoría 412",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1110
+    },
+    {
+      "category_name": "Categoría 441",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1094
+    },
+    {
+      "category_name": "Categoría 307",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1065
+    },
+    {
+      "category_name": "Categoría 395",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1054
+    },
+    {
+      "category_name": "Categoría 402",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1050
+    },
+    {
+      "category_name": "Categoría 445",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1045
+    },
+    {
+      "category_name": "Categoría 449",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 1035
+    },
+    {
+      "category_name": "Categoría 335",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 980
+    },
+    {
+      "category_name": "Categoría 434",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 974
+    },
+    {
+      "category_name": "Categoría 418",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 973
+    },
+    {
+      "category_name": "Categoría 384",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 951
+    },
+    {
+      "category_name": "Categoría 444",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 802
+    },
+    {
+      "category_name": "Categoría 448",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 787
+    },
+    {
+      "category_name": "Categoría 403",
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "std": 0.0,
+      "count": 720
+    }
+  ],
+  "basket_size_histogram": [
+    {
+      "basket_size": 1,
+      "frequency": 118508
+    },
+    {
+      "basket_size": 2,
+      "frequency": 112832
+    },
+    {
+      "basket_size": 3,
+      "frequency": 107398
+    },
+    {
+      "basket_size": 4,
+      "frequency": 96946
+    },
+    {
+      "basket_size": 5,
+      "frequency": 83744
+    },
+    {
+      "basket_size": 6,
+      "frequency": 71404
+    },
+    {
+      "basket_size": 7,
+      "frequency": 59815
+    },
+    {
+      "basket_size": 8,
+      "frequency": 49945
+    },
+    {
+      "basket_size": 9,
+      "frequency": 41769
+    },
+    {
+      "basket_size": 10,
+      "frequency": 35971
+    },
+    {
+      "basket_size": 11,
+      "frequency": 30865
+    },
+    {
+      "basket_size": 12,
+      "frequency": 26442
+    },
+    {
+      "basket_size": 13,
+      "frequency": 23370
+    },
+    {
+      "basket_size": 14,
+      "frequency": 20828
+    },
+    {
+      "basket_size": 15,
+      "frequency": 18776
+    },
+    {
+      "basket_size": 16,
+      "frequency": 16787
+    },
+    {
+      "basket_size": 17,
+      "frequency": 15471
+    },
+    {
+      "basket_size": 18,
+      "frequency": 14127
+    },
+    {
+      "basket_size": 19,
+      "frequency": 13305
+    },
+    {
+      "basket_size": 20,
+      "frequency": 12149
+    },
+    {
+      "basket_size": 21,
+      "frequency": 11164
+    },
+    {
+      "basket_size": 22,
+      "frequency": 10543
+    },
+    {
+      "basket_size": 23,
+      "frequency": 9826
+    },
+    {
+      "basket_size": 24,
+      "frequency": 8941
+    },
+    {
+      "basket_size": 25,
+      "frequency": 8328
+    },
+    {
+      "basket_size": 26,
+      "frequency": 7567
+    },
+    {
+      "basket_size": 27,
+      "frequency": 7292
+    },
+    {
+      "basket_size": 28,
+      "frequency": 6700
+    },
+    {
+      "basket_size": 29,
+      "frequency": 6107
+    },
+    {
+      "basket_size": 30,
+      "frequency": 5593
+    },
+    {
+      "basket_size": 31,
+      "frequency": 5093
+    },
+    {
+      "basket_size": 32,
+      "frequency": 4747
+    },
+    {
+      "basket_size": 33,
+      "frequency": 4318
+    },
+    {
+      "basket_size": 34,
+      "frequency": 3908
+    },
+    {
+      "basket_size": 35,
+      "frequency": 3692
+    },
+    {
+      "basket_size": 36,
+      "frequency": 3328
+    },
+    {
+      "basket_size": 37,
+      "frequency": 2943
+    },
+    {
+      "basket_size": 38,
+      "frequency": 2750
+    },
+    {
+      "basket_size": 39,
+      "frequency": 2441
+    },
+    {
+      "basket_size": 40,
+      "frequency": 2224
+    },
+    {
+      "basket_size": 41,
+      "frequency": 2026
+    },
+    {
+      "basket_size": 42,
+      "frequency": 1809
+    },
+    {
+      "basket_size": 43,
+      "frequency": 1706
+    },
+    {
+      "basket_size": 44,
+      "frequency": 1522
+    },
+    {
+      "basket_size": 45,
+      "frequency": 1395
+    },
+    {
+      "basket_size": 46,
+      "frequency": 1220
+    },
+    {
+      "basket_size": 47,
+      "frequency": 1137
+    },
+    {
+      "basket_size": 48,
+      "frequency": 1039
+    },
+    {
+      "basket_size": 49,
+      "frequency": 948
+    },
+    {
+      "basket_size": 50,
+      "frequency": 824
+    }
+  ]
+}
