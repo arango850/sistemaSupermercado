@@ -1,0 +1,71 @@
+# =============================================================
+# Python
+# =============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entorno virtual
+venv/
+.venv/
+env/
+.env/
+
+# =============================================================
+# Django
+# =============================================================
+backend/db.sqlite3
+backend/*/migrations/__pycache__/
+
+# Archivos de configuración con secretos
+*.env
+.env.local
+.env.production
+
+# =============================================================
+# Archivos generados por el pipeline de análisis
+# =============================================================
+# Los JSON de output se regeneran ejecutando el pipeline;
+# no tiene sentido versionarlos (son grandes y cambian con cada run)
+output/
+
+# =============================================================
+# Node / frontend
+# =============================================================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =============================================================
+# Spark / Java
+# =============================================================
+derby.log
+metastore_db/
+spark-warehouse/
+
+# =============================================================
+# Sistema operativo
+# =============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================
+# IDEs
+# =============================================================
+.vscode/settings.json
+.idea/
+*.suo
+*.user
+
+# =============================================================
+# Dataset original (opcional — descomenta si es muy grande
+# o si no debe estar en el repo por licencia)
+# =============================================================
+# DataSet/

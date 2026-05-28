@@ -26,6 +26,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from data_loader       import load_all, DEFAULT_DATA_DIR, DEFAULT_OUTPUT_DIR
 from executive_summary import compute_executive_summary
 from analytical_charts import compute_time_series, compute_boxplot_data, compute_heatmap_data
+from clustering        import compute_clustering
+from recommender       import compute_recommendations
 
 
 def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUTPUT_DIR):
@@ -57,7 +59,7 @@ def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUT
     # ------------------------------------------------------------------
     # PASO 2 — Resumen Ejecutivo
     # ------------------------------------------------------------------
-    print("\n[2/4] Generando resumen ejecutivo...")
+    print("\n[2/6] Generando resumen ejecutivo...")
     t0 = time.time()
     results['executive_summary'] = compute_executive_summary(transactions, output_dir)
     print(f"  ✓ Resumen ejecutivo en {time.time() - t0:.1f}s")
@@ -65,7 +67,7 @@ def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUT
     # ------------------------------------------------------------------
     # PASO 3 — Visualizaciones Analíticas
     # ------------------------------------------------------------------
-    print("\n[3/4] Generando datos para visualizaciones analíticas...")
+    print("\n[3/6] Generando datos para visualizaciones analíticas...")
     t0 = time.time()
 
     print("  → Serie de tiempo...")
@@ -80,9 +82,25 @@ def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUT
     print(f"  ✓ Visualizaciones analíticas en {time.time() - t0:.1f}s")
 
     # ------------------------------------------------------------------
-    # PASO 4 — Índice de archivos generados (para el backend Spring Boot)
+    # PASO 4 — Segmentación de clientes (K-Means)
     # ------------------------------------------------------------------
-    print("\n[4/4] Generando índice de outputs...")
+    print("\n[4/6] Segmentando clientes (K-Means)...")
+    t0 = time.time()
+    results['clustering'] = compute_clustering(transactions, output_dir)
+    print(f"  ✓ Segmentación en {time.time() - t0:.1f}s")
+
+    # ------------------------------------------------------------------
+    # PASO 5 — Recomendaciones por co-ocurrencia
+    # ------------------------------------------------------------------
+    print("\n[5/6] Generando recomendaciones de categorías...")
+    t0 = time.time()
+    results['recommendations'] = compute_recommendations(transactions, output_dir)
+    print(f"  ✓ Recomendaciones en {time.time() - t0:.1f}s")
+
+    # ------------------------------------------------------------------
+    # PASO 6 — Índice de archivos generados
+    # ------------------------------------------------------------------
+    print("\n[6/6] Generando índice de outputs...")
     generated_files = [
         f for f in os.listdir(output_dir) if f.endswith('.json')
     ]

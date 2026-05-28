@@ -106,4942 +106,4942 @@
   "category_basket_stats": [
     {
       "category_name": "PANES-TOSTADAS",
+      "count": 300526.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 300526
+      "max": 1.0
     },
     {
       "category_name": "LECHE LIQUIDA",
+      "count": 290313.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 290313
+      "max": 1.0
     },
     {
       "category_name": "VERDURAS DE FRUTOS",
+      "count": 269855.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 269855
+      "max": 1.0
     },
     {
       "category_name": "CUIDADO DE LA ROPA",
+      "count": 260418.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 260418
+      "max": 1.0
     },
     {
       "category_name": "VERDURAS RAIZ,TUBERCULO Y BULBOS",
+      "count": 254644.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 254644
+      "max": 1.0
     },
     {
       "category_name": "QUESO",
+      "count": 253899.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 253899
+      "max": 1.0
     },
     {
       "category_name": "CARNES PROCESADAS AL VACIO",
+      "count": 225877.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 225877
+      "max": 1.0
     },
     {
       "category_name": "AREPAS",
+      "count": 224159.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 224159
+      "max": 1.0
     },
     {
       "category_name": "CUIDADO DE LA COCINA",
+      "count": 221968.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 221968
+      "max": 1.0
     },
     {
       "category_name": "PASABOCAS",
+      "count": 212480.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 212480
+      "max": 1.0
     },
     {
       "category_name": "YOGURT",
+      "count": 210081.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 210081
+      "max": 1.0
     },
     {
       "category_name": "HUEVOS",
+      "count": 202214.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 202214
+      "max": 1.0
     },
     {
       "category_name": "GALLETAS",
+      "count": 185167.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 185167
+      "max": 1.0
     },
     {
       "category_name": "CEREALES",
+      "count": 183467.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 183467
+      "max": 1.0
     },
     {
       "category_name": "ENLATADOS",
+      "count": 179634.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 179634
+      "max": 1.0
     },
     {
       "category_name": "GASEOSAS",
+      "count": 173154.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 173154
+      "max": 1.0
     },
     {
       "category_name": "JUGOS",
+      "count": 166405.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 166405
+      "max": 1.0
     },
     {
       "category_name": "VERDURAS DE HOJAS",
+      "count": 166233.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 166233
+      "max": 1.0
     },
     {
       "category_name": "GRANOS",
+      "count": 151794.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 151794
+      "max": 1.0
     },
     {
       "category_name": "AZUCAR",
+      "count": 145956.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 145956
+      "max": 1.0
     },
     {
       "category_name": "AROMATICAS CONDIMENTOS",
+      "count": 141429.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 141429
+      "max": 1.0
     },
     {
       "category_name": "SALSAS",
+      "count": 136176.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 136176
+      "max": 1.0
     },
     {
       "category_name": "CUIDADO DE PISOS",
+      "count": 133878.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 133878
+      "max": 1.0
     },
     {
       "category_name": "PAPEL HIGIENICO",
+      "count": 130965.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 130965
+      "max": 1.0
     },
     {
       "category_name": "AROMATICAS MEDICINALES",
+      "count": 126722.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 126722
+      "max": 1.0
     },
     {
       "category_name": "VERDURAS RAIZ,TUBE,ETC, PESO FIJO",
+      "count": 122922.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 122922
+      "max": 1.0
     },
     {
       "category_name": "PASTAS COMESTIBLES",
+      "count": 121363.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 121363
+      "max": 1.0
     },
     {
       "category_name": "SOPAS-CREMAS-CALDOS",
+      "count": 113850.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 113850
+      "max": 1.0
     },
     {
       "category_name": "ACEITE DE COCINA",
+      "count": 113668.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 113668
+      "max": 1.0
     },
     {
       "category_name": "CONCESIONARIOS",
+      "count": 113246.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 113246
+      "max": 1.0
     },
     {
       "category_name": "TORTAS Y PORQUES",
+      "count": 111990.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 111990
+      "max": 1.0
     },
     {
       "category_name": "CONDIMENTOS",
+      "count": 105759.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 105759
+      "max": 1.0
     },
     {
       "category_name": "LULO NACIONAL",
+      "count": 103820.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 103820
+      "max": 1.0
     },
     {
       "category_name": "LEGUMBRES VERDES",
+      "count": 97318.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 97318
+      "max": 1.0
     },
     {
       "category_name": "CAFE NO SOLUBLES",
+      "count": 96928.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 96928
+      "max": 1.0
     },
     {
       "category_name": "PAPAYA COMUN",
+      "count": 93336.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 93336
+      "max": 1.0
     },
     {
       "category_name": "CEREALES PARA EL DESAYUNO",
+      "count": 91271.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 91271
+      "max": 1.0
     },
     {
       "category_name": "CONFITES",
+      "count": 91233.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 91233
+      "max": 1.0
     },
     {
       "category_name": "GRUPO FRUVER-EXCEPCIONES",
+      "count": 88841.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 88841
+      "max": 1.0
     },
     {
       "category_name": "BEBIDAS INSTANTANEAS",
+      "count": 86638.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 86638
+      "max": 1.0
     },
     {
       "category_name": "JABONES DE TOCADOR",
+      "count": 83654.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 83654
+      "max": 1.0
     },
     {
       "category_name": "BANANO EXPORTACION",
+      "count": 83424.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 83424
+      "max": 1.0
     },
     {
       "category_name": "DESODORANTES",
+      "count": 80302.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 80302
+      "max": 1.0
     },
     {
       "category_name": "GOMAS DE MASCAR",
+      "count": 80223.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 80223
+      "max": 1.0
     },
     {
       "category_name": "MARGARINAS",
+      "count": 80068.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 80068
+      "max": 1.0
     },
     {
       "category_name": "VARIOS USOS ASEO HOGAR",
+      "count": 78085.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 78085
+      "max": 1.0
     },
     {
       "category_name": "MASCOTAS",
+      "count": 75493.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 75493
+      "max": 1.0
     },
     {
       "category_name": "MANGO TOMY",
+      "count": 74601.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 74601
+      "max": 1.0
     },
     {
       "category_name": "AVES",
+      "count": 73295.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 73295
+      "max": 1.0
     },
     {
       "category_name": "CREMAS DENTALES",
+      "count": 68629.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 68629
+      "max": 1.0
     },
     {
       "category_name": "Categoría 68",
+      "count": 67816.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 67816
+      "max": 1.0
     },
     {
       "category_name": "Categoría 52",
+      "count": 67414.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 67414
+      "max": 1.0
     },
     {
       "category_name": "Categoría 54",
+      "count": 55329.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 55329
+      "max": 1.0
     },
     {
       "category_name": "Categoría 51",
+      "count": 54311.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 54311
+      "max": 1.0
     },
     {
       "category_name": "Categoría 55",
+      "count": 52349.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 52349
+      "max": 1.0
     },
     {
       "category_name": "Categoría 53",
+      "count": 50118.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 50118
+      "max": 1.0
     },
     {
       "category_name": "Categoría 57",
+      "count": 48021.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 48021
+      "max": 1.0
     },
     {
       "category_name": "Categoría 59",
+      "count": 42819.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 42819
+      "max": 1.0
     },
     {
       "category_name": "Categoría 58",
+      "count": 41609.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 41609
+      "max": 1.0
     },
     {
       "category_name": "Categoría 56",
+      "count": 41073.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 41073
+      "max": 1.0
     },
     {
       "category_name": "Categoría 62",
+      "count": 38926.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 38926
+      "max": 1.0
     },
     {
       "category_name": "Categoría 66",
+      "count": 37775.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 37775
+      "max": 1.0
     },
     {
       "category_name": "Categoría 60",
+      "count": 37089.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 37089
+      "max": 1.0
     },
     {
       "category_name": "Categoría 65",
+      "count": 35833.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 35833
+      "max": 1.0
     },
     {
       "category_name": "Categoría 63",
+      "count": 34854.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 34854
+      "max": 1.0
     },
     {
       "category_name": "Categoría 71",
+      "count": 33587.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 33587
+      "max": 1.0
     },
     {
       "category_name": "Categoría 73",
+      "count": 33128.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 33128
+      "max": 1.0
     },
     {
       "category_name": "Categoría 70",
+      "count": 32896.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 32896
+      "max": 1.0
     },
     {
       "category_name": "Categoría 67",
+      "count": 29402.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 29402
+      "max": 1.0
     },
     {
       "category_name": "Categoría 76",
+      "count": 29334.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 29334
+      "max": 1.0
     },
     {
       "category_name": "Categoría 75",
+      "count": 29156.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 29156
+      "max": 1.0
     },
     {
       "category_name": "Categoría 77",
+      "count": 28777.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 28777
+      "max": 1.0
     },
     {
       "category_name": "Categoría 82",
+      "count": 28346.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 28346
+      "max": 1.0
     },
     {
       "category_name": "Categoría 87",
+      "count": 28080.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 28080
+      "max": 1.0
     },
     {
       "category_name": "Categoría 96",
+      "count": 27935.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 27935
+      "max": 1.0
     },
     {
       "category_name": "Categoría 83",
+      "count": 27578.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 27578
+      "max": 1.0
     },
     {
       "category_name": "Categoría 90",
+      "count": 27045.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 27045
+      "max": 1.0
     },
     {
       "category_name": "Categoría 84",
+      "count": 27035.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 27035
+      "max": 1.0
     },
     {
       "category_name": "Categoría 81",
+      "count": 26587.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 26587
+      "max": 1.0
     },
     {
       "category_name": "Categoría 93",
+      "count": 26371.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 26371
+      "max": 1.0
     },
     {
       "category_name": "Categoría 69",
+      "count": 25462.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 25462
+      "max": 1.0
     },
     {
       "category_name": "Categoría 79",
+      "count": 25399.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 25399
+      "max": 1.0
     },
     {
       "category_name": "Categoría 97",
+      "count": 25050.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 25050
+      "max": 1.0
     },
     {
       "category_name": "Categoría 61",
+      "count": 25032.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 25032
+      "max": 1.0
     },
     {
       "category_name": "Categoría 89",
+      "count": 24855.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24855
+      "max": 1.0
     },
     {
       "category_name": "Categoría 74",
+      "count": 24730.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24730
+      "max": 1.0
     },
     {
       "category_name": "Categoría 72",
+      "count": 24673.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24673
+      "max": 1.0
     },
     {
       "category_name": "Categoría 94",
+      "count": 24647.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24647
+      "max": 1.0
     },
     {
       "category_name": "Categoría 80",
+      "count": 24518.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24518
+      "max": 1.0
     },
     {
       "category_name": "Categoría 100",
+      "count": 24310.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24310
+      "max": 1.0
     },
     {
       "category_name": "Categoría 85",
+      "count": 24144.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 24144
+      "max": 1.0
     },
     {
       "category_name": "Categoría 91",
+      "count": 23955.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 23955
+      "max": 1.0
     },
     {
       "category_name": "Categoría 98",
+      "count": 22524.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 22524
+      "max": 1.0
     },
     {
       "category_name": "Categoría 78",
+      "count": 22447.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 22447
+      "max": 1.0
     },
     {
       "category_name": "Categoría 92",
+      "count": 22089.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 22089
+      "max": 1.0
     },
     {
       "category_name": "Categoría 86",
+      "count": 21893.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 21893
+      "max": 1.0
     },
     {
       "category_name": "Categoría 102",
+      "count": 21503.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 21503
+      "max": 1.0
     },
     {
       "category_name": "Categoría 95",
+      "count": 21128.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 21128
+      "max": 1.0
     },
     {
       "category_name": "Categoría 107",
+      "count": 21061.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 21061
+      "max": 1.0
     },
     {
       "category_name": "Categoría 109",
+      "count": 20016.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 20016
+      "max": 1.0
     },
     {
       "category_name": "Categoría 99",
+      "count": 19777.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 19777
+      "max": 1.0
     },
     {
       "category_name": "Categoría 106",
+      "count": 19050.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 19050
+      "max": 1.0
     },
     {
       "category_name": "Categoría 104",
+      "count": 18868.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 18868
+      "max": 1.0
     },
     {
       "category_name": "Categoría 133",
+      "count": 18171.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 18171
+      "max": 1.0
     },
     {
       "category_name": "Categoría 103",
+      "count": 17744.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 17744
+      "max": 1.0
     },
     {
       "category_name": "Categoría 105",
+      "count": 17481.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 17481
+      "max": 1.0
     },
     {
       "category_name": "Categoría 108",
+      "count": 16975.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 16975
+      "max": 1.0
     },
     {
       "category_name": "Categoría 113",
+      "count": 16559.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 16559
+      "max": 1.0
     },
     {
       "category_name": "Categoría 111",
+      "count": 16227.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 16227
+      "max": 1.0
     },
     {
       "category_name": "Categoría 150",
+      "count": 16216.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 16216
+      "max": 1.0
     },
     {
       "category_name": "Categoría 88",
+      "count": 16136.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 16136
+      "max": 1.0
     },
     {
       "category_name": "Categoría 120",
+      "count": 16135.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 16135
+      "max": 1.0
     },
     {
       "category_name": "Categoría 121",
+      "count": 15667.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 15667
+      "max": 1.0
     },
     {
       "category_name": "Categoría 117",
+      "count": 15663.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 15663
+      "max": 1.0
     },
     {
       "category_name": "Categoría 124",
+      "count": 15003.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 15003
+      "max": 1.0
     },
     {
       "category_name": "Categoría 135",
+      "count": 14721.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 14721
+      "max": 1.0
     },
     {
       "category_name": "Categoría 114",
+      "count": 14357.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 14357
+      "max": 1.0
     },
     {
       "category_name": "Categoría 134",
+      "count": 14177.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 14177
+      "max": 1.0
     },
     {
       "category_name": "Categoría 112",
+      "count": 14026.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 14026
+      "max": 1.0
     },
     {
       "category_name": "Categoría 115",
+      "count": 13777.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 13777
+      "max": 1.0
     },
     {
       "category_name": "Categoría 148",
+      "count": 13668.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 13668
+      "max": 1.0
     },
     {
       "category_name": "Categoría 116",
+      "count": 13537.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 13537
+      "max": 1.0
     },
     {
       "category_name": "Categoría 126",
+      "count": 13280.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 13280
+      "max": 1.0
     },
     {
       "category_name": "Categoría 64",
+      "count": 13178.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 13178
+      "max": 1.0
     },
     {
       "category_name": "Categoría 122",
+      "count": 12640.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12640
+      "max": 1.0
     },
     {
       "category_name": "Categoría 125",
+      "count": 12580.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12580
+      "max": 1.0
     },
     {
       "category_name": "Categoría 123",
+      "count": 12522.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12522
+      "max": 1.0
     },
     {
       "category_name": "Categoría 137",
+      "count": 12343.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12343
+      "max": 1.0
     },
     {
       "category_name": "Categoría 101",
+      "count": 12341.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12341
+      "max": 1.0
     },
     {
       "category_name": "Categoría 136",
+      "count": 12336.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12336
+      "max": 1.0
     },
     {
       "category_name": "Categoría 143",
+      "count": 12315.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12315
+      "max": 1.0
     },
     {
       "category_name": "Categoría 132",
+      "count": 12272.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12272
+      "max": 1.0
     },
     {
       "category_name": "Categoría 127",
+      "count": 12257.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12257
+      "max": 1.0
     },
     {
       "category_name": "Categoría 145",
+      "count": 12240.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12240
+      "max": 1.0
     },
     {
       "category_name": "Categoría 131",
+      "count": 12191.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12191
+      "max": 1.0
     },
     {
       "category_name": "Categoría 139",
+      "count": 12010.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 12010
+      "max": 1.0
     },
     {
       "category_name": "Categoría 146",
+      "count": 11920.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11920
+      "max": 1.0
     },
     {
       "category_name": "Categoría 129",
+      "count": 11919.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11919
+      "max": 1.0
     },
     {
       "category_name": "Categoría 140",
+      "count": 11803.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11803
+      "max": 1.0
     },
     {
       "category_name": "Categoría 152",
+      "count": 11655.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11655
+      "max": 1.0
     },
     {
       "category_name": "Categoría 160",
+      "count": 11556.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11556
+      "max": 1.0
     },
     {
       "category_name": "Categoría 144",
+      "count": 11364.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11364
+      "max": 1.0
     },
     {
       "category_name": "Categoría 141",
+      "count": 11062.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11062
+      "max": 1.0
     },
     {
       "category_name": "Categoría 118",
+      "count": 11038.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 11038
+      "max": 1.0
     },
     {
       "category_name": "Categoría 130",
+      "count": 10855.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 10855
+      "max": 1.0
     },
     {
       "category_name": "Categoría 110",
+      "count": 10614.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 10614
+      "max": 1.0
     },
     {
       "category_name": "Categoría 142",
+      "count": 10603.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 10603
+      "max": 1.0
     },
     {
       "category_name": "Categoría 128",
+      "count": 10560.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 10560
+      "max": 1.0
     },
     {
       "category_name": "Categoría 156",
+      "count": 10427.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 10427
+      "max": 1.0
     },
     {
       "category_name": "Categoría 138",
+      "count": 9849.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9849
+      "max": 1.0
     },
     {
       "category_name": "Categoría 174",
+      "count": 9711.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9711
+      "max": 1.0
     },
     {
       "category_name": "Categoría 149",
+      "count": 9662.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9662
+      "max": 1.0
     },
     {
       "category_name": "Categoría 151",
+      "count": 9348.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9348
+      "max": 1.0
     },
     {
       "category_name": "Categoría 166",
+      "count": 9173.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9173
+      "max": 1.0
     },
     {
       "category_name": "Categoría 176",
+      "count": 9024.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9024
+      "max": 1.0
     },
     {
       "category_name": "Categoría 147",
+      "count": 9023.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 9023
+      "max": 1.0
     },
     {
       "category_name": "Categoría 155",
+      "count": 8835.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8835
+      "max": 1.0
     },
     {
       "category_name": "Categoría 191",
+      "count": 8683.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8683
+      "max": 1.0
     },
     {
       "category_name": "Categoría 167",
+      "count": 8155.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8155
+      "max": 1.0
     },
     {
       "category_name": "Categoría 184",
+      "count": 8087.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8087
+      "max": 1.0
     },
     {
       "category_name": "Categoría 170",
+      "count": 8073.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8073
+      "max": 1.0
     },
     {
       "category_name": "Categoría 197",
+      "count": 8039.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8039
+      "max": 1.0
     },
     {
       "category_name": "Categoría 119",
+      "count": 8015.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 8015
+      "max": 1.0
     },
     {
       "category_name": "Categoría 168",
+      "count": 7977.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7977
+      "max": 1.0
     },
     {
       "category_name": "Categoría 182",
+      "count": 7946.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7946
+      "max": 1.0
     },
     {
       "category_name": "Categoría 164",
+      "count": 7945.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7945
+      "max": 1.0
     },
     {
       "category_name": "Categoría 163",
+      "count": 7851.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7851
+      "max": 1.0
     },
     {
       "category_name": "Categoría 187",
+      "count": 7814.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7814
+      "max": 1.0
     },
     {
       "category_name": "Categoría 172",
+      "count": 7796.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7796
+      "max": 1.0
     },
     {
       "category_name": "Categoría 186",
+      "count": 7563.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7563
+      "max": 1.0
     },
     {
       "category_name": "Categoría 201",
+      "count": 7538.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7538
+      "max": 1.0
     },
     {
       "category_name": "Categoría 171",
+      "count": 7526.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7526
+      "max": 1.0
     },
     {
       "category_name": "Categoría 158",
+      "count": 7447.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7447
+      "max": 1.0
     },
     {
       "category_name": "Categoría 200",
+      "count": 7435.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7435
+      "max": 1.0
     },
     {
       "category_name": "Categoría 198",
+      "count": 7430.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7430
+      "max": 1.0
     },
     {
       "category_name": "Categoría 157",
+      "count": 7422.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7422
+      "max": 1.0
     },
     {
       "category_name": "Categoría 196",
+      "count": 7342.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7342
+      "max": 1.0
     },
     {
       "category_name": "Categoría 179",
+      "count": 7319.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7319
+      "max": 1.0
     },
     {
       "category_name": "Categoría 175",
+      "count": 7245.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7245
+      "max": 1.0
     },
     {
       "category_name": "Categoría 213",
+      "count": 7226.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7226
+      "max": 1.0
     },
     {
       "category_name": "Categoría 159",
+      "count": 7200.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7200
+      "max": 1.0
     },
     {
       "category_name": "Categoría 195",
+      "count": 7160.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7160
+      "max": 1.0
     },
     {
       "category_name": "Categoría 180",
+      "count": 7108.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7108
+      "max": 1.0
     },
     {
       "category_name": "Categoría 153",
+      "count": 7092.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7092
+      "max": 1.0
     },
     {
       "category_name": "Categoría 169",
+      "count": 7080.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7080
+      "max": 1.0
     },
     {
       "category_name": "Categoría 165",
+      "count": 7031.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 7031
+      "max": 1.0
     },
     {
       "category_name": "Categoría 229",
+      "count": 6960.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6960
+      "max": 1.0
     },
     {
       "category_name": "Categoría 206",
+      "count": 6937.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6937
+      "max": 1.0
     },
     {
       "category_name": "Categoría 211",
+      "count": 6875.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6875
+      "max": 1.0
     },
     {
       "category_name": "Categoría 162",
+      "count": 6861.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6861
+      "max": 1.0
     },
     {
       "category_name": "Categoría 193",
+      "count": 6844.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6844
+      "max": 1.0
     },
     {
       "category_name": "Categoría 154",
+      "count": 6828.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6828
+      "max": 1.0
     },
     {
       "category_name": "Categoría 181",
+      "count": 6734.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6734
+      "max": 1.0
     },
     {
       "category_name": "Categoría 189",
+      "count": 6704.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6704
+      "max": 1.0
     },
     {
       "category_name": "Categoría 178",
+      "count": 6696.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6696
+      "max": 1.0
     },
     {
       "category_name": "Categoría 208",
+      "count": 6359.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6359
+      "max": 1.0
     },
     {
       "category_name": "Categoría 217",
+      "count": 6343.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6343
+      "max": 1.0
     },
     {
       "category_name": "Categoría 205",
+      "count": 6271.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6271
+      "max": 1.0
     },
     {
       "category_name": "Categoría 227",
+      "count": 6258.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6258
+      "max": 1.0
     },
     {
       "category_name": "Categoría 239",
+      "count": 6249.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6249
+      "max": 1.0
     },
     {
       "category_name": "Categoría 207",
+      "count": 6180.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6180
+      "max": 1.0
     },
     {
       "category_name": "Categoría 188",
+      "count": 6136.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 6136
+      "max": 1.0
     },
     {
       "category_name": "Categoría 161",
+      "count": 5916.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5916
+      "max": 1.0
     },
     {
       "category_name": "Categoría 225",
+      "count": 5876.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5876
+      "max": 1.0
     },
     {
       "category_name": "Categoría 204",
+      "count": 5824.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5824
+      "max": 1.0
     },
     {
       "category_name": "Categoría 209",
+      "count": 5794.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5794
+      "max": 1.0
     },
     {
       "category_name": "Categoría 192",
+      "count": 5681.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5681
+      "max": 1.0
     },
     {
       "category_name": "Categoría 223",
+      "count": 5574.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5574
+      "max": 1.0
     },
     {
       "category_name": "Categoría 218",
+      "count": 5534.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5534
+      "max": 1.0
     },
     {
       "category_name": "Categoría 177",
+      "count": 5493.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5493
+      "max": 1.0
     },
     {
       "category_name": "Categoría 237",
+      "count": 5428.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5428
+      "max": 1.0
     },
     {
       "category_name": "Categoría 260",
+      "count": 5424.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5424
+      "max": 1.0
     },
     {
       "category_name": "Categoría 210",
+      "count": 5384.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5384
+      "max": 1.0
     },
     {
       "category_name": "Categoría 226",
+      "count": 5321.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5321
+      "max": 1.0
     },
     {
       "category_name": "Categoría 183",
+      "count": 5305.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5305
+      "max": 1.0
     },
     {
       "category_name": "Categoría 224",
+      "count": 5285.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5285
+      "max": 1.0
     },
     {
       "category_name": "Categoría 221",
+      "count": 5278.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5278
+      "max": 1.0
     },
     {
       "category_name": "Categoría 214",
+      "count": 5225.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5225
+      "max": 1.0
     },
     {
       "category_name": "Categoría 190",
+      "count": 5218.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5218
+      "max": 1.0
     },
     {
       "category_name": "Categoría 241",
+      "count": 5130.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5130
+      "max": 1.0
     },
     {
       "category_name": "Categoría 228",
+      "count": 5103.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 5103
+      "max": 1.0
     },
     {
       "category_name": "Categoría 215",
+      "count": 4894.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4894
+      "max": 1.0
     },
     {
       "category_name": "Categoría 212",
+      "count": 4866.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4866
+      "max": 1.0
     },
     {
       "category_name": "Categoría 251",
+      "count": 4859.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4859
+      "max": 1.0
     },
     {
       "category_name": "Categoría 240",
+      "count": 4845.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4845
+      "max": 1.0
     },
     {
       "category_name": "Categoría 230",
+      "count": 4814.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4814
+      "max": 1.0
     },
     {
       "category_name": "Categoría 234",
+      "count": 4791.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4791
+      "max": 1.0
     },
     {
       "category_name": "Categoría 202",
+      "count": 4782.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4782
+      "max": 1.0
     },
     {
       "category_name": "Categoría 246",
+      "count": 4721.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4721
+      "max": 1.0
     },
     {
       "category_name": "Categoría 244",
+      "count": 4657.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4657
+      "max": 1.0
     },
     {
       "category_name": "Categoría 220",
+      "count": 4476.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4476
+      "max": 1.0
     },
     {
       "category_name": "Categoría 247",
+      "count": 4455.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4455
+      "max": 1.0
     },
     {
       "category_name": "Categoría 236",
+      "count": 4377.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4377
+      "max": 1.0
     },
     {
       "category_name": "Categoría 243",
+      "count": 4338.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4338
+      "max": 1.0
     },
     {
       "category_name": "Categoría 194",
+      "count": 4319.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4319
+      "max": 1.0
     },
     {
       "category_name": "Categoría 199",
+      "count": 4212.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4212
+      "max": 1.0
     },
     {
       "category_name": "Categoría 231",
+      "count": 4186.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4186
+      "max": 1.0
     },
     {
       "category_name": "Categoría 249",
+      "count": 4121.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4121
+      "max": 1.0
     },
     {
       "category_name": "Categoría 252",
+      "count": 4069.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4069
+      "max": 1.0
     },
     {
       "category_name": "Categoría 271",
+      "count": 4007.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 4007
+      "max": 1.0
     },
     {
       "category_name": "Categoría 232",
+      "count": 3999.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3999
+      "max": 1.0
     },
     {
       "category_name": "Categoría 258",
+      "count": 3991.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3991
+      "max": 1.0
     },
     {
       "category_name": "Categoría 264",
+      "count": 3960.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3960
+      "max": 1.0
     },
     {
       "category_name": "Categoría 222",
+      "count": 3944.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3944
+      "max": 1.0
     },
     {
       "category_name": "Categoría 270",
+      "count": 3934.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3934
+      "max": 1.0
     },
     {
       "category_name": "Categoría 265",
+      "count": 3842.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3842
+      "max": 1.0
     },
     {
       "category_name": "Categoría 262",
+      "count": 3767.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3767
+      "max": 1.0
     },
     {
       "category_name": "Categoría 273",
+      "count": 3752.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3752
+      "max": 1.0
     },
     {
       "category_name": "Categoría 233",
+      "count": 3654.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3654
+      "max": 1.0
     },
     {
       "category_name": "Categoría 245",
+      "count": 3644.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3644
+      "max": 1.0
     },
     {
       "category_name": "Categoría 173",
+      "count": 3586.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3586
+      "max": 1.0
     },
     {
       "category_name": "Categoría 304",
+      "count": 3543.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3543
+      "max": 1.0
     },
     {
       "category_name": "Categoría 250",
+      "count": 3540.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3540
+      "max": 1.0
     },
     {
       "category_name": "Categoría 253",
+      "count": 3506.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3506
+      "max": 1.0
     },
     {
       "category_name": "Categoría 299",
+      "count": 3465.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3465
+      "max": 1.0
     },
     {
       "category_name": "Categoría 272",
+      "count": 3439.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3439
+      "max": 1.0
     },
     {
       "category_name": "Categoría 286",
+      "count": 3437.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3437
+      "max": 1.0
     },
     {
       "category_name": "Categoría 281",
+      "count": 3426.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3426
+      "max": 1.0
     },
     {
       "category_name": "Categoría 235",
+      "count": 3420.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3420
+      "max": 1.0
     },
     {
       "category_name": "Categoría 259",
+      "count": 3407.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3407
+      "max": 1.0
     },
     {
       "category_name": "Categoría 242",
+      "count": 3374.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3374
+      "max": 1.0
     },
     {
       "category_name": "Categoría 238",
+      "count": 3330.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3330
+      "max": 1.0
     },
     {
       "category_name": "Categoría 300",
+      "count": 3302.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3302
+      "max": 1.0
     },
     {
       "category_name": "Categoría 313",
+      "count": 3212.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3212
+      "max": 1.0
     },
     {
       "category_name": "Categoría 277",
+      "count": 3199.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3199
+      "max": 1.0
     },
     {
       "category_name": "Categoría 203",
+      "count": 3177.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3177
+      "max": 1.0
     },
     {
       "category_name": "Categoría 274",
+      "count": 3143.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3143
+      "max": 1.0
     },
     {
       "category_name": "Categoría 257",
+      "count": 3133.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3133
+      "max": 1.0
     },
     {
       "category_name": "Categoría 275",
+      "count": 3109.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3109
+      "max": 1.0
     },
     {
       "category_name": "Categoría 185",
+      "count": 3079.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3079
+      "max": 1.0
     },
     {
       "category_name": "Categoría 285",
+      "count": 3054.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3054
+      "max": 1.0
     },
     {
       "category_name": "Categoría 293",
+      "count": 3015.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 3015
+      "max": 1.0
     },
     {
       "category_name": "Categoría 216",
+      "count": 2999.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2999
+      "max": 1.0
     },
     {
       "category_name": "Categoría 295",
+      "count": 2995.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2995
+      "max": 1.0
     },
     {
       "category_name": "Categoría 311",
+      "count": 2973.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2973
+      "max": 1.0
     },
     {
       "category_name": "Categoría 276",
+      "count": 2953.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2953
+      "max": 1.0
     },
     {
       "category_name": "Categoría 312",
+      "count": 2933.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2933
+      "max": 1.0
     },
     {
       "category_name": "Categoría 308",
+      "count": 2929.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2929
+      "max": 1.0
     },
     {
       "category_name": "Categoría 278",
+      "count": 2926.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2926
+      "max": 1.0
     },
     {
       "category_name": "Categoría 255",
+      "count": 2908.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2908
+      "max": 1.0
     },
     {
       "category_name": "Categoría 267",
+      "count": 2887.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2887
+      "max": 1.0
     },
     {
       "category_name": "Categoría 268",
+      "count": 2857.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2857
+      "max": 1.0
     },
     {
       "category_name": "Categoría 287",
+      "count": 2850.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2850
+      "max": 1.0
     },
     {
       "category_name": "Categoría 269",
+      "count": 2811.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2811
+      "max": 1.0
     },
     {
       "category_name": "Categoría 290",
+      "count": 2806.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2806
+      "max": 1.0
     },
     {
       "category_name": "Categoría 306",
+      "count": 2793.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2793
+      "max": 1.0
     },
     {
       "category_name": "Categoría 327",
+      "count": 2787.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2787
+      "max": 1.0
     },
     {
       "category_name": "Categoría 280",
+      "count": 2786.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2786
+      "max": 1.0
     },
     {
       "category_name": "Categoría 298",
+      "count": 2765.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2765
+      "max": 1.0
     },
     {
       "category_name": "Categoría 310",
+      "count": 2763.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2763
+      "max": 1.0
     },
     {
       "category_name": "Categoría 254",
+      "count": 2754.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2754
+      "max": 1.0
     },
     {
       "category_name": "Categoría 329",
+      "count": 2746.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2746
+      "max": 1.0
     },
     {
       "category_name": "Categoría 282",
+      "count": 2723.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2723
+      "max": 1.0
     },
     {
       "category_name": "Categoría 283",
+      "count": 2709.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2709
+      "max": 1.0
     },
     {
       "category_name": "Categoría 266",
+      "count": 2708.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2708
+      "max": 1.0
     },
     {
       "category_name": "Categoría 333",
+      "count": 2672.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2672
+      "max": 1.0
     },
     {
       "category_name": "Categoría 322",
+      "count": 2652.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2652
+      "max": 1.0
     },
     {
       "category_name": "Categoría 337",
+      "count": 2645.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2645
+      "max": 1.0
     },
     {
       "category_name": "Categoría 305",
+      "count": 2642.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2642
+      "max": 1.0
     },
     {
       "category_name": "Categoría 315",
+      "count": 2641.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2641
-    },
-    {
-      "category_name": "Categoría 261",
-      "min": 1.0,
-      "q1": 1.0,
-      "median": 1.0,
-      "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2609
+      "max": 1.0
     },
     {
       "category_name": "Categoría 292",
+      "count": 2609.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
+      "max": 1.0
+    },
+    {
+      "category_name": "Categoría 261",
+      "count": 2609.0,
       "mean": 1.0,
       "std": 0.0,
-      "count": 2609
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0
     },
     {
       "category_name": "Categoría 256",
+      "count": 2604.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2604
+      "max": 1.0
     },
     {
       "category_name": "Categoría 297",
+      "count": 2548.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2548
+      "max": 1.0
     },
     {
       "category_name": "Categoría 302",
+      "count": 2545.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2545
+      "max": 1.0
     },
     {
       "category_name": "Categoría 320",
+      "count": 2540.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2540
+      "max": 1.0
     },
     {
       "category_name": "Categoría 331",
+      "count": 2529.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2529
+      "max": 1.0
     },
     {
       "category_name": "Categoría 303",
+      "count": 2527.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2527
+      "max": 1.0
     },
     {
       "category_name": "Categoría 332",
+      "count": 2512.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2512
+      "max": 1.0
     },
     {
       "category_name": "Categoría 248",
+      "count": 2472.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2472
+      "max": 1.0
     },
     {
       "category_name": "Categoría 344",
+      "count": 2433.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2433
+      "max": 1.0
     },
     {
       "category_name": "Categoría 347",
+      "count": 2427.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2427
+      "max": 1.0
     },
     {
       "category_name": "Categoría 319",
+      "count": 2380.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2380
+      "max": 1.0
     },
     {
       "category_name": "Categoría 321",
+      "count": 2379.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2379
+      "max": 1.0
     },
     {
       "category_name": "Categoría 263",
+      "count": 2368.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2368
+      "max": 1.0
     },
     {
       "category_name": "Categoría 371",
+      "count": 2366.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2366
+      "max": 1.0
     },
     {
       "category_name": "Categoría 340",
+      "count": 2362.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2362
+      "max": 1.0
     },
     {
       "category_name": "Categoría 325",
+      "count": 2340.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2340
+      "max": 1.0
     },
     {
       "category_name": "Categoría 294",
+      "count": 2320.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2320
+      "max": 1.0
     },
     {
       "category_name": "Categoría 301",
+      "count": 2312.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2312
+      "max": 1.0
     },
     {
       "category_name": "Categoría 314",
+      "count": 2293.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2293
+      "max": 1.0
     },
     {
       "category_name": "Categoría 342",
+      "count": 2231.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2231
+      "max": 1.0
     },
     {
       "category_name": "Categoría 288",
+      "count": 2220.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2220
+      "max": 1.0
     },
     {
       "category_name": "Categoría 370",
+      "count": 2216.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2216
+      "max": 1.0
     },
     {
       "category_name": "Categoría 328",
+      "count": 2210.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2210
+      "max": 1.0
     },
     {
       "category_name": "Categoría 364",
+      "count": 2180.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2180
+      "max": 1.0
     },
     {
       "category_name": "Categoría 414",
+      "count": 2156.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2156
+      "max": 1.0
     },
     {
       "category_name": "Categoría 316",
+      "count": 2140.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2140
+      "max": 1.0
     },
     {
       "category_name": "Categoría 375",
+      "count": 2137.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2137
+      "max": 1.0
     },
     {
       "category_name": "Categoría 346",
+      "count": 2133.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2133
+      "max": 1.0
     },
     {
       "category_name": "Categoría 334",
+      "count": 2078.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2078
+      "max": 1.0
     },
     {
       "category_name": "Categoría 359",
+      "count": 2064.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2064
+      "max": 1.0
     },
     {
       "category_name": "Categoría 349",
+      "count": 2041.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2041
+      "max": 1.0
     },
     {
       "category_name": "Categoría 279",
+      "count": 2035.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2035
+      "max": 1.0
     },
     {
       "category_name": "Categoría 382",
+      "count": 2035.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2035
+      "max": 1.0
     },
     {
       "category_name": "Categoría 284",
+      "count": 2018.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2018
+      "max": 1.0
     },
     {
       "category_name": "Categoría 348",
+      "count": 2018.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 2018
+      "max": 1.0
     },
     {
       "category_name": "Categoría 352",
+      "count": 1993.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1993
+      "max": 1.0
     },
     {
       "category_name": "Categoría 372",
+      "count": 1988.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1988
+      "max": 1.0
     },
     {
       "category_name": "Categoría 296",
+      "count": 1986.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1986
+      "max": 1.0
     },
     {
       "category_name": "Categoría 358",
+      "count": 1984.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1984
+      "max": 1.0
     },
     {
       "category_name": "Categoría 381",
+      "count": 1973.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1973
+      "max": 1.0
     },
     {
       "category_name": "Categoría 398",
+      "count": 1963.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1963
+      "max": 1.0
     },
     {
       "category_name": "Categoría 392",
+      "count": 1937.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1937
+      "max": 1.0
     },
     {
       "category_name": "Categoría 361",
+      "count": 1936.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1936
+      "max": 1.0
     },
     {
       "category_name": "Categoría 289",
+      "count": 1921.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1921
+      "max": 1.0
     },
     {
       "category_name": "Categoría 363",
+      "count": 1917.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1917
+      "max": 1.0
     },
     {
       "category_name": "Categoría 447",
+      "count": 1897.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1897
+      "max": 1.0
     },
     {
       "category_name": "Categoría 343",
+      "count": 1888.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1888
+      "max": 1.0
     },
     {
       "category_name": "Categoría 407",
+      "count": 1879.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1879
+      "max": 1.0
     },
     {
       "category_name": "Categoría 413",
+      "count": 1851.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1851
+      "max": 1.0
     },
     {
       "category_name": "Categoría 357",
+      "count": 1840.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1840
+      "max": 1.0
     },
     {
       "category_name": "Categoría 354",
+      "count": 1831.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1831
+      "max": 1.0
     },
     {
       "category_name": "Categoría 396",
+      "count": 1827.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1827
+      "max": 1.0
     },
     {
       "category_name": "Categoría 390",
+      "count": 1812.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1812
+      "max": 1.0
     },
     {
       "category_name": "Categoría 291",
+      "count": 1806.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1806
+      "max": 1.0
     },
     {
       "category_name": "Categoría 425",
+      "count": 1805.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1805
+      "max": 1.0
     },
     {
       "category_name": "Categoría 377",
+      "count": 1797.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1797
+      "max": 1.0
     },
     {
       "category_name": "Categoría 309",
+      "count": 1768.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1768
+      "max": 1.0
     },
     {
       "category_name": "Categoría 433",
+      "count": 1743.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1743
+      "max": 1.0
     },
     {
       "category_name": "Categoría 317",
+      "count": 1729.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1729
+      "max": 1.0
     },
     {
       "category_name": "Categoría 326",
+      "count": 1727.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1727
+      "max": 1.0
     },
     {
       "category_name": "Categoría 360",
+      "count": 1714.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1714
+      "max": 1.0
     },
     {
       "category_name": "Categoría 443",
+      "count": 1707.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1707
+      "max": 1.0
     },
     {
       "category_name": "Categoría 420",
+      "count": 1706.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1706
+      "max": 1.0
     },
     {
       "category_name": "Categoría 421",
+      "count": 1700.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1700
+      "max": 1.0
     },
     {
       "category_name": "Categoría 428",
+      "count": 1685.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1685
+      "max": 1.0
     },
     {
       "category_name": "Categoría 353",
+      "count": 1676.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1676
+      "max": 1.0
     },
     {
       "category_name": "Categoría 338",
+      "count": 1672.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1672
+      "max": 1.0
     },
     {
       "category_name": "Categoría 356",
+      "count": 1672.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1672
+      "max": 1.0
     },
     {
       "category_name": "Categoría 423",
+      "count": 1670.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1670
+      "max": 1.0
     },
     {
       "category_name": "Categoría 378",
+      "count": 1664.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1664
+      "max": 1.0
     },
     {
       "category_name": "Categoría 429",
+      "count": 1660.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1660
+      "max": 1.0
     },
     {
       "category_name": "Categoría 336",
+      "count": 1654.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1654
+      "max": 1.0
     },
     {
       "category_name": "Categoría 404",
+      "count": 1640.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1640
+      "max": 1.0
     },
     {
       "category_name": "Categoría 324",
+      "count": 1636.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1636
+      "max": 1.0
     },
     {
       "category_name": "Categoría 341",
+      "count": 1632.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1632
+      "max": 1.0
     },
     {
       "category_name": "Categoría 362",
+      "count": 1606.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1606
+      "max": 1.0
     },
     {
       "category_name": "Categoría 416",
+      "count": 1602.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1602
+      "max": 1.0
     },
     {
       "category_name": "Categoría 401",
+      "count": 1601.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1601
+      "max": 1.0
     },
     {
       "category_name": "Categoría 388",
+      "count": 1595.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1595
+      "max": 1.0
     },
     {
       "category_name": "Categoría 373",
+      "count": 1585.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1585
+      "max": 1.0
     },
     {
       "category_name": "Categoría 442",
+      "count": 1569.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1569
+      "max": 1.0
     },
     {
       "category_name": "Categoría 318",
+      "count": 1560.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1560
+      "max": 1.0
     },
     {
       "category_name": "Categoría 432",
+      "count": 1546.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1546
+      "max": 1.0
     },
     {
       "category_name": "Categoría 323",
+      "count": 1530.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1530
+      "max": 1.0
     },
     {
       "category_name": "Categoría 368",
+      "count": 1524.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1524
+      "max": 1.0
     },
     {
       "category_name": "Categoría 345",
+      "count": 1523.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1523
+      "max": 1.0
     },
     {
       "category_name": "Categoría 355",
+      "count": 1519.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1519
+      "max": 1.0
     },
     {
       "category_name": "Categoría 400",
+      "count": 1495.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1495
+      "max": 1.0
     },
     {
       "category_name": "Categoría 415",
+      "count": 1492.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1492
+      "max": 1.0
     },
     {
       "category_name": "Categoría 408",
+      "count": 1489.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1489
+      "max": 1.0
     },
     {
       "category_name": "Categoría 330",
+      "count": 1481.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1481
+      "max": 1.0
     },
     {
       "category_name": "Categoría 411",
+      "count": 1471.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1471
+      "max": 1.0
     },
     {
       "category_name": "Categoría 426",
+      "count": 1470.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1470
+      "max": 1.0
     },
     {
       "category_name": "Categoría 389",
+      "count": 1461.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1461
+      "max": 1.0
     },
     {
       "category_name": "Categoría 419",
+      "count": 1461.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1461
+      "max": 1.0
     },
     {
       "category_name": "Categoría 339",
+      "count": 1458.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1458
+      "max": 1.0
     },
     {
       "category_name": "Categoría 369",
+      "count": 1454.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1454
+      "max": 1.0
     },
     {
       "category_name": "Categoría 391",
+      "count": 1438.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1438
+      "max": 1.0
     },
     {
       "category_name": "Categoría 219",
+      "count": 1437.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1437
+      "max": 1.0
     },
     {
       "category_name": "Categoría 436",
+      "count": 1422.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1422
+      "max": 1.0
     },
     {
       "category_name": "Categoría 379",
+      "count": 1415.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1415
+      "max": 1.0
     },
     {
       "category_name": "Categoría 376",
+      "count": 1406.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1406
+      "max": 1.0
     },
     {
       "category_name": "Categoría 427",
+      "count": 1399.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1399
+      "max": 1.0
     },
     {
       "category_name": "Categoría 350",
+      "count": 1398.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1398
+      "max": 1.0
     },
     {
       "category_name": "Categoría 409",
+      "count": 1395.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1395
+      "max": 1.0
     },
     {
       "category_name": "Categoría 439",
+      "count": 1390.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1390
+      "max": 1.0
     },
     {
       "category_name": "Categoría 437",
+      "count": 1354.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1354
+      "max": 1.0
     },
     {
       "category_name": "Categoría 394",
+      "count": 1338.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1338
+      "max": 1.0
     },
     {
       "category_name": "Categoría 397",
+      "count": 1334.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1334
-    },
-    {
-      "category_name": "Categoría 366",
-      "min": 1.0,
-      "q1": 1.0,
-      "median": 1.0,
-      "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1333
+      "max": 1.0
     },
     {
       "category_name": "Categoría 385",
+      "count": 1333.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
+      "max": 1.0
+    },
+    {
+      "category_name": "Categoría 366",
+      "count": 1333.0,
       "mean": 1.0,
       "std": 0.0,
-      "count": 1333
+      "min": 1.0,
+      "q1": 1.0,
+      "median": 1.0,
+      "q3": 1.0,
+      "max": 1.0
     },
     {
       "category_name": "Categoría 365",
+      "count": 1305.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1305
+      "max": 1.0
     },
     {
       "category_name": "Categoría 386",
+      "count": 1294.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1294
+      "max": 1.0
     },
     {
       "category_name": "Categoría 410",
+      "count": 1293.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1293
+      "max": 1.0
     },
     {
       "category_name": "Categoría 422",
+      "count": 1283.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1283
+      "max": 1.0
     },
     {
       "category_name": "Categoría 438",
+      "count": 1282.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1282
+      "max": 1.0
     },
     {
       "category_name": "Categoría 399",
+      "count": 1280.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1280
+      "max": 1.0
     },
     {
       "category_name": "Categoría 393",
+      "count": 1265.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1265
+      "max": 1.0
     },
     {
       "category_name": "Categoría 405",
+      "count": 1256.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1256
+      "max": 1.0
     },
     {
       "category_name": "Categoría 380",
+      "count": 1250.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1250
+      "max": 1.0
     },
     {
       "category_name": "Categoría 435",
+      "count": 1248.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1248
+      "max": 1.0
     },
     {
       "category_name": "Categoría 430",
+      "count": 1235.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1235
+      "max": 1.0
     },
     {
       "category_name": "Categoría 387",
+      "count": 1229.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1229
+      "max": 1.0
     },
     {
       "category_name": "Categoría 406",
+      "count": 1207.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1207
+      "max": 1.0
     },
     {
       "category_name": "Categoría 440",
+      "count": 1202.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1202
+      "max": 1.0
     },
     {
       "category_name": "Categoría 367",
+      "count": 1176.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1176
+      "max": 1.0
     },
     {
       "category_name": "Categoría 424",
+      "count": 1175.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1175
+      "max": 1.0
     },
     {
       "category_name": "Categoría 446",
+      "count": 1149.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1149
+      "max": 1.0
     },
     {
       "category_name": "Categoría 374",
+      "count": 1144.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1144
+      "max": 1.0
     },
     {
       "category_name": "Categoría 431",
+      "count": 1135.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1135
+      "max": 1.0
     },
     {
       "category_name": "Categoría 383",
+      "count": 1134.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1134
+      "max": 1.0
     },
     {
       "category_name": "Categoría 351",
+      "count": 1128.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1128
+      "max": 1.0
     },
     {
       "category_name": "Categoría 417",
+      "count": 1127.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1127
+      "max": 1.0
     },
     {
       "category_name": "Categoría 412",
+      "count": 1110.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1110
+      "max": 1.0
     },
     {
       "category_name": "Categoría 441",
+      "count": 1094.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1094
+      "max": 1.0
     },
     {
       "category_name": "Categoría 307",
+      "count": 1065.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1065
+      "max": 1.0
     },
     {
       "category_name": "Categoría 395",
+      "count": 1054.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1054
+      "max": 1.0
     },
     {
       "category_name": "Categoría 402",
+      "count": 1050.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1050
+      "max": 1.0
     },
     {
       "category_name": "Categoría 445",
+      "count": 1045.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1045
+      "max": 1.0
     },
     {
       "category_name": "Categoría 449",
+      "count": 1035.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 1035
+      "max": 1.0
     },
     {
       "category_name": "Categoría 335",
+      "count": 980.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 980
+      "max": 1.0
     },
     {
       "category_name": "Categoría 434",
+      "count": 974.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 974
+      "max": 1.0
     },
     {
       "category_name": "Categoría 418",
+      "count": 973.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 973
+      "max": 1.0
     },
     {
       "category_name": "Categoría 384",
+      "count": 951.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 951
+      "max": 1.0
     },
     {
       "category_name": "Categoría 444",
+      "count": 802.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 802
+      "max": 1.0
     },
     {
       "category_name": "Categoría 448",
+      "count": 787.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 787
+      "max": 1.0
     },
     {
       "category_name": "Categoría 403",
+      "count": 720.0,
+      "mean": 1.0,
+      "std": 0.0,
       "min": 1.0,
       "q1": 1.0,
       "median": 1.0,
       "q3": 1.0,
-      "max": 1.0,
-      "mean": 1.0,
-      "std": 0.0,
-      "count": 720
+      "max": 1.0
     }
   ],
   "basket_size_histogram": [
