@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-05-28T17:24:37",
-  "data_dir": "c:\\Andrés\\GIT\\sistemaSupermercado\\DataSet",
-  "output_dir": "c:\\Andrés\\GIT\\sistemaSupermercado\\output",
+  "generated_at": "2026-05-29T18:31:29",
+  "data_dir": "C:\\Andrés\\GIT\\sistemaSupermercado\\DataSet",
+  "output_dir": "C:\\Andrés\\GIT\\sistemaSupermercado\\output",
   "files": [
     "boxplot_data.json",
+    "client_segments.json",
     "clustering.json",
     "executive_summary.json",
     "heatmap_data.json",

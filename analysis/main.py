@@ -30,14 +30,20 @@ from clustering        import compute_clustering
 from recommender       import compute_recommendations
 
 
-def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUTPUT_DIR):
+def run_pipeline(
+    data_dir:  str  = DEFAULT_DATA_DIR,
+    output_dir: str = DEFAULT_OUTPUT_DIR,
+    use_spark:  bool = False,
+):
     """
-    Ejecuta el pipeline completo:
-      1. Carga de datos
-      2. Resumen ejecutivo
-      3. Visualizaciones analíticas (series de tiempo, boxplot, heatmap)
+    Ejecuta el pipeline completo.
 
-    Retorna un diccionario con todos los resultados.
+    Parámetros
+    ----------
+    use_spark : bool
+        Si True, los pasos de segmentación y recomendaciones usan PySpark
+        (spark_pipeline.run_spark_pipeline). Los pasos 1-3 siempre usan pandas.
+        Requiere Java instalado y PySpark disponible en el entorno.
     """
     os.makedirs(output_dir, exist_ok=True)
 
@@ -82,20 +88,26 @@ def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUT
     print(f"  ✓ Visualizaciones analíticas en {time.time() - t0:.1f}s")
 
     # ------------------------------------------------------------------
-    # PASO 4 — Segmentación de clientes (K-Means)
+    # PASO 4 + 5 — Segmentación y Recomendaciones (pandas o Spark)
     # ------------------------------------------------------------------
-    print("\n[4/6] Segmentando clientes (K-Means)...")
-    t0 = time.time()
-    results['clustering'] = compute_clustering(transactions, output_dir)
-    print(f"  ✓ Segmentación en {time.time() - t0:.1f}s")
+    if use_spark:
+        print("\n[4-5/6] Segmentación + Recomendaciones (Apache Spark)...")
+        t0 = time.time()
+        from spark_pipeline import run_spark_pipeline  # importación tardía
+        spark_results = run_spark_pipeline(data_dir, output_dir)
+        results['clustering']      = spark_results.get('clustering', {})
+        results['recommendations'] = spark_results.get('recommendations', {})
+        print(f"  ✓ Spark completado en {time.time() - t0:.1f}s")
+    else:
+        print("\n[4/6] Segmentando clientes (K-Means pandas)...")
+        t0 = time.time()
+        results['clustering'] = compute_clustering(transactions, output_dir)
+        print(f"  ✓ Segmentación en {time.time() - t0:.1f}s")
 
-    # ------------------------------------------------------------------
-    # PASO 5 — Recomendaciones por co-ocurrencia
-    # ------------------------------------------------------------------
-    print("\n[5/6] Generando recomendaciones de categorías...")
-    t0 = time.time()
-    results['recommendations'] = compute_recommendations(transactions, output_dir)
-    print(f"  ✓ Recomendaciones en {time.time() - t0:.1f}s")
+        print("\n[5/6] Generando recomendaciones de categorías...")
+        t0 = time.time()
+        results['recommendations'] = compute_recommendations(transactions, output_dir)
+        print(f"  ✓ Recomendaciones en {time.time() - t0:.1f}s")
 
     # ------------------------------------------------------------------
     # PASO 6 — Índice de archivos generados
@@ -126,8 +138,12 @@ def run_pipeline(data_dir: str = DEFAULT_DATA_DIR, output_dir: str = DEFAULT_OUT
 
 
 def main():
-    data_dir   = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_DATA_DIR
-    output_dir = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_OUTPUT_DIR
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    flags = [a for a in sys.argv[1:] if a.startswith('--')]
+
+    data_dir   = args[0] if len(args) > 0 else DEFAULT_DATA_DIR
+    output_dir = args[1] if len(args) > 1 else DEFAULT_OUTPUT_DIR
+    use_spark  = '--spark' in flags
 
     data_dir   = os.path.abspath(data_dir)
     output_dir = os.path.abspath(output_dir)
@@ -136,7 +152,12 @@ def main():
         print(f"Error: data_dir no existe: {data_dir}")
         sys.exit(1)
 
-    run_pipeline(data_dir, output_dir)
+    if use_spark:
+        print("  Motor seleccionado: Apache Spark (PySpark)")
+    else:
+        print("  Motor seleccionado: pandas / scikit-learn (local)")
+
+    run_pipeline(data_dir, output_dir, use_spark=use_spark)
 
 
 if __name__ == '__main__':

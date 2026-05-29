@@ -239,4 +239,42 @@ def compute_clustering(
         json.dump(result, f, ensure_ascii=False, indent=2)
 
     print(f"    ✓ clustering.json guardado ({os.path.getsize(out_path) / 1024:.0f} KB)")
+
+    # ------------------------------------------------------------------
+    # 7. Guardar client_segments.json — mapeo cliente → segmento y top cats
+    # ------------------------------------------------------------------
+    seg_labels = {str(s['segment_id']): s['label'] for s in segments}
+
+    # Top 10 categorías más compradas por segmento (por número de clientes)
+    seg_top_cats: dict[str, list] = {}
+    if 'category_name' in transactions.columns:
+        seg_col = features[['segment_id']].rename_axis('client_id').reset_index()
+        merged = transactions[['client_id', 'category_name']].merge(
+            seg_col, on='client_id', how='left'
+        )
+        for sid in range(best_k):
+            top = (
+                merged[merged['segment_id'] == sid]
+                .groupby('category_name')['client_id']
+                .nunique()
+                .sort_values(ascending=False)
+                .head(10)
+                .index.tolist()
+            )
+            seg_top_cats[str(sid)] = top
+    else:
+        seg_top_cats = {str(i): [] for i in range(best_k)}
+
+    cs_result = {
+        'generated_at':           pd.Timestamp.now().isoformat(),
+        'n_clients':               n_clients,
+        'client_segments':         {str(k): int(v) for k, v in features['segment_id'].items()},
+        'segment_top_categories':  seg_top_cats,
+        'segment_labels':          seg_labels,
+    }
+    cs_path = os.path.join(output_dir, 'client_segments.json')
+    with open(cs_path, 'w', encoding='utf-8') as f:
+        json.dump(cs_result, f, ensure_ascii=False)
+    print(f"    ✓ client_segments.json guardado ({os.path.getsize(cs_path) / 1024:.0f} KB)")
+
     return result

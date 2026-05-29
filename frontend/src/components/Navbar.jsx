@@ -4,6 +4,7 @@ import { runAnalysis, getAnalysisStatus } from '../api/client'
 
 export default function Navbar() {
   const [pipelineStatus, setPipelineStatus] = useState('idle')
+  const [useSpark, setUseSpark] = useState(false)
   const intervalRef = useRef(null)
 
   const startPolling = () => {
@@ -22,7 +23,7 @@ export default function Navbar() {
 
   const handleRun = async () => {
     try {
-      await runAnalysis()
+      await runAnalysis(useSpark)
       setPipelineStatus('running')
       startPolling()
     } catch (err) {
@@ -59,13 +60,34 @@ export default function Navbar() {
           Recomendaciones
         </NavLink>
       </div>
-      <button
-        className={`run-btn ${pipelineStatus}`}
-        onClick={handleRun}
-        disabled={pipelineStatus === 'running'}
-      >
-        {btnLabel}
-      </button>
+      <div className="run-controls">
+        <div className={`mode-selector ${pipelineStatus === 'running' ? 'disabled' : ''}`}>
+          <span className="mode-label">Modo:</span>
+          <button
+            className={`mode-opt ${!useSpark ? 'active-local' : ''}`}
+            onClick={() => pipelineStatus !== 'running' && setUseSpark(false)}
+            disabled={pipelineStatus === 'running'}
+            title="Procesamiento local con pandas / scikit-learn"
+          >
+            🏠 Local
+          </button>
+          <button
+            className={`mode-opt ${useSpark ? 'active-spark' : ''}`}
+            onClick={() => pipelineStatus !== 'running' && setUseSpark(true)}
+            disabled={pipelineStatus === 'running'}
+            title="Procesamiento distribuido con Apache Spark"
+          >
+            ⚡ Spark
+          </button>
+        </div>
+        <button
+          className={`run-btn ${pipelineStatus}`}
+          onClick={handleRun}
+          disabled={pipelineStatus === 'running'}
+        >
+          {btnLabel}
+        </button>
+      </div>
     </nav>
   )
 }

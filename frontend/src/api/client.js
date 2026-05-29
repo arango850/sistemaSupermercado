@@ -10,7 +10,9 @@ export const getSegments             = ()     => api.get('/segments')
 export const getRecommendations      = ()     => api.get('/recommendations/category')
 export const getRecommendationsByCategory = (name) =>
   api.get('/recommendations/category', { params: { name } })
-export const runAnalysis             = ()     => api.post('/analysis/run')
+export const getRecommendationsByClient = (clientId) =>
+  api.get(`/recommendations/client/${clientId}`)
+export const runAnalysis             = (useSpark = false) => api.post('/analysis/run', { use_spark: useSpark })
 export const getAnalysisStatus       = ()     => api.get('/analysis/status')
 
 export default api

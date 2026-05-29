@@ -23,6 +23,7 @@ Requisitos:
 """
 
 import sys
+import math
 import os
 import json
 import time
@@ -50,6 +51,99 @@ if sys.platform == "win32":
 os.environ.setdefault("PYSPARK_PYTHON", sys.executable)
 os.environ.setdefault("PYSPARK_DRIVER_PYTHON", sys.executable)
 
+# ---------------------------------------------------------------------------
+# Garantizar Java 17 o 21 para Spark 4.x.
+# - Java < 17: no soportado por Spark 4.x
+# - Java 17–21: compatible (con --add-opens)
+# - Java 22+:  Subject.getSubject() fue removido en Java 25 → Hadoop falla
+#              En Java 22-24 es deprecated-for-removal pero aún funciona;
+#              en Java 25 ya no. Para evitar ambigüedad preferimos Java 17/21.
+# ---------------------------------------------------------------------------
+def _ensure_java17():
+    import subprocess, re
+
+    def _java_major(java_exe: str) -> int:
+        try:
+            out = subprocess.check_output(
+                [java_exe, "-version"], stderr=subprocess.STDOUT,
+                timeout=5, text=True,
+            )
+            m = re.search(r'version "(\d+)', out)
+            if m:
+                major = int(m.group(1))
+                # Java 8 reporta "1.8.x" → retornar 8
+                return major if major >= 9 else int(out.split('"')[1].split('.')[1])
+        except Exception:
+            pass
+        return 0
+
+    def _is_compatible(major: int) -> bool:
+        """Spark 4.x requiere Java 17+; Java 22+ rompe Hadoop getSubject."""
+        return 17 <= major <= 21
+
+    # Verificar JAVA_HOME actual
+    java_home = os.environ.get("JAVA_HOME", "")
+    if java_home:
+        java_exe = os.path.join(java_home, "bin",
+                                "java.exe" if sys.platform == "win32" else "java")
+        major = _java_major(java_exe)
+        if _is_compatible(major):
+            return  # ya está configurado correctamente
+
+    # Buscar Java 17 o 21 en ubicaciones típicas de Windows
+    if sys.platform == "win32":
+        import glob as _g
+        # Preferir versiones más bajas compatibles (17 > 21)
+        candidates = sorted(
+            _g.glob(r"C:\Program Files\Java\jdk-17*") +
+            _g.glob(r"C:\Program Files\Java\jdk-21*") +
+            _g.glob(r"C:\Program Files\Eclipse Adoptium\jdk-17*") +
+            _g.glob(r"C:\Program Files\Eclipse Adoptium\jdk-21*") +
+            _g.glob(r"C:\Program Files\Microsoft\jdk-17*") +
+            _g.glob(r"C:\Program Files\Microsoft\jdk-21*") +
+            _g.glob(r"C:\Program Files\Java\jdk-1[789]*") +
+            _g.glob(r"C:\Program Files\Java\jdk-2[01]*"),
+        )
+        for jdir in candidates:
+            java_exe = os.path.join(jdir, "bin", "java.exe")
+            if _is_compatible(_java_major(java_exe)):
+                os.environ["JAVA_HOME"] = jdir
+                print(f"  [Spark] JAVA_HOME → {jdir}  (Java ≤21 requerido por Hadoop)")
+                return
+
+    current_major = _java_major(
+        os.path.join(os.environ.get("JAVA_HOME", ""), "bin",
+                     "java.exe" if sys.platform == "win32" else "java")
+    )
+    if current_major >= 22:
+        print(f"  [Spark] ADVERTENCIA: Java {current_major} detectado. "
+              "Hadoop en PySpark 4.1.1 requiere Java 17–21. "
+              "Instala Java 17 o configura JAVA_HOME manualmente.")
+
+_ensure_java17()
+
+# Memoria del JVM — debe configurarse ANTES de importar PySpark.
+# spark.driver.memory en SparkConf no tiene efecto en local mode porque
+# el JVM ya está iniciado; PYSPARK_SUBMIT_ARGS es la única forma de pasar
+# -Xmx al proceso JVM real antes de que arranque.
+os.environ.setdefault("PYSPARK_SUBMIT_ARGS", "--driver-memory 6g pyspark-shell")
+
+# ---------------------------------------------------------------------------
+# Java 17+ requiere --add-opens para que Hadoop pueda acceder a
+# javax.security.auth.Subject.getSubject() (removido en Java 17+).
+# Configurar ANTES de importar pyspark para que el JVM lo reciba.
+# ---------------------------------------------------------------------------
+_JAVA_OPENS = " ".join([
+    "--add-opens=java.base/java.lang=ALL-UNNAMED",
+    "--add-opens=java.base/java.util=ALL-UNNAMED",
+    "--add-opens=java.base/java.io=ALL-UNNAMED",
+    "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED",
+    "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED",
+    "--add-opens=java.base/javax.security.auth=ALL-UNNAMED",
+    "--add-opens=java.base/java.nio=ALL-UNNAMED",
+])
+os.environ["JAVA_TOOL_OPTIONS"] = _JAVA_OPENS
+
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.types import (
@@ -72,10 +166,11 @@ DEFAULT_OUTPUT_DIR = os.path.abspath(os.path.join(_BASE_DIR, 'output'))
 FEATURE_KEYS     = ['purchase_frequency', 'total_units', 'avg_basket_size',
                     'category_diversity', 'active_days']
 K_VALUES         = [3, 4, 5, 6]
-FPG_MIN_SUPPORT  = 0.02
-FPG_MIN_CONF     = 0.25
-TOP_RECOMMENDATIONS = 15
-SAMPLE_SIZE      = 2000
+FPG_MIN_SUPPORT      = 0.05   # subido de 0.02 → reduce drásticamente itemsets intermedios
+FPG_MIN_CONF         = 0.30
+FPG_MAX_BASKETS      = 400_000  # muestra máxima de cestos para FP-Growth
+TOP_RECOMMENDATIONS  = 15
+SAMPLE_SIZE          = 2000
 
 
 # ---------------------------------------------------------------------------
@@ -88,15 +183,17 @@ def _create_spark() -> SparkSession:
         .appName("Supermercado-Spark-Pipeline")
         .config("spark.sql.shuffle.partitions", "8")
         .config("spark.driver.memory", "4g")
+        .config("spark.driver.extraJavaOptions", _JAVA_OPENS)
+        .config("spark.executor.extraJavaOptions", _JAVA_OPENS)
         .getOrCreate()
     )
 
 
 def _load_transactions_spark(spark: SparkSession, data_dir: str):
     """
-    Lee todos los *_Tran.csv y devuelve un DataFrame explosionado con columnas:
-        transaction_id (long), date (string), store_id (int),
-        client_id (int), category_id (int)
+    Lee todos los *_Tran.csv directamente con el lector nativo de Spark.
+    Formato por columna: date|store_id|client_id|items_separados_por_espacio
+    Sin header, separador |.
     """
     import glob as _glob
 
@@ -107,50 +204,61 @@ def _load_transactions_spark(spark: SparkSession, data_dir: str):
 
     print(f"  Leyendo {len(files)} archivos de transacciones con Spark...")
 
-    # Usar pandas para la carga inicial (archivos con separador |, sin header)
-    # y luego convertir a Spark DataFrame — es más sencillo que el reader de Spark
-    # para este formato ad-hoc.
-    import pandas as pd
-
-    dfs = []
+    # Contar filas por archivo con pandas solo para el reporte (rápido, sin Spark)
+    import pandas as _pd
     for fpath in files:
-        df = pd.read_csv(
-            fpath, sep='|', header=None,
-            names=['date', 'store_id', 'client_id', 'items_str'],
-            dtype={'store_id': int, 'client_id': int, 'items_str': str},
-        )
-        dfs.append(df)
-        print(f"    {os.path.basename(fpath)}: {len(df):,} transacciones")
+        n = sum(1 for _ in open(fpath, encoding='utf-8'))
+        print(f"    {os.path.basename(fpath)}: {n:,} transacciones")
 
-    raw = pd.concat(dfs, ignore_index=True)
-    raw['transaction_id'] = raw.index.astype('int64')
-    raw['items'] = raw['items_str'].str.split()
-    raw = raw.drop(columns=['items_str'])
+    # Schema raw: 4 columnas separadas por |
+    raw_schema = StructType([
+        StructField('date',      StringType(),  True),
+        StructField('store_id',  IntegerType(), True),
+        StructField('client_id', IntegerType(), True),
+        StructField('items_str', StringType(),  True),
+    ])
 
-    # Explotar ítems
-    exploded = raw.explode('items').copy()
-    exploded['category_id'] = pd.to_numeric(exploded['items'], errors='coerce')
-    exploded = exploded.dropna(subset=['category_id'])
-    exploded['category_id'] = exploded['category_id'].astype('int32')
-    exploded = exploded.drop(columns=['items'])
+    # Leer con el lector nativo de Spark → los executors leen desde disco
+    # directamente, sin serializar datos gigantes por el driver.
+    raw_sdf = (
+        spark.read
+        .option('sep', '|')
+        .option('header', 'false')
+        .schema(raw_schema)
+        .csv([f.replace('\\', '/') for f in files])
+    )
 
-    # Convertir a Spark DataFrame
-    sdf = spark.createDataFrame(exploded)
-    sdf = sdf.withColumn('date', F.to_date('date', 'yyyy-MM-dd'))
-    return sdf
+    # Agregar transaction_id, explotar ítems, parsear fecha — todo en Spark
+    txn_sdf = (
+        raw_sdf
+        .withColumn('transaction_id', F.monotonically_increasing_id())
+        .withColumn('items_arr',      F.split(F.col('items_str'), ' '))
+        .withColumn('category_id',    F.explode(F.col('items_arr')))
+        .filter(F.col('category_id') != '')
+        .withColumn('category_id', F.col('category_id').cast(IntegerType()))
+        .withColumn('date',         F.to_date(F.col('date'), 'yyyy-MM-dd'))
+        .select('transaction_id', 'date', 'store_id', 'client_id', 'category_id')
+    )
 
-
+    # El DataFrame se cachea después del join con categorías en run_spark_pipeline
+    return txn_sdf
 def _load_categories_spark(spark: SparkSession, data_dir: str):
     """
-    Carga Categories.csv y retorna un Spark DataFrame con:
-        category_id (int), category_name (str)
+    Carga Categories.csv con el lector nativo de Spark.
+    Formato: category_id|category_name  (sin header, separador |)
     """
     path = os.path.join(data_dir, 'Products', 'Categories.csv')
-    import pandas as pd
-    cats = pd.read_csv(path, sep='|', header=None,
-                       names=['category_id', 'category_name'],
-                       dtype={'category_id': int, 'category_name': str})
-    return spark.createDataFrame(cats)
+    cats_schema = StructType([
+        StructField('category_id',   IntegerType(), True),
+        StructField('category_name', StringType(),  True),
+    ])
+    return (
+        spark.read
+        .option('sep', '|')
+        .option('header', 'false')
+        .schema(cats_schema)
+        .csv(path.replace('\\', '/'))
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -190,7 +298,7 @@ def _build_client_features_spark(txn_sdf, spark: SparkSession):
 # Módulo 2 — K-Means con PySpark MLlib
 # ---------------------------------------------------------------------------
 
-def _compute_clustering_spark(features_sdf, output_dir: str) -> dict:
+def _compute_clustering_spark(features_sdf, txn_sdf, cats_sdf, output_dir: str) -> dict:
     """
     Entrena K-Means con PySpark MLlib, evalúa con ClusteringEvaluator
     y guarda output/clustering.json.
@@ -209,6 +317,7 @@ def _compute_clustering_spark(features_sdf, output_dir: str) -> dict:
     df_scaled = scaler_model.transform(df_vec)
 
     evaluator = ClusteringEvaluator(
+        predictionCol='segment_id',
         featuresCol='features', metricName='silhouette',
         distanceMeasure='squaredEuclidean',
     )
@@ -239,7 +348,7 @@ def _compute_clustering_spark(features_sdf, output_dir: str) -> dict:
     n_clients = df_final.count()
 
     # Centroides en escala original
-    centroids_scaled = np.array([c.toArray() for c in best_model.clusterCenters()])
+    centroids_scaled = np.array(best_model.clusterCenters())
     # Desescalar manualmente: x_orig = x_scaled * std + mean
     std_values = np.array([float(scaler_model.std[i]) for i in range(len(FEATURE_KEYS))])
     mean_values = np.array([float(scaler_model.mean[i]) for i in range(len(FEATURE_KEYS))])
@@ -311,6 +420,49 @@ def _compute_clustering_spark(features_sdf, output_dir: str) -> dict:
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f"    ✓ clustering.json ({os.path.getsize(out_path)/1024:.0f} KB)")
+
+    # ------------------------------------------------------------------
+    # 7. Guardar client_segments.json
+    # ------------------------------------------------------------------
+    seg_labels_map = {str(s['segment_id']): s['label'] for s in segments}
+
+    # Colectar todos los client_id → segment_id (puede ser grande pero es solo una vez)
+    all_clients_pd = df_final.select('client_id', 'segment_id').toPandas()
+
+    # Top 10 categorías por segmento usando cats_sdf para resolver nombres
+    seg_top_cats: dict = {}
+    # txn_sdf ya puede traer category_name; usar solo el de cats_sdf para evitar ambigüedad
+    txn_no_catname = txn_sdf.drop('category_name') if 'category_name' in txn_sdf.columns else txn_sdf
+    joined = txn_no_catname.join(cats_sdf.select('category_id', 'category_name'), on='category_id', how='left')
+    joined = joined.join(
+        df_final.select('client_id', 'segment_id'), on='client_id', how='left'
+    )
+    for sid in range(best_k):
+        top_pd = (
+            joined.filter(F.col('segment_id') == sid)
+            .groupBy('category_name')
+            .agg(F.countDistinct('client_id').alias('n_clients'))
+            .orderBy(F.desc('n_clients'))
+            .limit(10)
+            .toPandas()
+        )
+        seg_top_cats[str(sid)] = top_pd['category_name'].tolist()
+
+    cs_result = {
+        'generated_at':          pd.Timestamp.now().isoformat(),
+        'n_clients':              n_clients,
+        'client_segments':        {
+            str(r['client_id']): int(r['segment_id'])
+            for _, r in all_clients_pd.iterrows()
+        },
+        'segment_top_categories': seg_top_cats,
+        'segment_labels':         seg_labels_map,
+    }
+    cs_path = os.path.join(output_dir, 'client_segments.json')
+    with open(cs_path, 'w', encoding='utf-8') as f:
+        json.dump(cs_result, f, ensure_ascii=False)
+    print(f"    ✓ client_segments.json ({os.path.getsize(cs_path)/1024:.0f} KB)")
+
     return result
 
 
@@ -334,7 +486,15 @@ def _compute_recommendations_spark(txn_sdf, cats_sdf, output_dir: str) -> dict:
 
     n_txns = int(txn_sdf.select('transaction_id').distinct().count())
     n_cats = int(txn_sdf.select('category_id').distinct().count())
-    print(f"    FP-Growth sobre {n_txns:,} transacciones · {n_cats} categorías")
+
+    # Muestrear si hay demasiados cestos para FP-Growth (evita OOM)
+    if n_txns > FPG_MAX_BASKETS:
+        fraction = FPG_MAX_BASKETS / n_txns
+        baskets_sdf = baskets_sdf.sample(fraction=fraction, seed=42)
+        n_sampled = FPG_MAX_BASKETS
+        print(f"    FP-Growth sobre ~{n_sampled:,} cestos (muestra {fraction:.1%}) · {n_cats} categorías")
+    else:
+        print(f"    FP-Growth sobre {n_txns:,} transacciones · {n_cats} categorías")
     print(f"    min_support={FPG_MIN_SUPPORT}  min_confidence={FPG_MIN_CONF}")
 
     fpg = FPGrowth(
@@ -373,6 +533,12 @@ def _compute_recommendations_spark(txn_sdf, cats_sdf, output_dir: str) -> dict:
             'confidence': round(float(row['confidence']), 4),
             'lift':       round(float(row.get('lift', 0)), 4),
         })
+
+    # Descartar reglas con valores no finitos (NaN / inf) que rompen JSON
+    rules = [r for r in rules if all(
+        isinstance(r[k], (int, float)) and math.isfinite(r[k])
+        for k in ('support', 'confidence', 'lift')
+    )]
 
     rules.sort(key=lambda r: (-r['lift'], -r['confidence']))
     print(f"    {len(rules):,} reglas A→B generadas")
@@ -460,7 +626,7 @@ def run_spark_pipeline(data_dir: str = DEFAULT_DATA_DIR,
     print("\n[3/4] Segmentación de clientes (K-Means Spark)...")
     t0 = time.time()
     features_sdf = _build_client_features_spark(txn_sdf, spark)
-    results['clustering'] = _compute_clustering_spark(features_sdf, output_dir)
+    results['clustering'] = _compute_clustering_spark(features_sdf, txn_sdf, cats_sdf, output_dir)
     print(f"  ✓ Segmentación en {time.time()-t0:.1f}s")
 
     # ------------------------------------------------------------------

@@ -7,6 +7,7 @@ de fondo y persiste el estado en el modelo AnalysisRun (ORM Django).
 """
 
 import json
+import math
 import os
 import sys
 import threading
@@ -32,6 +33,17 @@ def _read_json(filename: str):
         return json.load(f)
 
 
+def _sanitize(obj):
+    """Reemplaza recursivamente float NaN/Inf por None para que JSON no falle."""
+    if isinstance(obj, float):
+        return None if not math.isfinite(obj) else obj
+    if isinstance(obj, dict):
+        return {k: _sanitize(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_sanitize(v) for v in obj]
+    return obj
+
+
 def _not_found(msg='Datos no disponibles. Ejecuta el análisis primero.'):
     return Response({'error': msg}, status=http_status.HTTP_404_NOT_FOUND)
 
@@ -40,7 +52,7 @@ def _not_found(msg='Datos no disponibles. Ejecuta el análisis primero.'):
 # Pipeline — ejecuta en hilo de fondo, persiste estado en AnalysisRun ORM
 # ---------------------------------------------------------------------------
 
-def _run_pipeline_thread(run_id: int):
+def _run_pipeline_thread(run_id: int, use_spark: bool = False):
     """Ejecuta run_pipeline y actualiza el registro AnalysisRun."""
     # Necesario para acceder al ORM desde un hilo secundario
     django.db.close_old_connections()
@@ -53,7 +65,7 @@ def _run_pipeline_thread(run_id: int):
         from main import run_pipeline  # noqa: PLC0415
 
         t0 = datetime.datetime.now()
-        run_pipeline(settings.DATA_DIR, settings.OUTPUT_DIR)
+        run_pipeline(settings.DATA_DIR, settings.OUTPUT_DIR, use_spark=use_spark)
         duration = (datetime.datetime.now() - t0).total_seconds()
 
         summary = _read_json('executive_summary.json') or {}
@@ -131,15 +143,57 @@ def segments(request):
 
 @api_view(['GET'])
 def recommendations_by_client(request, client_id: int):
-    """Retorna las top reglas de asociación globales como recomendaciones genéricas."""
-    data = _read_json('recommendations.json')
-    if data is None:
+    """
+    Retorna recomendaciones personalizadas para un cliente específico.
+    - Busca el segmento del cliente en client_segments.json
+    - Usa las top categorías del segmento como antecedentes
+    - Devuelve reglas de asociación relevantes ordenadas por lift
+    """
+    cs_data = _read_json('client_segments.json')
+    if cs_data is None:
+        return _not_found('Segmentación de clientes no disponible. Ejecuta el análisis primero.')
+
+    client_segments = cs_data.get('client_segments', {})
+    seg_id = client_segments.get(str(client_id))
+    if seg_id is None:
+        return Response(
+            {'error': f'Cliente {client_id} no encontrado en la segmentación.'},
+            status=http_status.HTTP_404_NOT_FOUND,
+        )
+
+    seg_label = cs_data.get('segment_labels', {}).get(str(seg_id), f'Segmento {seg_id + 1}')
+    top_cats  = cs_data.get('segment_top_categories', {}).get(str(seg_id), [])
+
+    rec_data = _read_json('recommendations.json')
+    if rec_data is None:
         return _not_found('Recomendaciones no disponibles todavía.')
-    return Response({
-        'client_id': client_id,
-        'top_rules': data.get('rules', [])[:20],
-        'category_support': data.get('category_support', [])[:20],
-    })
+
+    cat_index = rec_data.get('category_index', {})
+
+    # Reglas donde el antecedente pertenece al top de categorías del segmento
+    personalized: list[dict] = []
+    seen_consequents: set[str] = set()
+    for cat in top_cats:
+        for rule in cat_index.get(cat, []):
+            rec = rule['recommendation']
+            lift       = rule.get('lift', 0)
+            confidence = rule.get('confidence', 0)
+            # Descartar reglas con valores no finitos (NaN / inf) que rompen JSON
+            if not (math.isfinite(lift) and math.isfinite(confidence)):
+                continue
+            if rec not in seen_consequents and rec not in top_cats:
+                seen_consequents.add(rec)
+                personalized.append({'from_category': cat, **rule})
+
+    personalized.sort(key=lambda r: -(r['lift'] or 0))
+
+    return Response(_sanitize({
+        'client_id':       client_id,
+        'segment_id':      seg_id,
+        'segment_label':   seg_label,
+        'top_categories':  top_cats,
+        'recommendations': personalized[:20],
+    }))
 
 
 @api_view(['GET'])
@@ -175,7 +229,7 @@ def recommendations_by_category(request):
     name = request.query_params.get('name', '').strip()
     if not name:
         # Devolver metadatos y todas las categorías que tienen reglas
-        return Response({
+        return Response(_sanitize({
             'total_rules':     data.get('total_rules', 0),
             'n_transactions':  data.get('n_transactions', 0),
             'min_support':     data.get('min_support'),
@@ -184,12 +238,12 @@ def recommendations_by_category(request):
             'categories_with_rules': sorted(data.get('category_index', {}).keys()),
             'category_support': data.get('category_support', [])[:30],
             'top_rules':       data.get('rules', [])[:30],
-        })
+        }))
 
     recs = data.get('category_index', {}).get(name)
     if recs is None:
         return Response({'error': f'No se encontraron reglas para "{name}".'}, status=404)
-    return Response({'category_name': name, 'recommendations': recs})
+    return Response(_sanitize({'category_name': name, 'recommendations': recs}))
 
 
 # ---------------------------------------------------------------------------
@@ -208,9 +262,15 @@ def run_analysis(request):
         )
 
     run = AnalysisRun.objects.create(status='running')
-    thread = threading.Thread(target=_run_pipeline_thread, args=(run.pk,), daemon=True)
+    use_spark = bool(request.data.get('use_spark', False))
+    thread = threading.Thread(
+        target=_run_pipeline_thread,
+        args=(run.pk,),
+        kwargs={'use_spark': use_spark},
+        daemon=True,
+    )
     thread.start()
-    return Response({'message': 'Análisis iniciado.', **_run_to_dict(run)})
+    return Response({'message': 'Análisis iniciado.', 'use_spark': use_spark, **_run_to_dict(run)})
 
 
 @api_view(['GET'])

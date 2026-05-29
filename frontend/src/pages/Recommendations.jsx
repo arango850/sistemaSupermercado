@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef } from 'react'
-import { getRecommendations, getRecommendationsByCategory } from '../api/client'
+import { getRecommendations, getRecommendationsByCategory, getRecommendationsByClient } from '../api/client'
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell,
 } from 'recharts'
+
+const SEG_COLORS = ['#2563eb', '#16a34a', '#dc2626', '#d97706', '#7c3aed', '#0891b2']
 
 const LIFT_COLORS = (lift) => {
   if (lift >= 3)   return '#16a34a'
@@ -11,6 +13,343 @@ const LIFT_COLORS = (lift) => {
   if (lift >= 1.5) return '#d97706'
   return '#64748b'
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Sub-componente: resultados por cliente
+// ─────────────────────────────────────────────────────────────────────────────
+
+function ClientResults({ result }) {
+  if (!result) return null
+  const { segment_id, segment_label, top_categories, recommendations } = result
+  const color = SEG_COLORS[segment_id % SEG_COLORS.length]
+
+  return (
+    <div className="chart-card">
+      {/* Cabecera del segmento */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
+        <div style={{
+          background: color + '1a', border: `2px solid ${color}`,
+          borderRadius: 8, padding: '8px 16px',
+        }}>
+          <div style={{ fontSize: '0.75rem', color, fontWeight: 700, textTransform: 'uppercase' }}>
+            Segmento {segment_id + 1}
+          </div>
+          <div style={{ fontWeight: 700, color, fontSize: '1rem' }}>{segment_label}</div>
+        </div>
+        <div>
+          <div style={{ fontSize: '0.82rem', color: '#64748b', marginBottom: 4 }}>
+            Categorías más compradas por este segmento:
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+            {top_categories.slice(0, 6).map(c => (
+              <span key={c} style={{
+                background: '#f1f5f9', border: '1px solid #e2e8f0',
+                borderRadius: 4, padding: '2px 8px', fontSize: '0.78rem', fontWeight: 500,
+              }}>{c}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <h3 style={{ margin: '0 0 8px', fontSize: '0.95rem' }}>
+        Recomendaciones personalizadas
+      </h3>
+      <p style={{ margin: '0 0 12px', fontSize: '0.82rem', color: '#64748b' }}>
+        Categorías que clientes similares compran junto a sus categorías habituales
+      </p>
+
+      {recommendations.length === 0 ? (
+        <p style={{ color: '#64748b' }}>No se encontraron recomendaciones para este cliente.</p>
+      ) : (
+        <div style={{ overflowX: 'auto' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem' }}>
+            <thead>
+              <tr style={{ borderBottom: '2px solid #e2e8f0', background: '#f8fafc' }}>
+                <th style={{ textAlign: 'left', padding: '8px 12px' }}>#</th>
+                <th style={{ textAlign: 'left', padding: '8px 12px' }}>Si compra…</th>
+                <th style={{ textAlign: 'left', padding: '8px 12px' }}>También podría comprar</th>
+                <th style={{ textAlign: 'right', padding: '8px 12px' }}>Confianza</th>
+                <th style={{ textAlign: 'right', padding: '8px 12px' }}>Lift</th>
+              </tr>
+            </thead>
+            <tbody>
+              {recommendations.map((r, i) => (
+                <tr key={i} style={{
+                  borderBottom: '1px solid #f1f5f9',
+                  background: i % 2 === 0 ? '#fff' : '#f8fafc',
+                }}>
+                  <td style={{ padding: '8px 12px', color: '#94a3b8' }}>{i + 1}</td>
+                  <td style={{ padding: '8px 12px', color: '#64748b', fontSize: '0.8rem' }}>
+                    {r.from_category}
+                  </td>
+                  <td style={{ padding: '8px 12px', fontWeight: 600 }}>{r.recommendation}</td>
+                  <td style={{ padding: '8px 12px', textAlign: 'right' }}>
+                    {(r.confidence * 100).toFixed(1)}%
+                  </td>
+                  <td style={{ padding: '8px 12px', textAlign: 'right' }}>
+                    <span style={{
+                      background: LIFT_COLORS(r.lift) + '22',
+                      color: LIFT_COLORS(r.lift),
+                      fontWeight: 700, padding: '2px 8px', borderRadius: 4,
+                    }}>
+                      {r.lift.toFixed(2)}×
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// Página principal
+// ─────────────────────────────────────────────────────────────────────────────
+
+export default function Recommendations() {
+  const [meta, setMeta]         = useState(null)
+  const [loading, setLoading]   = useState(true)
+  const [error, setError]       = useState(null)
+  const [activeTab, setActiveTab] = useState('category') // 'category' | 'client'
+
+  // búsqueda por categoría
+  const [query, setQuery]         = useState('')
+  const [suggestions, setSuggs]   = useState([])
+  const [showSuggs, setShowSuggs] = useState(false)
+  const [selected, setSelected]   = useState(null)
+  const [recs, setRecs]           = useState(null)
+  const [searching, setSearching] = useState(false)
+  const inputRef = useRef(null)
+
+  // búsqueda por cliente
+  const [clientId, setClientId]       = useState('')
+  const [clientResult, setClientResult] = useState(null)
+  const [clientSearching, setClientSearching] = useState(false)
+  const [clientError, setClientError]   = useState(null)
+
+  useEffect(() => {
+    getRecommendations()
+      .then(res => setMeta(res.data))
+      .catch(() => setError('No hay datos de recomendaciones. Ejecuta el análisis primero.'))
+      .finally(() => setLoading(false))
+  }, [])
+
+  // Auto-completado
+  useEffect(() => {
+    if (!meta?.categories_with_rules || !query.trim()) {
+      setSuggs([])
+      return
+    }
+    const q = query.toLowerCase()
+    const matches = meta.categories_with_rules
+      .filter(c => c.toLowerCase().includes(q))
+      .slice(0, 8)
+    setSuggs(matches)
+  }, [query, meta])
+
+  const handleSearch = async (catName) => {
+    if (!catName) return
+    setSelected(catName)
+    setQuery(catName)
+    setShowSuggs(false)
+    setSearching(true)
+    try {
+      const res = await getRecommendationsByCategory(catName)
+      setRecs(res.data.recommendations)
+    } catch {
+      setRecs([])
+    } finally {
+      setSearching(false)
+    }
+  }
+
+  const handleClientSearch = async () => {
+    const id = parseInt(clientId)
+    if (!id) return
+    setClientSearching(true)
+    setClientError(null)
+    setClientResult(null)
+    try {
+      const res = await getRecommendationsByClient(id)
+      setClientResult(res.data)
+    } catch (err) {
+      setClientError(
+        err.response?.status === 404
+          ? `Cliente ${id} no encontrado en la segmentación.`
+          : 'Error al buscar el cliente.'
+      )
+    } finally {
+      setClientSearching(false)
+    }
+  }
+
+  if (loading) return <div className="page-loading">Cargando recomendaciones…</div>
+  if (error)   return <div className="page-error">{error}</div>
+
+  return (
+    <div className="page-container">
+      <h1 className="page-title">Recomendaciones de Productos</h1>
+      <p className="page-subtitle">
+        Reglas de asociación por co-ocurrencia de categorías en transacciones
+      </p>
+
+      {meta && <MetaCards meta={meta} />}
+
+      {/* Tabs */}
+      <div style={{ display: 'flex', gap: 0, borderBottom: '2px solid #e2e8f0', marginBottom: 20 }}>
+        {[
+          { key: 'category', label: '🔍 Por Categoría' },
+          { key: 'client',   label: '👤 Por Cliente' },
+        ].map(t => (
+          <button
+            key={t.key}
+            onClick={() => setActiveTab(t.key)}
+            style={{
+              padding: '10px 20px', border: 'none', background: 'transparent',
+              fontWeight: 600, fontSize: '0.9rem', cursor: 'pointer',
+              borderBottom: activeTab === t.key ? '2px solid #2563eb' : '2px solid transparent',
+              color: activeTab === t.key ? '#2563eb' : '#64748b',
+              marginBottom: -2, transition: 'all .15s',
+            }}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {/* ── Tab: Por Categoría ─────────────────────────── */}
+      {activeTab === 'category' && (
+        <>
+          <div className="chart-card" style={{ marginBottom: 0 }}>
+            <h2 className="chart-title">Buscar recomendaciones por categoría</h2>
+            <p style={{ margin: '0 0 12px', fontSize: '0.82rem', color: '#64748b' }}>
+              Escribe el nombre de una categoría para ver qué otras categorías se compran junto a ella
+            </p>
+            <div style={{ position: 'relative', maxWidth: 520 }}>
+              <input
+                ref={inputRef}
+                type="text"
+                value={query}
+                onChange={e => { setQuery(e.target.value); setShowSuggs(true) }}
+                onFocus={() => setShowSuggs(true)}
+                onBlur={() => setTimeout(() => setShowSuggs(false), 200)}
+                onKeyDown={e => {
+                  if (e.key === 'Enter' && query.trim()) handleSearch(query.trim())
+                }}
+                placeholder="Ej: PANES-TOSTADAS, LECHE LIQUIDA…"
+                style={{
+                  width: '100%', padding: '10px 14px', fontSize: '0.95rem',
+                  border: '1.5px solid #cbd5e1', borderRadius: 8,
+                  outline: 'none', boxSizing: 'border-box',
+                }}
+              />
+              {showSuggs && suggestions.length > 0 && (
+                <ul style={{
+                  position: 'absolute', top: '100%', left: 0, right: 0,
+                  background: '#fff', border: '1px solid #e2e8f0', borderRadius: 8,
+                  boxShadow: '0 4px 16px rgba(0,0,0,0.1)', listStyle: 'none',
+                  margin: 0, padding: '4px 0', zIndex: 100,
+                }}>
+                  {suggestions.map(s => (
+                    <li
+                      key={s}
+                      onMouseDown={() => handleSearch(s)}
+                      style={{ padding: '8px 14px', cursor: 'pointer', fontSize: '0.88rem' }}
+                      onMouseEnter={e => (e.currentTarget.style.background = '#f1f5f9')}
+                      onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
+                    >
+                      {s}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+            <button
+              onClick={() => handleSearch(query.trim())}
+              disabled={!query.trim() || searching}
+              style={{
+                marginTop: 12, padding: '9px 20px', background: '#2563eb',
+                color: '#fff', border: 'none', borderRadius: 8,
+                cursor: 'pointer', fontSize: '0.9rem',
+                opacity: (!query.trim() || searching) ? 0.5 : 1,
+              }}
+            >
+              {searching ? 'Buscando…' : 'Buscar'}
+            </button>
+          </div>
+
+          {selected && !searching && recs !== null && (
+            <RecommendationResults categoryName={selected} recs={recs} />
+          )}
+          {searching && (
+            <div className="page-loading" style={{ padding: '20px 0' }}>Buscando…</div>
+          )}
+          {meta?.top_rules && <TopRulesChart rules={meta.top_rules} />}
+          {meta?.category_support && (
+            <CategoryPopularityChart categorySupport={meta.category_support} />
+          )}
+        </>
+      )}
+
+      {/* ── Tab: Por Cliente ──────────────────────────── */}
+      {activeTab === 'client' && (
+        <>
+          <div className="chart-card" style={{ marginBottom: 0 }}>
+            <h2 className="chart-title">Recomendaciones personalizadas por cliente</h2>
+            <p style={{ margin: '0 0 12px', fontSize: '0.82rem', color: '#64748b' }}>
+              Ingresa un ID de cliente para obtener sugerencias basadas en su segmento de compra
+            </p>
+            <div style={{ display: 'flex', gap: 10, alignItems: 'flex-end', flexWrap: 'wrap' }}>
+              <div>
+                <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 600, color: '#475569', marginBottom: 4 }}>
+                  ID de Cliente
+                </label>
+                <input
+                  type="number"
+                  value={clientId}
+                  onChange={e => setClientId(e.target.value)}
+                  onKeyDown={e => e.key === 'Enter' && handleClientSearch()}
+                  placeholder="Ej: 12345"
+                  min="1"
+                  style={{
+                    padding: '10px 14px', fontSize: '0.95rem', width: 200,
+                    border: '1.5px solid #cbd5e1', borderRadius: 8, outline: 'none',
+                  }}
+                />
+              </div>
+              <button
+                onClick={handleClientSearch}
+                disabled={!clientId || clientSearching}
+                style={{
+                  padding: '10px 22px', background: '#2563eb', color: '#fff',
+                  border: 'none', borderRadius: 8, cursor: 'pointer',
+                  fontSize: '0.9rem', fontWeight: 600,
+                  opacity: (!clientId || clientSearching) ? 0.5 : 1,
+                }}
+              >
+                {clientSearching ? 'Buscando…' : 'Buscar cliente'}
+              </button>
+            </div>
+            <p style={{ margin: '10px 0 0', fontSize: '0.78rem', color: '#94a3b8' }}>
+              IDs válidos: entre 1 y 131,186 aproximadamente
+            </p>
+          </div>
+
+          {clientError && (
+            <div className="chart-card" style={{ color: '#dc2626', borderTop: '4px solid #dc2626' }}>
+              {clientError}
+            </div>
+          )}
+          {clientResult && <ClientResults result={clientResult} />}
+        </>
+      )}
+    </div>
+  )
+}
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Sub-componentes
@@ -216,174 +555,6 @@ function CategoryPopularityChart({ categorySupport }) {
           <Bar dataKey="support" fill="#2563eb" radius={[0, 4, 4, 0]} />
         </BarChart>
       </ResponsiveContainer>
-    </div>
-  )
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// Página principal
-// ─────────────────────────────────────────────────────────────────────────────
-
-export default function Recommendations() {
-  const [meta, setMeta]         = useState(null)
-  const [loading, setLoading]   = useState(true)
-  const [error, setError]       = useState(null)
-
-  // búsqueda
-  const [query, setQuery]         = useState('')
-  const [suggestions, setSuggs]   = useState([])
-  const [showSuggs, setShowSuggs] = useState(false)
-  const [selected, setSelected]   = useState(null)
-  const [recs, setRecs]           = useState(null)
-  const [searching, setSearching] = useState(false)
-  const inputRef = useRef(null)
-
-  useEffect(() => {
-    getRecommendations()
-      .then(res => setMeta(res.data))
-      .catch(() => setError('No hay datos de recomendaciones. Ejecuta el análisis primero.'))
-      .finally(() => setLoading(false))
-  }, [])
-
-  // Auto-completado
-  useEffect(() => {
-    if (!meta?.categories_with_rules || !query.trim()) {
-      setSuggs([])
-      return
-    }
-    const q = query.toLowerCase()
-    const matches = meta.categories_with_rules
-      .filter(c => c.toLowerCase().includes(q))
-      .slice(0, 8)
-    setSuggs(matches)
-  }, [query, meta])
-
-  const handleSearch = async (catName) => {
-    if (!catName) return
-    setSelected(catName)
-    setQuery(catName)
-    setShowSuggs(false)
-    setSearching(true)
-    try {
-      const res = await getRecommendationsByCategory(catName)
-      setRecs(res.data.recommendations)
-    } catch {
-      setRecs([])
-    } finally {
-      setSearching(false)
-    }
-  }
-
-  if (loading) return <div className="page-loading">Cargando recomendaciones…</div>
-  if (error)   return <div className="page-error">{error}</div>
-
-  return (
-    <div className="page-container">
-      <h1 className="page-title">Recomendaciones de Productos</h1>
-      <p className="page-subtitle">
-        Reglas de asociación por co-ocurrencia de categorías en transacciones
-      </p>
-
-      {meta && <MetaCards meta={meta} />}
-
-      {/* Buscador */}
-      <div className="chart-card" style={{ marginBottom: 0 }}>
-        <h2 className="chart-title">Buscar recomendaciones por categoría</h2>
-        <p style={{ margin: '0 0 12px', fontSize: '0.82rem', color: '#64748b' }}>
-          Escribe el nombre de una categoría para ver qué otras categorías se compran junto a ella
-        </p>
-        <div style={{ position: 'relative', maxWidth: 520 }}>
-          <input
-            ref={inputRef}
-            type="text"
-            value={query}
-            onChange={e => { setQuery(e.target.value); setShowSuggs(true) }}
-            onFocus={() => setShowSuggs(true)}
-            onBlur={() => setTimeout(() => setShowSuggs(false), 200)}
-            onKeyDown={e => {
-              if (e.key === 'Enter' && query.trim()) handleSearch(query.trim())
-            }}
-            placeholder="Ej: PANES-TOSTADAS, LECHE LIQUIDA…"
-            style={{
-              width: '100%',
-              padding: '10px 14px',
-              fontSize: '0.95rem',
-              border: '1.5px solid #cbd5e1',
-              borderRadius: 8,
-              outline: 'none',
-              boxSizing: 'border-box',
-            }}
-          />
-          {showSuggs && suggestions.length > 0 && (
-            <ul
-              style={{
-                position: 'absolute',
-                top: '100%',
-                left: 0,
-                right: 0,
-                background: '#fff',
-                border: '1px solid #e2e8f0',
-                borderRadius: 8,
-                boxShadow: '0 4px 16px rgba(0,0,0,0.1)',
-                listStyle: 'none',
-                margin: 0,
-                padding: '4px 0',
-                zIndex: 100,
-              }}
-            >
-              {suggestions.map(s => (
-                <li
-                  key={s}
-                  onMouseDown={() => handleSearch(s)}
-                  style={{
-                    padding: '8px 14px',
-                    cursor: 'pointer',
-                    fontSize: '0.88rem',
-                    transition: 'background 0.1s',
-                  }}
-                  onMouseEnter={e => (e.currentTarget.style.background = '#f1f5f9')}
-                  onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
-                >
-                  {s}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
-        <button
-          onClick={() => handleSearch(query.trim())}
-          disabled={!query.trim() || searching}
-          style={{
-            marginTop: 12,
-            padding: '9px 20px',
-            background: '#2563eb',
-            color: '#fff',
-            border: 'none',
-            borderRadius: 8,
-            cursor: 'pointer',
-            fontSize: '0.9rem',
-            opacity: (!query.trim() || searching) ? 0.5 : 1,
-          }}
-        >
-          {searching ? 'Buscando…' : 'Buscar'}
-        </button>
-      </div>
-
-      {/* Resultados */}
-      {selected && !searching && recs !== null && (
-        <RecommendationResults categoryName={selected} recs={recs} />
-      )}
-      {searching && (
-        <div className="page-loading" style={{ padding: '20px 0' }}>Buscando…</div>
-      )}
-
-      {/* Top reglas globales */}
-      {meta?.top_rules && <TopRulesChart rules={meta.top_rules} />}
-
-      {/* Popularidad de categorías */}
-      {meta?.category_support && (
-        <CategoryPopularityChart categorySupport={meta.category_support} />
-      )}
     </div>
   )
 }

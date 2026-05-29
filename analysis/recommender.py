@@ -29,9 +29,9 @@ from scipy.sparse import csr_matrix
 # ---------------------------------------------------------------------------
 # Parámetros de filtrado
 # ---------------------------------------------------------------------------
-MIN_SUPPORT    = 0.02   # fracción del total de transacciones
-MIN_CONFIDENCE = 0.25
-MIN_LIFT       = 1.2
+MIN_SUPPORT    = 0.05   # fracción del total de transacciones (igual que Spark FPGrowth)
+MIN_CONFIDENCE = 0.30
+MIN_LIFT       = 1.0    # sin filtro efectivo de lift (FPGrowth no lo aplica al generar)
 TOP_PER_CATEGORY = 15   # máximo de recomendaciones por categoría en el índice
 MAX_RULES_JSON   = 1000 # máximo de reglas en la lista completa del JSON
 
