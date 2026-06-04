@@ -2,7 +2,7 @@
 
 Dashboard de inteligencia de negocio para análisis de transacciones de supermercado. Procesa más de 10 millones de registros, segmenta clientes con K-Means y genera recomendaciones de productos mediante reglas de asociación — todo desde una interfaz web interactiva.
 
-> El análisis detallado de la metodología, hallazgos y conclusiones está en [`INFORME_TECNICO.md`](./INFORME_TECNICO.md).
+
 
 ---
 
